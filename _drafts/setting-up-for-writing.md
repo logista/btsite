@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up for Academic Writing"
+title:  "Setting up *for* Academic Writing"
 excerpt: "To get Pixie (my laptop) ready for academic editing work, I need to get it setup more like Pig (my desktop)."
 ---
 {% include _toc.html %}
