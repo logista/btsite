@@ -18,9 +18,9 @@ $alt-font: $base-font;
    Colors
    ========================================================================== */
 
-$bodycolor      : #fff;
+$bodycolor      : #faf9fb; //#fff;
 $body-color     : $bodycolor;
-$textcolor      : #333332;
+$textcolor      : #2D3A57; //#333332;
 $text-color     : $textcolor;
 $border-color   : $text-color;
 $basecolor 		  : #343434;
@@ -53,7 +53,7 @@ $youtube-color      : #ff3333;
 $github-color       : #333333;
 
 /* links */
-$linkcolor 		    : #343434;
+$linkcolor 		    : darken($textcolor,30); //#343434;
 $link-color       : $linkcolor;
 $linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);
