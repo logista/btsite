@@ -15,6 +15,8 @@ For instance, I misspelled `idiosyncrasies` just then, but there's no spell chec
 
 `<time passes>`
 
+---
+
 OK. So it's using the system spell-checker, but giving me a yucky interface for it. Hrm. It appears there are [people requesting an improvement](https://github.com/atom/spell-check/issues/54) in this area.
 
 ## Configuration
