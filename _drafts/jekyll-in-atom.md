@@ -3,7 +3,7 @@ layout: post
 title: "Jekyll, Atom, Learning"
 ---
 
-(alternate title:) **Jekyll in Atom, or Explorations in a Foreign Language for which you only have the Slimmest of Guidebooks**
+(alternate title) **Jekyll in Atom, or Explorations in a Foreign Language for which you only have the Slimmest of Guidebooks**
 
 I am doing a bunch of different new things all at once, starting with learning the idiosyncrasies of a new text editor.
 
