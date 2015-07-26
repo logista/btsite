@@ -1,0 +1,45 @@
+monospace font: Source Code Pro (light? regular?)
+body font:
+heading font:
+
+colors?? From Office and Studio
+
+	#221014
+	#643F33
+	#6E3531
+	#562521
+	#25100C
+  #AD9888
+	#681819
+	#822128
+	#711411
+	#90242A
+
+Also consider blues (like my 👀)
+	#AA6269
+	#DFD9E7 Paper original (converted to almost white for background color)
+	#322B39 $basecolor
+	#18121E
+	#2D3A57 Text original ($textcolor)
+
+Rust-dark
+	#A60402
+	#740200
+	#420000
+	#290000
+	#0E0202
+
+Rust-bright
+	#F5795C Paper-2 original
+	#D71703
+	#F04F3B
+	#8B0300 Highlight original
+	#420000
+
+
+Possibles? (turn atom-text-editor background color to white (config folder/styles.less), otherwise, what's the point?)
+Highlight	Text			Paper									Paper 2
+#8B0300 	#2D3A57 	#faf9fb		hsl(13, 81%, 99%) //don't care for the hue of Paper 2
+
+Noticing that many times the original designer chose "white" instead of "bodycolor"
+Similar for "black" and "textcolor" or maybe it should be my emphasis color of "tozier-color" with some variations? (eh, no. Variations on Text Color)

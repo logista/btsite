@@ -168,7 +168,7 @@ $button-size: 1.5rem;
 .nav .navtoogle {
 	@include font-rem(18);
 	font-weight: normal;
-	background-color: $black;
+	background-color: $primary;
 	color: $white;
 	border: none;
 	cursor: pointer;
@@ -462,7 +462,8 @@ $button-size: 1.5rem;
 		background-color: $white;
 	}
 	header {
-		background: lighten($black, 10);
+		background: darken($textcolor, 10);
+		@include opacity(0.9);
 	}
 	h3 {
 		margin: 0;
@@ -493,11 +494,11 @@ $button-size: 1.5rem;
 			display: block;
 			color: $white;
 			text-decoration: none;
-			background: lighten($black, 30);
-			@include opacity(0.7);
+			background: lighten($textcolor, 10);
+			@include opacity(0.6);
 			@include transition(opacity 0.2s ease-in-out);
 			&:hover {
-				@include opacity(1);
+				@include opacity(0.9);
 			}
 		}
 		ul {
@@ -701,7 +702,7 @@ $button-size: 1.5rem;
 	display: inline-block;
 	@include font-rem(14);
 	background-color: $white;
-	color: $black;
+	color: $basecolor;
 	border-width: 2px !important;
 	border-style: solid !important;
 	border-color: lighten($black,50);
