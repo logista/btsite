@@ -1,6 +1,6 @@
-monospace font: Source Code Pro (light? regular?)
-body font:
-heading font:
+monospace font: Source Code Pro (regular)
+body font: Source Code Sans (surprise!)
+heading font: Oswald // crap. It doesn't have italic. ECONOMICA is very pretty 😉
 
 colors?? From Office and Studio
 
@@ -43,3 +43,6 @@ Highlight	Text			Paper									Paper 2
 
 Noticing that many times the original designer chose "white" instead of "bodycolor"
 Similar for "black" and "textcolor" or maybe it should be my emphasis color of "tozier-color" with some variations? (eh, no. Variations on Text Color)
+
+
+Have since changed many instances of "bodycolor" back to "white" but then redefined "white" to "bodycolor". Ignoring the code syntax coloration for the moment.
