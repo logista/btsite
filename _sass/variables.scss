@@ -2,6 +2,10 @@
    Sass variables
    ========================================================================== */
 
+/* ==========================================================================
+   Google Fonts Call
+   ========================================================================== */
+
 /*
    Typography
    ========================================================================== */
@@ -9,9 +13,9 @@
 $doc-font-size: 16;
 $doc-line-height: 26;
 $paragraph-indent: true !default;
-$base-font: 'PT Serif', serif;
-$heading-font: 'PT Sans Narrow', sans-serif;
-$code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+$base-font: 'Source Sans Pro', 'PT Serif', serif;
+$heading-font: 'Economica', 'PT Sans Narrow', sans-serif;
+$code-font: "Source Code Pro", "Anonymous Pro", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 $alt-font: $base-font;
 
 /*
