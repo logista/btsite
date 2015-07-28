@@ -16,6 +16,7 @@ sass:
 gems:
   - jekyll-sitemap
 
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -41,5 +42,13 @@ owner:
   github: logista
   tumblr: logista
 
+
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt"]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      share: false
