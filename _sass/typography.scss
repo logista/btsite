@@ -2,6 +2,10 @@
    Typography
    ========================================================================== */
 
+	 body {
+	 	@include font-size(12);
+	 }
+
 /*
    Headings
    ========================================================================== */
@@ -9,6 +13,7 @@
 h1, h2, h3, h4, h5, h6 {
 	font-family: $heading-font;
 	font-weight: normal;
+	text-rendering: optimizeLegibility;
 }
 h1 {
 	@include font-size(32);
@@ -98,7 +103,7 @@ figcaption {
 	margin-top: 1.5em;
 	padding: .5em 1em;
 	text-indent: 0;
-	@include font-rem(14);
+	// @include font-rem(14);
 	background-color: $body-color;
 	border: 1px solid darken($body-color,20);
 	@include rounded(3px);
@@ -111,7 +116,7 @@ figcaption {
 blockquote {
 	margin-left: -28px;
 	padding-left: 20px;
-	border-left: 8px solid $border-color;
+	border-left: 4px solid lighten($border-color,10);
 	font-family: $alt-font;
 	font-style: italic;
 }
@@ -123,7 +128,7 @@ blockquote {
 .footnotes {
 	ol, li, p {
 		margin-bottom: 0;
-		@include font-rem(14);
+		// @include font-rem(14);
 	}
 }
 
@@ -149,21 +154,21 @@ p {
 tt, code, kbd, samp, pre {
 	font-family: $code-font;
 }
-p,
+h1, h2, h3, h4, h5, h6, p,
 li {
 	code {
-		@include font-rem(12);
+		@include font-rem(10);
 		line-height: 1.5;
-		white-space: nowrap;
+		// white-space: nowrap;
 		margin: 0 2px;
 		padding: 0 5px;
-		border: 1px solid lighten($black, 90);
-		background-color: #efefef;
+		// border: 1px solid lighten($black, 90);
+		background-color: darken($bodycolor,5);
 		@include rounded(3px);
 	}
 }
 pre {
-	@include font-rem(12);
+	@include font-rem(10);
 	line-height: 1.5;
 	overflow-x: auto;
 }
