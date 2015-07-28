@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Build Errors using the `jekyll` package in Atom"
-excerpt: "`atom-runner` does something to my Atom environment that gets lost when it's taken away, and `jekyll` uses whatever it is. I don't think this is necessarily the fault of `jekyll` but I'm not sure where else to report it."
+excerpt: "`atom-runner` does something to my Atom environment that gets lost when it's taken away, and `jekyll` uses whatever it is."
 ---
 
 <!-- Writing this in preparation for opening an issue on the `jekyll` package. -->
 
 **tl;dr:**  `atom-runner` does something to my Atom environment that gets lost when it's taken away, and `jekyll` uses whatever it is. I don't think this is necessarily the fault of `jekyll` but I'm not sure where else to report it.
-{:notice}
+{: .notice}
 
 Caveat: I'm no coder, but if you have questions I'll try my best to answer them
 

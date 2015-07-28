@@ -34,7 +34,7 @@ I realize that I'm not exactly the target audience for this software -- it's int
 For example, the could-be-so-lovely `jekyll` package includes a jekyll server! So you can develop locally from within Atom and check changes with the browser of your choice. Sure, you could open a `terminal` window, but this saves steps and typing! I was so excited to get it working on Pig (with some assistance from my husband), but I am unable to make it go on Pixie. I get an error
 
 ```
-The Jekyll binary jekyll is not valid.  
+The Jekyll binary jekyll is not valid.
 Please go into Settings and change it
 ```
 
