@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Barbara Tozier, Photographer
+title:            Barbara Tozier Photographer
 locale:           en_US
 url:
 
@@ -25,6 +25,9 @@ kramdown:
   use_coderay: false
   # parse_block_html: true
 
+links:
+  - title: Writings
+    url: /writings/
 
 # Site owner
 owner:
