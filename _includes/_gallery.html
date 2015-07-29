@@ -1,11 +1,12 @@
 <figure markdown="0">
 
 <ul>
-{% for image in site.data.gallerylist.gallery01 %}
-
-
+{% for gallery in site.data.gallerylist %}
+{% for image in gallery[1] %}
+{% if gallery[0] == page.gallery %}
 <li><a href="{{ image.filename }}" title="{{ image.title}}"><img src="th/{{ image.filename }}"></a></li>
-
+{% endif %}
+{% endfor %}
 {% endfor %}
 </ul>
 </figure>
