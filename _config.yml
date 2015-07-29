@@ -25,10 +25,6 @@ kramdown:
   use_coderay: false
   # parse_block_html: true
 
-links:
-  - title: Writings
-    url: /writings/
-
 # Site owner
 owner:
   name: Barbara Tozier
@@ -49,9 +45,17 @@ owner:
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt"]
 
+links:
+  - title: Writings
+    url: /writings/
+
 defaults:
   -
     scope:
       path: ""
     values:
       share: false
+
+collections:
+  portfolio:
+    output: true
