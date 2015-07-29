@@ -1,0 +1,11 @@
+<figure markdown="0">
+
+{% for picture in site.data.galleries %}
+{% if picture.gallery == page.gallery %}
+
+<a href="{{ picture.filename }}" title="{{ picture.picture-title}}"><img src="th/{{ picture.filename }}"></a>
+
+{% endif %}
+{% endfor %}
+
+</figure>
