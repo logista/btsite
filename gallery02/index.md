@@ -1,7 +1,7 @@
 ---
 layout: gallerypage
-title: Gallery 1
-gallery: gallery01
+title: Gallery 2
+gallery: gallery02
 ---
 
 <figure markdown="0">

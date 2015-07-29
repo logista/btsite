@@ -1,0 +1,19 @@
+# will this work?
+
+- filename: "tozier-01.jpg"
+  gallery: "gallery01"
+
+- filename: "tozier-02.jpg"
+  gallery: "gallery01"
+
+- filename: "tozier-03.jpg"
+  gallery: "gallery01"
+
+- filename: "tozier-06.jpg"
+  gallery: "gallery02"
+
+- filename: "tozier-07.jpg"
+  gallery: "gallery02"
+
+- filename: "tozier-08.jpg"
+  gallery: "gallery02"
