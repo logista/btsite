@@ -1,0 +1,15 @@
+gallery01:
+  - filename: "tozier-01.jpg"
+    title: "tulips"
+  - filename: "tozier-02.jpg"
+    title: "spacey"
+  - filename: "tozier-03.jpg"
+    title: "Red Green"
+
+gallery02:
+  - filename: "tozier-06.jpg"
+    title: "image 6"
+  - filename: "tozier-07.jpg"
+    title: "image 7"
+  - filename: "tozier-08.jpg"
+    title: "image 8"
