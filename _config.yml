@@ -55,7 +55,3 @@ defaults:
       path: ""
     values:
       share: false
-
-collections:
-  portfolio:
-    output: true
