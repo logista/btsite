@@ -35,3 +35,22 @@ gallery02:
     title: "River"
   - filename: "08-Barbara-Tozier-Morning.jpg"
     title: "Morning"
+
+gallery03:
+  - filename: "01-Barbara-Tozier-Market-Peppers.jpg"
+    title: "Market Peppers"
+    feature: true
+  - filename: "02-Barbara-Tozier-Network.jpg"
+    title: "Network"
+  - filename: "03-Barbara-Tozier-Flash.jpg"
+    title: "Flash!"
+  - filename: "04-Barbara-Tozier-Fern.jpg"
+    title: "Fern"
+  - filename: "05-Barbara-Tozier-Feathery.jpg"
+    title: "Feathery"
+  - filename: "06-Barbara-Tozier-Fracture.jpg"
+    title: "Fracture"
+  - filename: "07-Barbara-Tozier-Caramel-Wall.jpg"
+    title: "Caramel Wall"
+  - filename: "08-Barbara-Tozier-Spirograph.jpg"
+    title: "Spirograph"
