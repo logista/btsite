@@ -71,11 +71,12 @@ svg:not(:root) {
 
 .btn {
   display: inline-block;
+	margin-top: 20px;
   margin-bottom: 20px;
   padding: 8px 20px;
-  @include font-rem(14);
+  @include font-rem(12);
   font-family: $heading-font;
-  font-weight: 700;
+  font-weight: normal;
   background-color: $primary;
   color: $white;
   border-width: 1px !important;
