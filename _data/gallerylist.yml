@@ -1,15 +1,27 @@
 gallery01:
-  - filename: "tozier-01.jpg"
-    title: "tulips"
-  - filename: "tozier-02.jpg"
-    title: "spacey"
-  - filename: "tozier-03.jpg"
+  - filename: "01-Barbara-Tozier-Tulips.jpg"
+    title: "Tulips"
+    feature: true
+  - filename: "02-Barbara-Tozier-Tunnel.jpg"
+    title: "Tunnel"
+  - filename: "03-Barbara-Tozier-Red-Green.jpg"
     title: "Red Green"
+  - filename: "04-Barbara-Tozier-Vision.jpg"
+    title: "Vision"
+  - filename: "05-Barbara-Tozier-Untitled-(Gray).jpg"
+    title: "Untitled (Gray)"
+  - filename: "06-Barbara-Tozier-Grain.jpg"
+    title: "Grain"
+  - filename: "07-Barbara-Tozier-Arrow.jpg"
+    title: "Arrow"
+  - filename: "08-Barbara-Tozier-Sunset-Studio.jpg"
+    title: "Sunset Studio"
 
 gallery02:
   - filename: "tozier-06.jpg"
     title: "image 6"
   - filename: "tozier-07.jpg"
     title: "image 7"
+    feature: true
   - filename: "tozier-08.jpg"
     title: "image 8"
