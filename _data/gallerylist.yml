@@ -62,6 +62,7 @@ gallery04:
     title: "Lacy"
   - filename: "03-Barbara-Tozier-Face-Off.jpg"
     title: "Face-Off"
+    feature: true
   - filename: "04-Barbara-Tozier-Vases-flowers.jpg"
     title: "Vases, flowers"
   - filename: "05-Barbara-Tozier-Garden-Now.jpg"
@@ -72,3 +73,22 @@ gallery04:
     title: "Wizard Ponders His Options"
   - filename: "08-Barbara-Tozier-Down-with-Brown.jpg"
     title: "Down with Brown!"
+
+gallery05:
+  - filename: "01-Barbara-Tozier-Mum.jpg"
+    title: "Mum"
+  - filename: "02-Barbara-Tozier-Gerbera.jpg"
+    title: "Gerbera"
+  - filename: "03-Barbara-Tozier-Evil-Viburnum.jpg"
+    title: "Evil Viburnum"
+    feature: true
+  - filename: "04-Barbara-Tozier-Mango.jpg"
+    title: "Mango"
+  - filename: "05-Barbara-Tozier-Dandy.jpg"
+    title: "Dandy"
+  - filename: "06-Barbara-Tozier-Sun-mum.jpg"
+    title: "Sun Mum"
+  - filename: "07-Barbara-Tozier-Lily.jpg"
+    title: "Lily"
+  - filename: "08-Barbara-Tozier-Elemental.jpg"
+    title: "Elemental"
