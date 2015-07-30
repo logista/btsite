@@ -1,0 +1,11 @@
+<figure style="text-align:center;">
+
+{% for gallery in site.data.gallerylist %}
+{% for image in gallery[1] %}
+{% if gallery[0] == page.gallery %}
+<a href="{{ image.filename }}" title="{{ image.title}}"><img src="th/{{ image.filename }}" width="300px;" style="margin:5px;"></a>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+</figure>
