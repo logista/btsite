@@ -1,6 +1,6 @@
 ---
 layout: gallerypage
-title: Manipulations
+title: Manipulation
 gallery: gallery05
 excerpt: "A photograph doesn’t lose its “photographness” by being manipulated."
 ---

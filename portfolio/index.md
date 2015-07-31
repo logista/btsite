@@ -14,7 +14,7 @@ List of Galleries
 <a href="/{{ gallery[0] }}/">{{ gallery[1].title}}
 {% for image in gallery[1].images %}
 {% if image.feature %}
-  <img src="/{{gallery[0]}}/th/{{image.filename}}" />
+  <img src="/{{gallery[0]}}/th/{{image.filename}}" /><br>
 {% endif %}
 {% endfor %}
 </a>
