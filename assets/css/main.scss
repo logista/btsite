@@ -36,3 +36,10 @@ h1, h2, h3, h4, h5, h6 {line-height:1.1;}
   border: 1px $border-color solid;
   @include rounded(3px);
 }
+.gallerypage img.thumbnail {
+  max-height: 300px;
+  max-width: 300px;
+  width: auto;
+  height: auto;
+  margin:5px;
+}

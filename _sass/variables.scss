@@ -61,7 +61,7 @@ $github-color       : #333333;
 /* links */
 $linkcolor 		    : darken($textcolor,30); //#343434;
 $link-color       : $linkcolor;
-$linkcolorhover 	: darken($linkcolor, 10);
+$linkcolorhover 	: lighten($linkcolor, 20);
 $linkcolorvisited : lighten($linkcolorhover, 20);
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
 
