@@ -17,11 +17,11 @@
     {% if page.image.feature contains 'http' %}
       "{{ page.image.feature }}"
     {% else %}
-      "{{ site.url }}/images/{{ page.image.feature }}"
+      "{{ site.url }}/images/website/{{ page.image.feature }}"
     {% endif %}
   alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% if page.image.title %}
+    <span class="image-credit">{{ page.image.title }}</span>
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
@@ -32,7 +32,7 @@
   </div>
   <div id="index">
     <h3><a href="{{ site.url}}/writings/">Recent</a></h3>
-    {% for post in site.posts %}
+    {% for post in site.posts limit:5 %}
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"></h2>
