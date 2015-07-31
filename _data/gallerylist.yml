@@ -3,13 +3,13 @@ gallery01:
   images:
     - filename: "01-barbara-tozier-tulips.jpg"
       title: "Tulips"
-      feature: true
     - filename: "02-barbara-tozier-tunnel.jpg"
       title: "Tunnel"
     - filename: "03-barbara-tozier-red-green.jpg"
       title: "Red Green"
     - filename: "04-barbara-tozier-vision.jpg"
       title: "Vision"
+      feature: true
     - filename: "05-barbara-tozier-untitled-(gray).jpg"
       title: "Untitled (Gray)"
     - filename: "06-barbara-tozier-grain.jpg"
@@ -45,11 +45,11 @@ gallery03:
   images:
     - filename: "01-barbara-tozier-market-peppers.jpg"
       title: "Market Peppers"
-      feature: true
     - filename: "02-barbara-tozier-network.jpg"
       title: "Network"
     - filename: "03-barbara-tozier-flash.jpg"
       title: "Flash!"
+      feature: true
     - filename: "04-barbara-tozier-fern.jpg"
       title: "Fern"
     - filename: "05-barbara-tozier-feathery.jpg"
