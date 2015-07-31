@@ -3,6 +3,6 @@ layout: post-index
 title: All Writing
 excerpt: "A List of All the Writing on the Barbara Tozier site"
 image:
-  feature: barbara-tozier-elemental.jpg
-  title: Elemental (from the <a href="/gallery05/">Manipulation</a> gallery)
+  feature: barbara-tozier-sf-shelf-poem-gray.jpg
+  title: A Science Fiction Shelf Poem (from the <a href="/stories/">Stories</a> gallery)
 ---

@@ -2,6 +2,9 @@
 layout: page
 title: About Me
 excerpt: "About Barbara Tozier, a photographer in Ann Arbor, Michigan."
+image:
+  feature: barbara-tozier-prof-blues-gray.jpg
+  title: Professional Blues (from the <a href="/stories/">Stories</a> gallery)
 ---
 
 {% include _toc.html %}

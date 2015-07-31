@@ -1,3 +1,35 @@
+elemental:
+  title: "West and East"
+  images:
+    - filename: "01-barbara-tozier-tetrahedron-fire.jpg"
+      title: "Tetrahedron Fire"
+    - filename: "02-barbara-tozier-cube-stone.jpg"
+      title: "Cube Stone"
+    - filename: "03-barbara-tozier-octahedron-wood.jpg"
+      title: "Octahedron Wood"
+    - filename: "04-barbara-tozier-dodecahedron-metal.jpg"
+      title: "Dodecahedron Metal"
+    - filename: "05-barbara-tozier-icosahedron-water.jpg"
+      title: "Icosahedron water"
+    - filename: "06-barbara-tozier-elementals.jpg"
+      title: "Elementals"
+      feature: true
+    - filename: "07-barbara-tozier-elementals-3d.jpg"
+      title: "West and East (installation)"
+
+stories:
+  title: "Stories"
+  images:
+    - filename: "01-barbara-tozier-science-fiction-poem.jpg"
+      title: "A Science Fiction Poem"
+      feature: true
+    - filename: "02-barbara-tozier-dolls-creepy.jpg"
+      title: "Dolls are Creepy"
+    - filename: "03-barbara-tozier-professional-blues.jpg"
+      title: "Professional Blues: An Autobiography"
+    - filename: "04-barbara-tozier-i-watered-your-flowers.jpg"
+      title: "I Watered Your Flowers"
+
 gallery01:
   title: "Everyday Abstracts"
   images:
