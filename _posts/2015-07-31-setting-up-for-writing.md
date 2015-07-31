@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Setting up *for* Academic Writing"
-excerpt: "To get Pixie (my laptop) ready for academic editing work, I need to get it setup more like Pig (my desktop)."
+title: 'Setting up *for* Academic Writing'
+excerpt: 'To get Pixie (my laptop) ready for academic editing work, I need to get it setup more like Pig (my desktop).'
+date: '2015-07-31 12:53'
 ---
+
 {% include _toc.html %}
 
 ## Preamble
@@ -98,7 +100,7 @@ where `input.md`, `ref.bib`, and `output.pdf` are your own files (complete with 
 
 What do you get?
 
-<...time passes...>
+`<...time passes...>`
 
 Well, you get an error, because LaTeX doesn't know emoji!
 

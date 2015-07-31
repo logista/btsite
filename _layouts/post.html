@@ -50,7 +50,7 @@
   {% if site.related_posts.size > 0 %}
   <div class="related-articles">
     <hr />
-  <h3>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/writings/">View everything</a>)</small></h3>
+  <h3>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/writing/">View everything</a>)</small></h3>
     <ul>
     {% for post in site.related_posts limit:3 %}
       <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
