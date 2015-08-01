@@ -9,7 +9,7 @@ excerpt: "`atom-runner` does something to my Atom environment that gets lost whe
 **tl;dr:**  `atom-runner` does something to my Atom environment that gets lost when it's taken away, and `jekyll` uses whatever it is. I don't think this is necessarily the fault of `jekyll` but I'm not sure where else to report it.
 {: .acn}
 
-Caveat: I'm no coder, but if you have questions I'll try my best to answer them
+Caveat: I'm no coder.
 
 - System: Mac OS X 10.10.4 [XCode not installed, though it may have been at one time]
 - Atom: Version 1.0.2

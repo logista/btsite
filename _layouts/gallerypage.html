@@ -25,33 +25,8 @@
         {% include _social-share.html %}
       {% endif %}
     </div><!-- /.article-wrap -->
+    {% include _gallery-nav.html %}
   </article>
-
-{% for gallery in site.data.gallerylist %}
-{% if gallery[0] == page.gallery %}
-  {% assign galnum = forloop.index %}
-  {% assign galnumprev = forloop.index | minus:1 %}
-  {% assign galnumnext = forloop.index | plus:1 %}
-  {% assign galcount = forloop.length %}
-{% endif %}
-{% endfor %}
-
-{% unless galnum == 1 %}
-{% for gallery in site.data.gallerylist %}
-{% if forloop.index == galnumprev %}
-  <a href="/{{gallery[0]}}/">previous</a>
-{% endif %}
-{% endfor %}
-{% endunless %}
-
-{% unless galnum == galcount %}
-{% for gallery in site.data.gallerylist %}
-{% if forloop.index == galnumnext %}
-  <a href="/{{gallery[0]}}/">next</a>
-{% endif %}
-{% endfor %}
-{% endunless %}
-
 
 </div><!-- /#index -->
 
