@@ -1,7 +1,7 @@
 ---
 layout: gallerypage
 title: West and East
-gallery: elemental
+gallery: gallery-elemental
 excerpt: "Western mathematical beauty meats Eastern process"
 tags: photograph, abstract, color, digital, fine art, close up
 ---

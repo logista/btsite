@@ -1,7 +1,7 @@
 ---
 layout: gallerypage
 title: Pattern
-gallery: gallery03
+gallery: gallery-pattern
 exceprt: "We recognize patterns and make sense of our world."
 ---
 

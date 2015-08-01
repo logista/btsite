@@ -39,6 +39,10 @@ I work mainly with digital cameras and inkjet printing for my straight photograp
 
 ### Site
 
-Unless otherwise indicated, all images and text are ©Barbara Tozier. All Rights Reserved. If you would like to purchase or otherwise license images, please feel free to contact me.
+Unless otherwise indicated, all images and text are &copy;Barbara Tozier. All Rights Reserved. If you would like to purchase or otherwise license images, please feel free to contact me.
 
 Powered by [Jekyll](http://jekyllrb.com){: rel="nofollow"} using a modified [Minimal Mistakes](http://mademistakes.com/minimal-mistakes/){: rel="nofollow"} theme.
+
+There are no cookies, no trackers, no analytics on this site, as far as I know. It uses fonts and javascripts from Google.
+
+If you have any problems with the site, please contact me from the links on the left, or leave an issue at my [GitHub repository](https://github.com/logista/btsite2015/issues).
