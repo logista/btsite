@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Jekyll, Atom, Learning'
-date: '2015-07-31 12:43'
 ---
 
 (alternate title) **Jekyll in Atom, or Explorations in a Foreign Language for which you only have the Slimmest of Guidebooks**
