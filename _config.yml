@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Barbara Tozier Photographer
-locale:           en_US
-url:
+title:    Barbara Tozier Photographer
+locale:   en_US
+# url:      http://barbaratozier.com
 
 
 # Jekyll configuration
@@ -15,8 +15,6 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
-paginate: 3
-
 
 kramdown:
   auto_ids: true
