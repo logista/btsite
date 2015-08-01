@@ -340,10 +340,11 @@ $button-size: 1.5rem;
 .article-author-bottom {
 	h3 {
 		margin-bottom: 0;
+		text-align: center;
 	}
 	p {
 		font-size: 80%;
-		font-style: italic;
+		// font-style: italic;
 	}
 	a, a:hover {
 		border-bottom: 0 solid transparent;
@@ -417,7 +418,7 @@ $button-size: 1.5rem;
 .article-author-bottom {
 	margin-bottom: 1em;
 	@media #{$small} {
-		display: none;
+		// display: none;
 	}
 	.bio-photo {
 		float: left;

@@ -130,6 +130,8 @@ blockquote {
 		margin-bottom: 0;
 		// @include font-rem(14);
 	}
+	border-top: 1px dotted darken($body-color,10);
+
 }
 
 /*

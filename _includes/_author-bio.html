@@ -7,7 +7,7 @@
 {% endif %}
 
   <h3 itemprop="name">{{ site.owner.name }}</h3>
-  <p style="font-style:normal;">{{ site.owner.bio | markdownify | remove:'<p>' | remove:'</p>' }}</p>
+  <p>{{ site.owner.bio | markdownify | remove:'<p>' | remove:'</p>' }}</p>
 	<a href="http://twitter.com/{{ author.twitter }}" class="soc soc-twitter" title="Twitter">{% include _svg-twitter.html %}</a>
 	<a href="http://{{ author.tumblr }}.tumblr.com"  class="soc soc-tumblr" title="Tumblr">{% include _svg-tumblr.html %}</a>
 	<a href="http://github.com/{{ author.github }}"  class="soc soc-github" title="GitHub">{% include _svg-github.html %}</a>
