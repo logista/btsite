@@ -16,7 +16,8 @@
     {% include _author-bio.html %}
   </div>
   <article class="page">
-    <h1>{{site.data.gallerylist[page.gallery].title}}</h1>
+    {% assign galleryname = site.data.gallerylist[page.gallery].title %}
+    <h1>{{ galleryname }}</h1>
     <div class="article-wrap">
       {{ content }}
       {% if page.share != false %}
@@ -24,7 +25,9 @@
         {% include _social-share.html %}
       {% endif %}
     </div><!-- /.article-wrap -->
+    {% include _gallery-nav.html %}
   </article>
+
 </div><!-- /#index -->
 
 <div class="footer-wrap">
