@@ -1,24 +1,8 @@
 Options -Indexes
 IndexIgnore *
 
-# REDIRECT ALL URLS THAT DOESN’T HAVE A TRAILING SLASH TO URLS WITH A TRAILING SLASH
 
-RewriteEngine On
-RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} !(.*)/$
-RewriteRule ^(.*)$ http://barbaratozier.com/$1/ [L,R=301]
 
-## PREVENT HOTLINKING
-
-SetEnvIfNoCase Referer "^http://barbaratozier.com/" good
-SetEnvIfNoCase Referer "^$" good
-<FilesMatch "\.(png|jpg|jpeg|gif|bmp|swf|flv)$">
-Order Deny,Allow
-Deny from all
-Allow from env=good
-ErrorDocument 403 http://www.google.com/intl/en_ALL/images/logo.gif
-</FilesMatch>
 
 ## ERRORDOCUMENTS
 
