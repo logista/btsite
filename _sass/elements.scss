@@ -21,6 +21,8 @@ figure {
 	margin-bottom: $indent-var;
 }
 
+figure + p { margin-bottom: 3em;}
+
 article img {
 	max-width: 100%;
 	height: auto;
@@ -36,6 +38,7 @@ svg:not(:root) {
 /* 2 images of equal dimensions in a row */
 
 .half {
+	padding-bottom: 2em;
 	@include container;
 	@include clearfix;
 	@media #{$micro} {
