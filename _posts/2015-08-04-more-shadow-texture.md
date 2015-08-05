@@ -10,7 +10,7 @@ I'm still trying to figure out a workflow for writing-related ad hoc images. (Or
 
 So far it's rather fiddly, involving exporting twice from Lightroom, then verifying file names, then moving into my site's images folder. I'm sure I could do some sort of "Lightroom Publish" thing, but until I can trust the filenames will be accurate...
 
-I also realized after the [Textures](/textures-for-fun/) post, I need to make certain I have smallish images, otherwise they overwhelm my [RSS feed](/feed/), for instance, let alone any mobile device.
+I also realized after the [Textures](/textures-for-fun/) post, I need to make certain I have smallish images, otherwise they overwhelm my [RSS feed](http://barbaratozier.com/feed.xml), for instance, let alone any mobile device.
 
 All that to share this image:
 
