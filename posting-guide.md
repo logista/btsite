@@ -2,7 +2,9 @@ Most "posts" are going to be text-related with or without photographs.
 
 I am unclear on what needs quote marks (either double or single) and what doesn't. As far as I can tell, YAML doesn't care. The important part is for the Jekyll parser to understand it. I'm writing this little file to remind myself to be consistent.
 
-## Text posts
+## YAML headers
+
+### Text posts
 
 Here's a big yaml header for a text-only post:
 
@@ -19,7 +21,7 @@ modified: 2015-08-04
 
 **IT IS REQUIRED** to include `layout:`. I could set a `default` in Jekyll, but I want to get used to adding it (in the event I make a different layout for images, for instance), so I won't. Since this is only ever used internally, it doesn't need quote marks.
 
-**IT IS REQUIRED** to include `title:`. No quotes around the title, no matter how short. If using quote marks *within* the title, be sure to use `'single quotes'`.
+**IT IS REQUIRED** to include `title:`. No quotes around the title, no matter how short. If using quote marks *within* the title, be sure to use `'single quotes'`. Ah, and if there are backticks in the title (like, for `jekyll` or `atom`), you have to double quote the whole thing.
 
 **IT IS REQUIRED** to include an excerpt, because I don't like/trust Jekyll to do it the way I want. Mostly this can be the first sentence of the first paragraph, or a super-brief logline for the post. Syntax similar to `title:`
 
@@ -31,7 +33,7 @@ modified: 2015-08-04
 
 
 
-## Image posts
+### Image posts
 
 ~~~ yaml
 ---
@@ -48,7 +50,7 @@ For now, I'm using the same layout for text-based and picture-based (and quote-b
 
 
 
-## Pages
+### Pages
 
 ~~~ yaml
 ---
