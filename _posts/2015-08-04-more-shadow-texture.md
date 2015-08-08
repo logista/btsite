@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "More Shadow Texture"
-excerpt: "I'm still trying to figure out a workflow for writing-related ad hoc images."
-tags: photograph,texture,abstract,shadow
-date: "2015-08-04"
+title: More Shadow Texture
+excerpt: I'm still trying to figure out a workflow for writing-related ad hoc images.
+tags: [photograph, texture, abstract, shadow]
+date: 2015-08-04
 ---
 
 I'm still trying to figure out a workflow for writing-related ad hoc images. (Or, *ad hoc* if you listen to some people in the house.)
