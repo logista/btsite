@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Purchasing Prints
-excerpt: How to buy a print
+title: "Purchasing Prints"
+excerpt: "How to buy a print"
 tags: [ecommerce, sell, photograph, limited edition prints, color, fine art, abstract]
 image:
   feature: barbara-tozier-spilt-coins-gray.jpg

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About Me
-excerpt: About Barbara Tozier, a photographer in Ann Arbor, Michigan.
+title: "About Me"
+excerpt: "About Barbara Tozier, a photographer in Ann Arbor, Michigan."
 tags: [photographer, photography, ann arbor michigan, commercial, fine art, abstract]
 image:
   feature: barbara-tozier-prof-blues-gray.jpg
-  title: Professional Blues (from the <a href='/gallery-stories/'>Stories</a> gallery)
+  title: "Professional Blues (from the <a href='/gallery-stories/'>Stories</a> gallery)"
 date: 2015-07-31
 ---
 

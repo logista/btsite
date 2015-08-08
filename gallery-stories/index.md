@@ -1,8 +1,8 @@
 ---
 layout: gallerypage
-title: Stories
 gallery: gallery-stories
-excerpt: Words and pictures, pictures and words.
+title: "Stories"
+excerpt: "Words and pictures, pictures and words."
 tags: [photograph, abstract, color, digital, fine art, close up, books, stories]
 date: 2015-08-01
 ---

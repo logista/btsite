@@ -11,8 +11,8 @@ Here's a big yaml header for a text-only post:
 ~~~ yaml
 ---
 layout: post
-title: YANS
-excerpt: Another summer, another new website
+title: "YANS"
+excerpt: "Another summer, another new website"
 tags: [self-referential, website, workflow]
 date: 2015-08-01
 modified: 2015-08-04
@@ -21,7 +21,7 @@ modified: 2015-08-04
 
 **IT IS REQUIRED** to include `layout:`. I could set a `default` in Jekyll, but I want to get used to adding it (in the event I make a different layout for images, for instance), so I won't. Since this is only ever used internally, it doesn't need quote marks.
 
-**IT IS REQUIRED** to include `title:`. No quotes around the title, no matter how short. If using quote marks *within* the title, be sure to use `'single quotes'`. Ah, and if there are backticks in the title (like, for `jekyll` or `atom`), you have to double quote the whole thing.
+**IT IS REQUIRED** to include `title:`. Double quotes around the title, no matter how short. If using quote marks *within* the title, be sure to use `'single quotes'`.
 
 **IT IS REQUIRED** to include an excerpt, because I don't like/trust Jekyll to do it the way I want. Mostly this can be the first sentence of the first paragraph, or a super-brief logline for the post. Syntax similar to `title:`
 
@@ -38,8 +38,8 @@ modified: 2015-08-04
 ~~~ yaml
 ---
 layout: post
-title: Textures for Fun
-excerpt: Since I call myself a photographer, I suppose I should try to include some images in my posts.
+title: "Textures for Fun"
+excerpt: "Since I call myself a photographer, I suppose I should try to include some images in my posts."
 tags: [photograph, texture, orange, gray]
 date: 2015-08-03
 modified: 2015-08-04
@@ -55,9 +55,9 @@ For now, I'm using the same layout for text-based and picture-based (and quote-b
 ~~~ yaml
 ---
 layout: gallerypage
-title: Stories
 gallery: gallery-stories
-excerpt: Words and pictures, pictures and words.
+title: "Stories"
+excerpt: "Words and pictures, pictures and words."
 tags: [photograph, abstract, color, digital, fine art, close up, books, stories]
 date: 2015-08-01
 ---

@@ -1,8 +1,8 @@
 ---
 layout: gallerypage
-title: West and East
 gallery: gallery-elemental
-excerpt: Western mathematical beauty meets Eastern process
+title: "West and East"
+excerpt: "Western mathematical beauty meets Eastern process"
 tags: [photograph, abstract, color, digital, fine art, close up, 3D, platonic solids]
 date: 2015-08-01
 ---

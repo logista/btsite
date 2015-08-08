@@ -1,8 +1,8 @@
 ---
 layout: gallerypage
-title: Pattern
 gallery: gallery-pattern
-excerpt: We recognize patterns and make sense of our world.
+title: "Pattern"
+excerpt: "We recognize patterns and make sense of our world."
 tags: [photograph, pattern, abstract, color, digital, fine art, close up]
 date: 2015-08-01
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bolton on Szarkowski
-excerpt: I'm starting to look at some more 'scholarly' works on photography and its critique.
+title: "Bolton on Szarkowski"
+excerpt: "I'm starting to look at some more 'scholarly' works on photography and its critique."
 tags: [readings, bolton, szarkowski, critique]
 date: 2015-08-02
 ---

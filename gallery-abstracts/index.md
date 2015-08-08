@@ -1,8 +1,8 @@
 ---
 layout: gallerypage
-title: Everyday Abstracts
 gallery: gallery-abstracts
-excerpt: Closeup. Light and Shadow. Maybe even a little mundane?
+title: "Everyday Abstracts"
+excerpt: "Closeup. Light and Shadow. Maybe even a little mundane?"
 tags: [photograph, abstract, color, digital, fine art, close up]
 date: 2015-08-01
 ---

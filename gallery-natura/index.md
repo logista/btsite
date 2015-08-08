@@ -1,8 +1,8 @@
 ---
 layout: gallerypage
-title: Natura
 gallery: gallery-natura
-excerpt: Flora, simply.
+title: "Natura"
+excerpt: "Flora, simply."
 tags: [photograph, flowers, color, digital, fine art, abstract, close up]
 date: 2015-08-01
 ---

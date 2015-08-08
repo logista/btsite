@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Textures for Fun
-excerpt: Since I call myself a photographer, I suppose I should try to include some images in my posts.
+title: "Textures for Fun"
+excerpt: "Since I call myself a photographer, I suppose I should try to include some images in my posts."
 tags: [photograph, texture, orange, gray]
 date: 2015-08-03
 modified: 2015-08-04
