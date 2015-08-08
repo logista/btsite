@@ -1,7 +1,9 @@
 ---
 layout: gallerypage
 title: Portfolio Index
-excerpt: "Index"
+excerpt: Index of Galleries
+tags: [photograph, photography, color, digital, fine art, abstract, alternative processes]
+date: 2015-08-01
 ---
 
 {% for gallery in site.data.gallerylist %}
