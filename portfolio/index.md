@@ -11,8 +11,8 @@ date: 2015-08-01
 {% if image.feature %}
 
 <h3 markdown="1" style="margin-bottom:2em; text-align:center;">
-[![](/{{gallery[0]}}/th/{{image.filename}}){: .thumbnail}  
-{{ gallery[1].title}} ](/{{ gallery[0] }}/)
+[![{{image.title}}](/{{gallery[0]}}/th/{{image.filename}}){: .thumbnail}  
+{{ gallery[1].title}} ](/{{ gallery[0] }}/ "Go to {{ gallery[1].title}} gallery")
 </h3>
 
 {% endif %}
