@@ -9,10 +9,10 @@ Here's a big yaml header for a text-only post:
 ~~~ yaml
 ---
 layout: post
-title: Textures for Fun
-excerpt: Since I call myself a photographer, I suppose I should try to include some images in my posts.
-tags: [photograph, texture, orange, gray]
-date: 2015-08-03
+title: YANS
+excerpt: Another summer, another new website
+tags: [self-referential, website, workflow]
+date: 2015-08-01
 modified: 2015-08-04
 ---
 ~~~
@@ -29,6 +29,25 @@ modified: 2015-08-04
 
 `modified:` is only for a "big enough" change. Minor typo changes (and the stuff associated with revamping the YAML frontmatter) doesn't get it.
 
+
+
+## Image posts
+
+~~~ yaml
+---
+layout: post
+title: Textures for Fun
+excerpt: Since I call myself a photographer, I suppose I should try to include some images in my posts.
+tags: [photograph, texture, orange, gray]
+date: 2015-08-03
+modified: 2015-08-04
+---
+~~~
+
+For now, I'm using the same layout for text-based and picture-based (and quote-based) posts. This may change, because I'm currently having to do lots of extra stuff to get images into a post. This includes creating a thumbnail for an image so too-large images don't overwhelm my RSS feed. This doesn't have a good resolution yet --- I need to make some more posts with images to get a feel for how I want to work with them in the future.
+
+
+
 ## Pages
 
 ~~~ yaml
@@ -38,9 +57,12 @@ title: Stories
 gallery: gallery-stories
 excerpt: Words and pictures, pictures and words.
 tags: [photograph, abstract, color, digital, fine art, close up, books, stories]
+date: 2015-08-01
 ---
 ~~~
 
 Most Pages are galleries. However, the "no quotes" thing seems to be suitable. Follow the guidelines from above.
 
-`date:` isn't used in pages, but I now realize it might be a good thing to have for keeping track of when things have been changed.
+`date:` isn't used in Jekyll with Pages, but I now realize it might be a good thing to have for keeping track of when things have been changed. So I'm including it.
+
+The images in the galleries are 300px thumbnails, linking to a larger (1500px) copy used for the slideshow. They are listed in `_data/gallerylist.yml` in the order they are to appear on the page. A single "feature" image is also noted --- this is the image used to represent the gallery on the Portfolio Index page.
