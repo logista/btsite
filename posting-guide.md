@@ -30,3 +30,17 @@ modified: 2015-08-04
 `modified:` is only for a "big enough" change. Minor typo changes (and the stuff associated with revamping the YAML frontmatter) doesn't get it.
 
 ## Pages
+
+~~~ yaml
+---
+layout: gallerypage
+title: Stories
+gallery: gallery-stories
+excerpt: Words and pictures, pictures and words.
+tags: [photograph, abstract, color, digital, fine art, close up, books, stories]
+---
+~~~
+
+Most Pages are galleries. However, the "no quotes" thing seems to be suitable. Follow the guidelines from above.
+
+`date:` isn't used in pages, but I now realize it might be a good thing to have for keeping track of when things have been changed.
