@@ -21,7 +21,7 @@ gallery-stories:
   title: "Stories"
   images:
     - filename: "01-barbara-tozier-science-fiction-poem.jpg"
-      title: "A Science Fiction Poem"
+      title: "A Science Fiction Shelf Poem"
       feature: true
     - filename: "02-barbara-tozier-dolls-creepy.jpg"
       title: "Dolls are Creepy"
