@@ -2,6 +2,8 @@
 layout: post
 title: "Build Errors using the `jekyll` package in Atom"
 excerpt: "`atom-runner` does something to my Atom environment that gets lost when it's taken away, and `jekyll` uses whatever it is."
+tags: [website, jekyll, atom]
+date: 2015-07-31
 ---
 
 <!-- Writing this in preparation for opening an issue on the `jekyll` package. -->

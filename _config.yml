@@ -2,7 +2,7 @@
 
 title:    Barbara Tozier Photographer
 locale:   en_US
-# url:      http://barbaratozier.com
+url:      http://barbaratozier.com 
 
 
 # Jekyll configuration
@@ -42,7 +42,7 @@ owner:
 
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt", "posting-guide.md"]
 
 links:
   - title: Writing

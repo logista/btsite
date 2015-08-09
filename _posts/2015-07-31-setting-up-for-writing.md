@@ -1,7 +1,9 @@
 ---
 layout: post
-title: 'Setting up *for* Academic Writing'
-excerpt: 'To get Pixie (my laptop) ready for academic editing work, I need to get it setup more like Pig (my desktop).'
+title: "Setting up *for* Academic Writing"
+excerpt: "To get Pixie (my laptop) ready for academic editing work, I need to get it setup more like Pig (my desktop)."
+tags: [atom, workflow, academia, bibdesk]
+date: 2015-07-31
 modified: 2015-08-01
 ---
 
