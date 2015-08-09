@@ -19,13 +19,13 @@
     {% include _author-bio.html %}
   </div>
   <div id="index">
-    <h3><a href="{{ site.url}}/writing/">Recent writing</a></h3>
+    <h3><a href="/writing/">Recent writing</a></h3>
     {% for post in site.posts limit:7 %}
     <article>
       {% if post.link %}
-        <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"></h2>
+        <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" title="{{ post.title }}"></h2>
       {% else %}
-        <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h2>
+        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h2>
         {{ post.excerpt | markdownify }}
       {% endif %}
     </article>
