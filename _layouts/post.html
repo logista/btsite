@@ -23,7 +23,7 @@
       {% if page.link %}
         <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
       {% else %}
-        <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h1>
+        <h1><a href="{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h1>
       {% endif %}
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
@@ -35,10 +35,10 @@
       </footer>
       <nav class="pagination" role="navigation">
           {% if page.previous %}
-              <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+              <a href="{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
           {% endif %}
           {% if page.next %}
-              <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+              <a href="{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
           {% endif %}
       </nav><!-- /.pagination -->
     </div><!-- /.article-wrap -->
@@ -50,10 +50,10 @@
   {% if site.related_posts.size > 0 %}
   <div class="related-articles">
     <hr />
-  <h3>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/writing/">View everything</a>)</small></h3>
+  <h3>You might also enjoy <small class="pull-right">(<a href="/writing/">View everything</a>)</small></h3>
     <ul>
     {% for post in site.related_posts limit:3 %}
-      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></li>
+      <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></li>
     {% endfor %}
     </ul>
     <hr />

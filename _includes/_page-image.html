@@ -3,7 +3,7 @@
   {% if page.image.feature contains 'http' %}
     "{{ page.image.feature }}"
   {% else %}
-    "{{ site.url }}/images/website/{{ page.image.feature }}"
+    "/images/website/{{ page.image.feature }}"
   {% endif %}
 alt="{{ page.title }} feature image">
 {% if page.image.title %}
