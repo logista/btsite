@@ -12,7 +12,7 @@ $soc-fill       : $text-color;
   display: inline-block;
   font-size: 0;
   list-style: none;
-  margin: 0;
+  // margin: 0;
   padding: 2px;
   padding: 0.2rem;
   text-align: left;
@@ -21,7 +21,7 @@ $soc-fill       : $text-color;
 }
 
 .soc svg {
-  height: 100%;
+  // height: 100%;
   width: 100%;
 }
 
@@ -52,6 +52,14 @@ $soc-fill       : $text-color;
 }
 .soc-email:hover {
   background: #d9264a;
+}
+
+.soc-feed {
+  color:  $soc-fill;
+  fill:   $soc-fill;
+}
+.soc-feed:hover {
+  background: $rss-color;
 }
 
 .soc-github {
