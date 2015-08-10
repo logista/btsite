@@ -5,12 +5,12 @@
 // TODO: Should I do anything with this?
 
 .highlight {
-	background-color: #efefef;
+	background-color: darken($bodycolor,5);
 	font-family: $code-font;
 	@include font(12);
-	color: #333332;
+	color: darken($textcolor,5);
 	margin-bottom: 1.5em;
-	@include rounded(4px);
+	@include rounded(3px);
 	pre {
 		position: relative;
 		margin: 0;

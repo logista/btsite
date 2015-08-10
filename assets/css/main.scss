@@ -49,3 +49,28 @@ h1, h2, h3, h4, h5, h6 {line-height:1.1;}
 nav.pagination {
   text-align:center;
 }
+
+.text-highlight {
+  background-color: darken($bodycolor,5);
+	font-family: $code-font;
+	@include font(10);
+	color: darken($textcolor,5);
+	margin-bottom: 1.5em;
+	@include rounded(3px);
+		position: relative;
+		padding: 1em;
+    white-space:pre-wrap;
+}
+
+pre {
+  @include font-rem(10);
+  line-height: 1.5;
+  overflow-x: auto;
+  background-color: darken($bodycolor,5);
+	@include rounded(3px);
+  padding: .5em;
+  }
+
+.center {
+  text-align:center;
+}
