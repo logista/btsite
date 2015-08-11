@@ -84,7 +84,7 @@ Excuse me for a while as I go off to make a new git-branch to take care of this 
 `<time passes`
 {: .center}
 
-OMG how cool was that! I'm really liking this branch-off-to-do-a-thing capability in git. I'm still just a neophyte, but I think I'm starting to get the hang of it.
+OMG how cool was that! You can't see what I did, unless you go to my [GitHub repository](https://github.com/logista/btsite2015) and poke around [this pull request](https://github.com/logista/btsite2015/pull/64). I'm really liking this branch-off-to-do-a-thing capability in git. I'm still just a neophyte, but I think I'm starting to get the hang of it.
 
 ## Back to Images
 
@@ -97,4 +97,23 @@ This one I did *not* link to a large version. I think I kind of like that distin
 
 Now I'm left with figuring out how to make a small image pretty. With screenshots I use an `.image-pull-right` class to float them to the right. Medium images use a `.center` class. Large images are hidden until called for by the slideshow.
 
-The Jekyll template as written includes some markup for the HTML5 `<figure>` block, but to use it I have to remember the actual markup. Recall that I have a "slavish devotion" to Markdown, so that's not really going to happen. Plus, I don't really care about the semantics of the page (sorry, librarian and archivist friends!). Therefore, I'm going to just use `<img>` until I can't anymore.
+The Jekyll template as written includes some markup and CSS for the HTML5 `<figure>` element, but to use it I have to remember the actual markup. Recall that I have a "slavish devotion" to Markdown, so that's not really going to happen. Plus, I don't really care about the semantics of the page (sorry, librarian and archivist friends!). Therefore, I'm going to just use `<img>` until I can't anymore.[^1]
+
+[^1]: I have been informed there is also an `<aside>` element, and I don't care. I'm old and stuck in my ways.
+
+But how to style a small image? If there's one, I suppose I could center it, and two could be side-by-side.
+
+Let's see:
+
+![White on White](/images/posts/s/2015-08-10-barbara-tozier-white-on-white.jpg)  
+One centered small image
+{: .center}
+
+that (at the moment of writing) has a caption that is just some words that follow the image with a line break in between. The whole thing has a `.center` class attached to it.
+
+Here are two small images:
+
+![White on White](/images/posts/s/2015-08-10-barbara-tozier-white-on-white.jpg)![White on White](/images/posts/s/2015-08-10-barbara-tozier-white-on-white.jpg)  
+Two small images, not centered or anything.
+
+They are snugged up to each other, either side-by-side or top/bottom depending on how wide the window is. Ick. Time to do some design work...
