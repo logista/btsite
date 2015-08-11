@@ -90,3 +90,7 @@ pre {
   content: "Aside  ";
   font-style:italic;
 }
+
+div.aside, div.aside p {
+  padding-bottom: 0px;
+}
