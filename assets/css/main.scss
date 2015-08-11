@@ -74,3 +74,19 @@ pre {
 .center {
   text-align:center;
 }
+
+.aside {
+  @include font-rem(10);
+  background-color: lighten($text-color,70);
+  color: lighten($textcolor,20);
+  @include rounded(3px);
+  padding: .5em;
+  // width:40%;
+  // margin-left:1em;
+  // float:right;
+}
+
+.aside::before {
+  content: "Aside  ";
+  font-style:italic;
+}
