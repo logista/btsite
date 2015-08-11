@@ -44,7 +44,7 @@ Anybody reading this must realize that I write to think things through.
 
 OK, asides aside, I've decided to try using Publish Services to create three(!) versions of each _ad hoc_ photo. Three because I can then decide when I use them what would be the best for the post. I will still need to websafe-ify the names, and then move them into the appropriate folders. Why don't I just use an Export Preset? Well, mostly because I have a terrible memory. Which of these 15 export presets is the right one? Did I export that one Large or only Medium?
 
-![Screenshot of Lightroom Publish Service Panel](/images/posts/2015-08-11-collections.png)
+![Screenshot of Lightroom Publish Service Panel](/images/posts/ss/2015-08-11-collections.png)
 {: .image-pull-right}
 
 So while I'm not using the Publish Service as intended by God and Adobe, I have figured out a way to use the best parts of it. First, I created a Collection called `ad hoc on website` where I put the image(s) I want to share here. (This doesn't include screenshots which are even more *ad-hoc*ier.) Then, I made three Hard Drive Publish Services (each service can have only one group of settings 😦), with *Smart Collections* inside them. The Smart Collection sees what's in `ad hoc on website` and automatically brings it into itself. If it has never published it before, it says "New Photos to Publish" --- which indicates *to me* that I need to push the "Publish" button. How cool is that‽ I made three smart collections, one for each size, so all I have to do is push the Publish button. Three. Times. I hope one day to get a "Publish All" button, but I'm not holding my breath.
@@ -55,7 +55,7 @@ These three images (assuming I'm only adding one image to my post) go to a fixed
 
 Whew! All that texty-text and I haven't even posted a photo. Here's a small one, linked to the large one.
 
-[![White on White](/images/posts/th/2015-08-10-barbara-tozier-white-on-white.jpg)](/images/posts/2015-08-10-barbara-tozier-white-on-white.jpg "White on White")
+[![White on White](/images/posts/s/2015-08-10-barbara-tozier-white-on-white.jpg)](/images/posts/l/2015-08-10-barbara-tozier-white-on-white.jpg "White on White")
 
 That's not bad, but it seems a little... blah. I don't mean the image! 😉 It is currently styled however the original designer of this theme said `article img` should look.
 
@@ -63,7 +63,7 @@ That's not bad, but it seems a little... blah. I don't mean the image! 😉 It i
 Here is one of the perils of a slavish devotion to writing in Markdown (of any flavor). This is the code for the image above.
 
 ~~~
-[![White on White](/images/posts/th/2015-08-10-barbara-tozier-white-on-white.jpg)](/images/posts/2015-08-10-barbara-tozier-white-on-white.jpg "White on White")
+[![White on White](/images/posts/s/2015-08-10-barbara-tozier-white-on-white.jpg)](/images/posts/l/2015-08-10-barbara-tozier-white-on-white.jpg "White on White")
 ~~~
 {: .text-highlight}
 
@@ -80,3 +80,21 @@ The third size (Medium) I think will be for images that will stand on their own.
 I'm not going to change the way I do the galleries, except maybe make the thumbnails bigger than what they are now. That won't be restructured. Actually, this brings home to me how *prescient* I was to separate out the galleries in the first place. Go me!
 
 Excuse me for a while as I go off to make a new git-branch to take care of this restructure.
+
+`<time passes`
+{: .center}
+
+OMG how cool was that! I'm really liking this branch-off-to-do-a-thing capability in git. I'm still just a neophyte, but I think I'm starting to get the hang of it.
+
+## Back to Images
+
+Ok, so that distraction is taken care of, and I can put my medium sized image in the proper folder, and post it here:
+
+![White on White](/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg)
+{: .center}
+
+This one I did *not* link to a large version. I think I kind of like that distinction. A small image you can look at closer if you'd like, and a medium-sized image stands on its own. Since it's nearly as wide as the text column (depending on the size of the window, of course), I'll center it and call it done.
+
+Now I'm left with figuring out how to make a small image pretty. With screenshots I use an `.image-pull-right` class to float them to the right. Medium images use a `.center` class. Large images are hidden until called for by the slideshow.
+
+The Jekyll template as written includes some markup for the HTML5 `<figure>` block, but to use it I have to remember the actual markup. Recall that I have a "slavish devotion" to Markdown, so that's not really going to happen. Plus, I don't really care about the semantics of the page (sorry, librarian and archivist friends!). Therefore, I'm going to just use `<img>` until I can't anymore.
