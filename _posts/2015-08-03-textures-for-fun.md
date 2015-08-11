@@ -11,13 +11,13 @@ Since I call myself a photographer, I suppose I should try to include some image
 
 Here's an image that I like:
 
-[![Orange Texture](/images/posts/th/2015-08-03-barbara-tozier-square-orange-texture.jpg)](/images/posts/2015-08-03-barbara-tozier-square-orange-texture.jpg "Orange Texture")
+[![Orange Texture](/images/posts/s/2015-08-03-barbara-tozier-square-orange-texture.jpg)](/images/posts/l/2015-08-03-barbara-tozier-square-orange-texture.jpg "Orange Texture")
 {: .figure}
 
 Here are two together:
 
-[![Orange Fabric](/images/posts/th/2015-08-03-barbara-tozier-orange-texture.jpg)](/images/posts/2015-08-03-barbara-tozier-orange-texture.jpg "Orange Fabric")
-[![Sun Texture](/images/posts/th/2015-08-03-barbara-tozier-sun-texture.jpg)](/images/posts/2015-08-03-barbara-tozier-sun-texture.jpg "Sun Texture")
+[![Orange Fabric](/images/posts/s/2015-08-03-barbara-tozier-orange-texture.jpg)](/images/posts/l/2015-08-03-barbara-tozier-orange-texture.jpg "Orange Fabric")
+[![Sun Texture](/images/posts/s/2015-08-03-barbara-tozier-sun-texture.jpg)](/images/posts/l/2015-08-03-barbara-tozier-sun-texture.jpg "Sun Texture")
 {: .figure .half}
 
 

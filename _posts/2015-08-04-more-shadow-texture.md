@@ -14,6 +14,6 @@ I also realized after the [Textures](/textures-for-fun/) post, I need to make ce
 
 All that to share this image:
 
-[![Evening Shadow](/images/posts/th/2015-08-04-barbara-tozier-evening-shadow.jpg)](/images/posts/2015-08-04-barbara-tozier-evening-shadow.jpg "Evening Shadow")
+[![Evening Shadow](/images/posts/s/2015-08-04-barbara-tozier-evening-shadow.jpg)](/images/posts/l/2015-08-04-barbara-tozier-evening-shadow.jpg "Evening Shadow")
 
 Enjoy it, and expect to see more oddly-sized images in the future.

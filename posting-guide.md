@@ -48,7 +48,11 @@ modified: 2015-08-04
 
 For now, I'm using the same layout for text-based and picture-based (and quote-based) posts. This may change, because I'm currently having to do lots of extra stuff to get images into a post. This includes creating a thumbnail for an image so too-large images don't overwhelm my RSS feed. This doesn't have a good resolution yet --- I need to make some more posts with images to get a feel for how I want to work with them in the future.
 
+Images for posts are separated by size/type. `images/posts/s` is "small" or thumbnail sized, approximately 300px on the longest dimension. `images/posts/m` is "medium" sized, about 600px on the longest dimension. `images/posts/l` is "large" sized, 12-1500 px on the longest dimension. These should only ever be linked to in a post from one of the smaller versions, so the slideshow can pick it up. I'm currently (2015-08-11) thinking that only `s` images link to `l` versions, while `m` are standalones.
 
+I've also added a 4th folder called `images/posts/ss`. This is for one-off screenshots.
+
+This feels a little fiddly, but for now I'm going for it.
 
 ### Pages
 
