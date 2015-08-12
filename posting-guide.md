@@ -72,3 +72,14 @@ Most Pages are galleries. However, the "no quotes" thing seems to be suitable. F
 `date:` isn't used in Jekyll with Pages, but I now realize it might be a good thing to have for keeping track of when things have been changed. So I'm including it.
 
 The images in the galleries are 300px thumbnails, linking to a larger (1500px) copy used for the slideshow. They are listed in `_data/gallerylist.yml` in the order they are to appear on the page. A single "feature" image is also noted --- this is the image used to represent the gallery on the Portfolio Index page.
+
+
+## Special CSS classes
+
+### images
+
+- ``.image-ss` is used to style (small) screenshot images. It will put them in their own block in the center of the text where they appear.
+
+- The `<figure>` element is used with `.image-m` to style medium-sized "digital works" images. It will put the image in its own block in the center of the text. Added to that are two HTML span classes that can be used that will "attach" some explanatory text to the image. They need to go within `<figcaption>` markup.
+    - <span class="image-m-caption">title/caption of image</span>
+    - <span class="image-m-credit">Barbara Tozier</span>

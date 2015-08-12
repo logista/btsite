@@ -75,6 +75,8 @@ pre {
   text-align:center;
 }
 
+/* asides */
+
 .aside {
   @include font-rem(10);
   background-color: lighten($text-color,70);
@@ -93,4 +95,47 @@ pre {
 
 div.aside, div.aside p {
   padding-bottom: 0px;
+}
+
+/* my image css */
+
+// screenshots
+figure.image-ss {
+  display: table;
+  margin:1em auto;
+  // text-align: center;
+}
+
+// medium images
+figure.image-m {
+  display: table;
+  margin:1em auto;
+  // text-align: center;
+}
+
+.image-m-caption, .image-m-credit {
+  display: inline-block;
+  width:49%;
+  @include font(10);
+  color: lighten($text-color, 20);
+}
+
+.image-m-credit{
+  text-align: right;
+}
+
+// small images
+figure.image-s {
+  display: table;
+  margin:1em auto;
+}
+
+figure.image-s img {
+  padding: 3px;
+}
+
+.image-s-caption {
+  display: block;
+  @include font(10);
+  color: lighten($text-color, 20);
 }
