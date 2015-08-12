@@ -194,7 +194,6 @@ I suppose the question I have to ask myself: am I going to put two small images 
 <figure class="image-s">
   <img src="/images/posts/s/2015-08-10-barbara-tozier-white-on-white.jpg">
   <img src="/images/posts/s/2015-08-10-barbara-tozier-white-on-white.jpg">
-  <span class="image-s-caption">Click image to see larger</span>
 </figure>
 
 It seems my markup is limited to two across. I could go three across with the vertical images, but changing the browser width causes too much jumping around.
@@ -204,6 +203,10 @@ However, it seems to work ok --- with some stupid CSS tricks, that is.
 Last thing for this type of image: how to indicate the image links to a larger one?
 
 <figure class="image-s">
-  <img src="/images/posts/s/2015-02-15-barbara-tozier-frost.jpg">
+  <a href="/images/posts/l/2015-02-15-barbara-tozier-frost.jpg" title="Frost"><img src="/images/posts/s/2015-02-15-barbara-tozier-frost.jpg"></a>
   <span class="image-s-caption">Click image to see larger</span>
 </figure>
+
+That's not too bad. Straight to the point, I think. I played around with coloring borders and so forth, but it just wasn't working for me. If I want to (on occasion) float any of these, I suppose I should just consider adding that style in when I want it.
+
+Stick a fork in it, I think it's done! One of us is, at any rate.
