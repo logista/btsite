@@ -48,6 +48,8 @@ modified: 2015-08-04
 
 For now, I'm using the same layout for text-based and picture-based (and quote-based) posts. This may change, because I'm currently having to do lots of extra stuff to get images into a post. This includes creating a thumbnail for an image so too-large images don't overwhelm my RSS feed. This doesn't have a good resolution yet --- I need to make some more posts with images to get a feel for how I want to work with them in the future.
 
+(added later:)
+
 Images for posts are separated by size/type. `images/posts/s` is "small" or thumbnail sized, approximately 300px on the longest dimension. `images/posts/m` is "medium" sized, about 600px on the longest dimension. `images/posts/l` is "large" sized, 12-1500 px on the longest dimension. These should only ever be linked to in a post from one of the smaller versions, so the slideshow can pick it up. I'm currently (2015-08-11) thinking that only `s` images link to `l` versions, while `m` are standalones.
 
 I've also added a 4th folder called `images/posts/ss`. This is for one-off screenshots.
@@ -78,8 +80,28 @@ The images in the galleries are 300px thumbnails, linking to a larger (1500px) c
 
 ### images
 
-- ``.image-ss` is used to style (small) screenshot images. It will put them in their own block in the center of the text where they appear.
+- The `<figure>` element is used with `.image-ss` to style (small) screenshot images. It will put them in their own block in the center of the text where they appear. It can be styled further within the `<figure>` element.
 
 - The `<figure>` element is used with `.image-m` to style medium-sized "digital works" images. It will put the image in its own block in the center of the text. Added to that are two HTML span classes that can be used that will "attach" some explanatory text to the image. They need to go within `<figcaption>` markup.
-    - <span class="image-m-caption">title/caption of image</span>
-    - <span class="image-m-credit">Barbara Tozier</span>
+    - `<span class="image-m-caption">title/caption of image</span>`
+    - `<span class="image-m-credit">Barbara Tozier</span>`
+
+- The `<figure>` element is used with `.image-s` to style small-sized "digital works" images. Up to two small images can be placed within one `<figure>` element block. If the images link to a larger image (the most common mode), then a caption `<span class="image-s-caption">Click image to see larger</span>` should be placed within `<figcaption>` markup.
+
+- Large images do not (currently) have any particular styling outside of the slideshow.
+
+### asides
+
+Asides, while they are now an HTML element, are called using `{: .aside}` markup. Longer asides require div markup that starts something like `<div class="aside" markdown="1">`. They can appear anywhere within an article. They weren't styled by the original designer, and I may end up changing it later.
+
+### attention conservation notice
+
+Goes at the top of longer articles. At the rate I'm going, it will go at the top of EVERY article ;) Called using `{: .acn}`
+
+### text box highlight
+
+Sometimes I want a "code style" block to have wrapping. This was the way I managed to make it happen. It comes after the final `~~~` of a code block as `{: .text-highlight}`
+
+### other dribs and drabs
+
+`{: .center}` is a crappy way to on occasion center a small bit of text --- code, usually.
