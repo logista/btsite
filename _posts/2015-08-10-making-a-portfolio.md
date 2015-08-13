@@ -27,7 +27,7 @@ However, I do kind of understand the `_data` file. It's simply a list of related
 All this preamble to get to the point... which is something I forgot.
 
 `<time passes>`
-{: .center}
+{: .code-snippet}
 
 Right. So I picked out a Jekyll theme called "Minimal Mistakes" which in itself doesn't have a way to do a portfolio. That's ok, because it takes care of other stuff that I don't want to deal with, like responsiveness to different screen dimensions.
 
@@ -37,7 +37,7 @@ Right. So I picked out a Jekyll theme called "Minimal Mistakes" which in itself 
 I knew from previous versions of my site that I wanted to have my portfolio galleries completely independent from each other, and completely independent from any "website" or "post/writing" images. This means I don't put my portfolio images in an `images` folder, but in a folder specific to a gallery. The way that I have Jekyll set up, each page of my site is actually held within a little folder with the post or page name on it.
 
 ![Segment of Site Structure](/images/posts/ss/2015-08-04-screen-shot-site-structure.png)
-{: .image-pull-right}
+{: .image-ss}
 
 This means that I can have a folder for each gallery, and I can have it hold all of the images associated with that gallery. Yay! But now, how do I actually tell Jekyll about those images I put there, without having to type a new `index.html` every time I make a change?
 
@@ -97,7 +97,7 @@ date: 2015-08-01
 At a minimum, the body of the file looks like:
 
 `{% raw %}{% include _gallery.html %}{% endraw %}`
-{: .center}
+{: .code-snippet}
 
 but I can include more information if I'd like, and it will become part of the gallery page. So for this particular gallery, I have a little bit of explanatory text that describes the ideas behind the project.
 
