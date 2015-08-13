@@ -72,7 +72,7 @@ So for my personal style sheet, "screenshot images" will be centered in their ow
 
 ## Actual digital works
 
-I have more or less [settled](post) on three sizes of "digital works" images --- only two of which will actually be "on" the page (the largest is in reserve to be called on by the slideshow).
+I have more or less [settled](/writing-with-images/) on three sizes of "digital works" images --- only two of which will actually be "on" the page (the largest is in reserve to be called on by the slideshow).
 
 ### Large images
 
