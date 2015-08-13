@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Writing with Images"
-excerpt: ""
+excerpt: "A long discourse on how I present images, with digressions."
 tags: [lightroom, website, self-referential, photographs, jekyll]
-date: 2015-08-11
+date: 2015-08-13
 ---
 
-wordy wordy
+Seventeen hundred words on how I'm using Lightroom to generate images for the posts on this website.
 {: .acn}
 
 {% include _toc.html %}
@@ -81,8 +81,8 @@ I'm not going to change the way I do the galleries, except maybe make the thumbn
 
 Excuse me for a while as I go off to make a new git-branch to take care of this restructure.
 
-`<time passes`
-{: .center}
+`<time passes>`
+{: .code-snippet}
 
 OMG how cool was that! You can't see what I did, unless you go to my [GitHub repository](https://github.com/logista/btsite2015) and poke around [this pull request](https://github.com/logista/btsite2015/pull/64). I'm really liking this branch-off-to-do-a-thing capability in git. I'm still just a neophyte, but I think I'm starting to get the hang of it.
 
@@ -91,7 +91,7 @@ OMG how cool was that! You can't see what I did, unless you go to my [GitHub rep
 Ok, so that distraction is taken care of, and I can put my medium sized image in the proper folder, and post it here:
 
 ![White on White](/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg)
-{: .center}
+{: .code-snippet}
 
 This one I did *not* link to a large version. I think I kind of like that distinction. A small image you can look at closer if you'd like, and a medium-sized image stands on its own. Since it's nearly as wide as the text column (depending on the size of the window, of course), I'll center it and call it done.
 
@@ -107,7 +107,7 @@ Let's see:
 
 ![White on White](/images/posts/s/2015-08-10-barbara-tozier-white-on-white.jpg)  
 One centered small image
-{: .center}
+{: .code-snippet}
 
 that (at the moment of writing) has a caption that is just some words that follow the image with a line break in between. The whole thing has a `.center` class attached to it.
 
@@ -117,3 +117,21 @@ Here are two small images:
 Two small images, not centered or anything.
 
 They are snugged up to each other, either side-by-side or top/bottom depending on how wide the window is. Ick. Time to do some design work...
+
+`<even *more* time passes>`
+{: .code-snippet}
+
+
+## A conclusion, of sorts
+
+And I have gone off and [branched](/post-image-design/) *again* to spend time thinking about how images should be presented in posts. To cut a way-too-long story short, I'm using a version of the `<figure>` element markup that was originally included with the theme.
+
+<figure class="image-m">
+  <img src="/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg">
+  <figcaption>
+    <span class="image-m-caption">White on White</span>
+    <span class="image-m-credit">Barbara Tozier</span>
+  </figcaption>
+</figure>
+
+Gah! Maybe tomorrow I'll be able to actually write something about this image.

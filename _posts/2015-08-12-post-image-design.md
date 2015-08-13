@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Image-in-Post Design"
-excerpt: ""
-tags:
-date: 2015-08-11
+excerpt: "A long document working through how I want images to be presented in posts."
+tags: [self-referential, jekyll, images, planning]
+date: 2015-08-12
 ---
 
 {% include _toc.html %}
+
+Sixteen hundred words, more or less, working through how I want images to be presented in posts. Sausage making at its most boring.
+{: .acn}
 
 ## Cogitatin'
 
