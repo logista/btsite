@@ -104,4 +104,4 @@ Sometimes I want a "code style" block to have wrapping. This was the way I manag
 
 ### other dribs and drabs
 
-`{: .center}` is a crappy way to on occasion center a small bit of text --- code, usually.
+`{: .code-snippet}` is a way to on occasion center a small bit of text --- code, usually.

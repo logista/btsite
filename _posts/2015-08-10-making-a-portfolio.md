@@ -27,7 +27,7 @@ However, I do kind of understand the `_data` file. It's simply a list of related
 All this preamble to get to the point... which is something I forgot.
 
 `<time passes>`
-{: .center}
+{: .code-snippet}
 
 Right. So I picked out a Jekyll theme called "Minimal Mistakes" which in itself doesn't have a way to do a portfolio. That's ok, because it takes care of other stuff that I don't want to deal with, like responsiveness to different screen dimensions.
 
@@ -97,7 +97,7 @@ date: 2015-08-01
 At a minimum, the body of the file looks like:
 
 `{% raw %}{% include _gallery.html %}{% endraw %}`
-{: .center}
+{: .code-snippet}
 
 but I can include more information if I'd like, and it will become part of the gallery page. So for this particular gallery, I have a little bit of explanatory text that describes the ideas behind the project.
 
