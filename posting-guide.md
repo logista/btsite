@@ -80,28 +80,104 @@ The images in the galleries are 300px thumbnails, linking to a larger (1500px) c
 
 ### images
 
-- The `<figure>` element is used with `.image-ss` to style (small) screenshot images. It will put them in their own block in the center of the text where they appear. It can be styled further within the `<figure>` element.
+#### screen captures
 
-- The `<figure>` element is used with `.image-m` to style medium-sized "digital works" images. It will put the image in its own block in the center of the text. Added to that are two HTML span classes that can be used that will "attach" some explanatory text to the image. They need to go within `<figcaption>` markup.
-    - `<span class="image-m-caption">title/caption of image</span>`
-    - `<span class="image-m-credit">Barbara Tozier</span>`
+The `<figure>` element is used with `.image-ss` to style (small) screenshot images. It will put them in their own block in the center of the text where they appear. It can be styled further within the `<figure>` element.
+
+I have made some Atom.snippets to help me remember this stuff. For example, typing `ssfm` and then `tab` *should* expand to
+
+~~~ html
+
+<figure class="image-ss">
+ <img src="/images/posts/ss/~tab to here~.jpg">
+</figure>
+
+~tab again to start typing here~
+~~~
+
+#### small-sized images (linked to larger)
 
 - The `<figure>` element is used with `.image-s` to style small-sized "digital works" images. Up to two small images can be placed within one `<figure>` element block. If the images link to a larger image (the most common mode), then a caption `<span class="image-s-caption">Click image to see larger</span>` should be placed within `<figcaption>` markup.
 
+Typing `sfm1` and then `tab` will put one image in a single figure markup with a link to the larger size, like:
+
+~~~ html
+<figure class="image-s">
+  <a href="/images/posts/l/~tab 1 to here~.jpg" title="~tab 2 here~">
+    <img src="/images/posts/s/~copies filename above~.jpg">
+  </a>
+    <span class="image-s-caption">Click image to see larger</span>
+</figure>
+
+~tab again to start typing here~
+~~~
+
+To put two small images in the same figure, type `sfm2` and then `tab`
+
+~~~ html
+<figure class="image-s">
+  <a href="/images/posts/l/~tab 1 to here~.jpg" title="~tab 2 here~">
+    <img src="/images/posts/s/~copies filename 1~.jpg">
+  </a>
+  <a href="/images/posts/l/~tab 3 here~.jpg" title="~tab 4 here~">
+    <img src="/images/posts/s/~copies filename 2~.jpg">
+  </a>
+    <span class="image-s-caption">Click image to see larger</span>
+</figure>
+
+~tab 5 to start typing here~
+~~~
+
+
+#### medium-sized images
+
+The `<figure>` element is used with `.image-m` to style medium-sized "digital works" images. It will put the image in its own block in the center of the text. Added to that are two HTML span classes that can be used that will "attach" some explanatory text to the image. They need to go within `<figcaption>` markup.
+    - `<span class="image-m-caption">title/caption of image</span>`
+    - `<span class="image-m-credit">Barbara Tozier</span>`
+
+To (I hope) make it easier, type `mfm` and then `tab` to get:
+
+~~~ html
+<figure class="image-m">
+  <img src="/images/posts/m/~tab to here~.jpg">
+  <figcaption>
+    <span class="image-m-caption">~tab 2 goes here~</span>
+    <span class="image-m-credit">Barbara Tozier</span>
+  </figcaption>
+</figure>
+
+~final tab goes here~
+~~~
+
+#### large-size images
+
 - Large images do not (currently) have any particular styling outside of the slideshow.
+
 
 ### asides
 
 Asides, while they are now an HTML element, are called using `{: .aside}` markup. Longer asides require div markup that starts something like `<div class="aside" markdown="1">`. They can appear anywhere within an article. They weren't styled by the original designer, and I may end up changing it later.
 
+You know, now that I know how to make snippets, I've done it with `asdiv`:
+
+~~~ html
+<div class="aside" markdown="1">
+~start writing~
+</div>
+
+~tab out~
+~~~
+
+This assumes that the aside isn't written yet. A similar snippet is for the kramdown markup: `asd` makes `{: .aside}` with some extra newlines.
+
 ### attention conservation notice
 
-Goes at the top of longer articles. At the rate I'm going, it will go at the top of EVERY article ;) Called using `{: .acn}`
+Goes at the top of longer articles. At the rate I'm going, it will go at the top of EVERY article ;) Called using `{: .acn}`, its snippet is `acn` (unsurprising)
 
 ### text box highlight
 
-Sometimes I want a "code style" block to have wrapping. This was the way I managed to make it happen. It comes after the final `~~~` of a code block as `{: .text-highlight}`
+Sometimes I want a "code style" block to have wrapping. This was the way I managed to make it happen. It comes after the final tildes of a code block as `{: .text-highlight}`. Snippet `thb`.
 
 ### other dribs and drabs
 
-`{: .code-snippet}` is a way to on occasion center a small bit of text --- code, usually.
+`{: .code-snippet}` is a way to on occasion center a small bit of text --- code, usually. Its snippet code is `scs`.
