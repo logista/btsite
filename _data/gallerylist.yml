@@ -1,3 +1,24 @@
+gallery-altpro:
+  title: "Alternative Processes"
+  images:
+    - filename: "01-barbara-tozier-cma-september-19-2013.jpg"
+      title: "CMA, September 19, 2013"
+      feature: true
+    - filename: "02-barbara-tozier-fern.jpg"
+      title: "Fern"
+    - filename: "03-barbara-tozier-shadowed.jpg"
+      title: "Shadowed"
+    - filename: "04-barbara-tozier-falling-leaves.jpg"
+      title: "Falling Leaves"
+    - filename: "05-barbara-tozier-warp.jpg"
+      title: "Warp"
+    - filename: "06-barbara-tozier-in-the-morning-dark.jpg"
+      title: "In the Morning Dark"
+    - filename: "07-barbara-tozier-hand.jpg"
+      title: "Hand"
+    - filename: "08-barbara-tozier-deluxe-hotel-redux.jpg"
+      title: "Deluxe Hotel Redux"
+
 gallery-elemental:
   title: "West and East"
   images:
