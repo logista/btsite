@@ -29,9 +29,6 @@ sitemap: false
 h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {font-size:65%;}
 h1, h2, h3, h4, h5, h6 {line-height:1.1;}
 
-.footer-wrap footer span {font-size: 75%;}
-.footer-wrap footer span a {font-size:100%;}
-
 .acn {
   background-color: lighten($border-color,70);
   padding: 1em;
@@ -47,9 +44,30 @@ h1, h2, h3, h4, h5, h6 {line-height:1.1;}
   margin:5px;
 }
 
+/* Site name */
 .site-name {
-  text-align:center;
+	@include grid(12,10);
+	@include prefix(12,1);
+	@include suffix(12,1);
+	margin-bottom: 0em;
+	float: none;
+	display: block;
+	@include font-rem(24);
+  @media #{$micro} {
+    text-align:center;
+  }
+	@media #{$small} {
+		@include grid(12,2);
+		@include prefix(12,0.5);
+		@include suffix(12,0.5);
+		@include font-rem(16);
+	}
+	@media #{$x-large} {
+		@include grid(12,2);
+		@include prefix(12,0);
+	}
 }
+
 
 nav.pagination {
   text-align:center;
@@ -143,4 +161,129 @@ figure.image-s img {
   display: block;
   @include font(10);
   color: lighten($text-color, 20);
+}
+
+// Main content  lifted/adapted from page.scss
+#main {
+	.post,
+	.page {
+		@include container;
+		@include grid(12,10);
+		@include prefix(12,1);
+		@include suffix(12,1);
+		margin-bottom: 2em;
+		@media #{$small} {
+			@include grid(12,6);
+			@include prefix(12,1);
+			@include suffix(12,1);
+		}
+		@media #{$x-large} {
+			@include grid(12,6);
+      @include prefix(12,1);
+      @include suffix(12,1);
+
+		}
+	}
+}
+
+// index column styling lifted/adapted from page.scss
+#index {
+	@include container;
+	@include grid(12,10);
+	@include prefix(12,1);
+	@include suffix(12,1);
+	margin-bottom: 2em;
+	@media #{$small} {
+		@include grid(12,6);
+    @include prefix(12,1);
+  	@include suffix(12,1);
+	}
+	@media #{$x-large} {
+		@include grid(12,4.5);
+    @include prefix(12,1);
+  	@include suffix(12,1);
+	}
+}
+
+
+// Author module (lifted/adapted from page.scss)
+.article-author-bottom {
+	margin-bottom: 1em;
+	@media #{$small} {
+		display: none;
+	}
+	.bio-photo {
+    max-width: 150px;
+		margin: 0 25px 10px 0;
+		@include rounded(3px);
+	}
+
+	.soc {
+    display:inline-block;
+  }
+
+	h3 {
+    display:inline-block;
+    font-size: 125%;
+    margin-top: 0;}
+
+	p.slogan {
+    display:block;
+    font-size: 80%;
+  }
+
+  p.connect {
+    display:block;
+    font-size:80%;
+    font-style: italic;
+  }
+
+  p.rights {
+    text-align: right;
+    font-size: 60%;
+    margin-bottom:0;
+  }
+
+  @media #{$large} {
+		h3,
+		p {
+      max-width: inherit;
+		}
+    .bio-photo{ max-width:150px;}
+	}
+}
+
+footer {
+  border-top: 1px solid lighten($border-color,70);
+  border-bottom: 1px solid lighten($border-color,70);
+  padding:10px;
+}
+
+// Center the menu/navigation button when small screen
+.navicon-lines-button {
+  display:block;
+  margin: 0 auto;
+}
+.nav .navtoogle {
+  background-color: lighten($primary, 15);
+}
+
+// Footer wrapper lifted/adapted from page.scss
+.footer-wrap {
+  .related-articles,
+	footer {
+		@include grid(12,10);
+		@include prefix(12,1);
+		@include suffix(12,1);
+		@media #{$small} {
+			@include grid(12,6);
+      @include prefix(12,1);
+    	@include suffix(12,1);
+		}
+		@media #{$x-large} {
+			@include grid(12,4.5);
+      @include prefix(12,1);
+    	@include suffix(12,1);
+		}
+	}
 }

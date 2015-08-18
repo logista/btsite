@@ -189,7 +189,7 @@ $button-size: 1.5rem;
 	line-height: 0;
 }
 // When JavaScript is disabled, we hide the toggle button
-.no-js .nav .navtoggle {
+.no-js .nav .navtoogle {
 	display: none;
 }
 // When JavaScript is disabled, we show the menu
@@ -263,7 +263,7 @@ $button-size: 1.5rem;
 		margin: 0;
 		padding-bottom: .5em;
 		@include font-rem(28);
-		border-bottom: 1px solid lighten($black,70);
+		border-bottom: 1px solid lighten($border-color,70);
 	}
 	article {
 		h2 {
@@ -288,16 +288,16 @@ $button-size: 1.5rem;
 	position: relative;
 	margin-bottom: 2em;
 	@include clearfix;
-	&:after {
-		content: " ";
-		display: block;
-		position: absolute;
-		bottom: 0;
-		left: 8%;
-		width: 0;
-		height: 0;
-		border: 10px solid transparent;
-		border-bottom-color: $bodycolor;
+	&:after { //comments remove the triangle from the bottom of the main header image
+		// content: " ";
+		// display: block;
+		// position: absolute;
+		// bottom: 0;
+		// left: 8%;
+		// width: 0;
+		// height: 0;
+		// border: 10px solid transparent;
+		// border-bottom-color: $bodycolor;
 		@media #{$small} {
 			left: 25%;
 		}
@@ -420,7 +420,6 @@ $button-size: 1.5rem;
 		display: none;
 	}
 	.bio-photo {
-		display:none;
 		float: left;
 		margin-right: 25px;
 		max-width: 100px;
@@ -430,9 +429,6 @@ $button-size: 1.5rem;
 		display: inline-block;
 		margin-right: 10px;
 	}
-	.soc {display:inline-block;text-align:center;}
-	h3+p {display:none;}
-	h3 {display:inline;}
 	@media #{$large} {
 		h3,
 		.bio-photo,
@@ -442,6 +438,7 @@ $button-size: 1.5rem;
 		}
 	}
 }
+
 
 /* Post content wrapper */
 .article-wrap {

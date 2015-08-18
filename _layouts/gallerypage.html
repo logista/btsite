@@ -12,12 +12,13 @@
 {% include _navigation.html %}
 
 <div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-  </div>
   <article class="page">
     {% assign galleryname = site.data.gallerylist[page.gallery].title %}
+{% if galleryname %}
     <h1>{{ galleryname }}</h1>
+  {% else %}
+    <h1>{{page.title}}</h1>
+{% endif %}
     <div class="article-wrap">
       {{ content }}
       {% if page.share != false %}
@@ -30,12 +31,8 @@
 
 </div><!-- /#index -->
 
-<div class="footer-wrap">
-  <footer>
-    {% include _footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
 
+{% include _footer.html %}
 {% include _scripts.html %}
 
 </body>

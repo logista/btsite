@@ -1,6 +1,6 @@
 ---
 layout: post-index
-title: "All Writing"
+title: "Writing Index"
 excerpt: "A list of all of the writing on the Barbara Tozier site"
 tags: [photography, criticism, practice, example]
 image:
