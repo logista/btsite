@@ -3,7 +3,7 @@
 /* Color Variables */
 
 $soc-background : $bodycolor;
-$soc-fill       : $linkcolor;
+$soc-fill       : lighten($primary,15);
 
 
 /* General soc settings */
