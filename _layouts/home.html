@@ -15,10 +15,7 @@
 {% endif %}
 
 <div id="main" role="main">
-  <div class="article-author-side">
-    <!-- hack for now -->
-    &nbsp; {% comment %}{% include _author-bio.html %}{% endcomment %}
-  </div>
+{% include _side-author-hack.html %}
   <div id="index">
     <h3><a href="/writing/">Recent writing</a></h3>
     {% for post in site.posts limit:7 %}
@@ -34,13 +31,7 @@
   </div><!-- /#index -->
 </div><!-- /#main -->
 
-<div class="footer-wrap">
-
-    {% include _footer.html %}
-
-</div><!-- /.footer-wrap -->
-
+{% include _footer.html %}
 {% include _scripts.html %}
-
 </body>
 </html>

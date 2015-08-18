@@ -15,9 +15,7 @@
 {% endif %}
 
 <div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-  </div>
+{% include _side-author-hack.html %}
   <article class="page">
     <h1>{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</h1>
     <div class="article-wrap">
@@ -30,12 +28,7 @@
   </article>
 </div><!-- /#index -->
 
-<div class="footer-wrap">
-  <footer>
-    {% include _footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
-
+{% include _footer.html %}
 {% include _scripts.html %}
 
 </body>

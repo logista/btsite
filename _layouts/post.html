@@ -15,9 +15,7 @@
 {% endif %}
 
 <div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-  </div>
+{% include _side-author-hack.html %}
   <article class="post">
     <div class="headline-wrap">
       {% if page.link %}
@@ -29,10 +27,10 @@
     <div class="article-wrap">
       {{ content }}
       <hr />
-      <footer role="contentinfo">
+
         {% if page.share != false %}{% include _social-share.html %}{% endif %}
         <p class="byline"><strong>{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
-      </footer>
+
       <nav class="pagination" role="navigation">
           {% if page.previous %}
               <a href="{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
@@ -59,10 +57,9 @@
     <hr />
   </div><!-- /.related-articles -->
   {% endif %}
-  <footer>
-    {% include _footer.html %}
-  </footer>
 </div><!-- /.footer-wrap -->
+
+{% include _footer.html %}
 
 {% include _scripts.html %}
 
