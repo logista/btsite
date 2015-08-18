@@ -12,10 +12,14 @@
 {% include _navigation.html %}
 
 <div id="main" role="main">
-{% include _side-author-hack.html %}
+    {% include _side-author-hack.html %}
   <article class="page">
     {% assign galleryname = site.data.gallerylist[page.gallery].title %}
+{% if galleryname %}
     <h1>{{ galleryname }}</h1>
+  {% else %}
+    <h1>{{page.title}}</h1>
+{% endif %}
     <div class="article-wrap">
       {{ content }}
       {% if page.share != false %}
