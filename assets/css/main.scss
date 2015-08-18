@@ -29,9 +29,6 @@ sitemap: false
 h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {font-size:65%;}
 h1, h2, h3, h4, h5, h6 {line-height:1.1;}
 
-.footer-wrap footer span {font-size: 75%;}
-.footer-wrap footer span a {font-size:100%;}
-
 .acn {
   background-color: lighten($border-color,70);
   padding: 1em;
@@ -146,7 +143,7 @@ figure.image-s img {
 }
 
 
-// Author module (lifted from page.scss)
+// Author module (lifted/adapted from page.scss)
 .article-author-bottom {
 	margin-bottom: 1em;
 	@media #{$small} {
