@@ -16,7 +16,8 @@
 
 <div id="main" role="main">
   <div class="article-author-side">
-    {% include _author-bio.html %}
+    <!-- hack for now -->
+    &nbsp; {% comment %}{% include _author-bio.html %}{% endcomment %}
   </div>
   <div id="index">
     <h3><a href="/writing/">Recent writing</a></h3>
@@ -34,9 +35,9 @@
 </div><!-- /#main -->
 
 <div class="footer-wrap">
-  <footer>
+
     {% include _footer.html %}
-  </footer>
+
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}

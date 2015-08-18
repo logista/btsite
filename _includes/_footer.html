@@ -12,11 +12,7 @@
 </div><!-- /.google-ads -->
 {% endif %}
 
-<footer role="contentinfo">
-  <div class="article-author-bottom">
+<footer role="contentinfo" class="article-author-bottom">
     {% include _author-bio.html %}
-  </div>
-
+<p class="rights">&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}.</p>
 </footer>
-
-<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}.</span>
