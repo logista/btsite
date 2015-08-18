@@ -44,9 +44,30 @@ h1, h2, h3, h4, h5, h6 {line-height:1.1;}
   margin:5px;
 }
 
+/* Site name */
 .site-name {
-  text-align:center;
+	@include grid(12,10);
+	@include prefix(12,1);
+	@include suffix(12,1);
+	margin-bottom: 0em;
+	float: none;
+	display: block;
+	@include font-rem(24);
+  @media #{$micro} {
+    text-align:center;
+  }
+	@media #{$small} {
+		@include grid(12,2);
+		@include prefix(12,0.5);
+		@include suffix(12,0.5);
+		@include font-rem(16);
+	}
+	@media #{$x-large} {
+		@include grid(12,2);
+		@include prefix(12,0);
+	}
 }
+
 
 nav.pagination {
   text-align:center;
@@ -142,6 +163,48 @@ figure.image-s img {
   color: lighten($text-color, 20);
 }
 
+// Main content  lifted/adapted from page.scss
+#main {
+	.post,
+	.page {
+		@include container;
+		@include grid(12,10);
+		@include prefix(12,1);
+		@include suffix(12,1);
+		margin-bottom: 2em;
+		@media #{$small} {
+			@include grid(12,6);
+			@include prefix(12,1);
+			@include suffix(12,1);
+		}
+		@media #{$x-large} {
+			@include grid(12,6);
+      @include prefix(12,1);
+      @include suffix(12,1);
+
+		}
+	}
+}
+
+// index column styling lifted/adapted from page.scss
+#index {
+	@include container;
+	@include grid(12,10);
+	@include prefix(12,1);
+	@include suffix(12,1);
+	margin-bottom: 2em;
+	@media #{$small} {
+		@include grid(12,6);
+    @include prefix(12,1);
+  	@include suffix(12,1);
+	}
+	@media #{$x-large} {
+		@include grid(12,4.5);
+    @include prefix(12,1);
+  	@include suffix(12,1);
+	}
+}
+
 
 // Author module (lifted/adapted from page.scss)
 .article-author-bottom {
@@ -198,13 +261,29 @@ footer {
 
 // Center the menu/navigation button when small screen
 .navicon-lines-button {
-  background-color: lighten($primary, 15);
-  display:block; margin: 0 auto;
+  display:block;
+  margin: 0 auto;
 }
 .nav .navtoogle {
   background-color: lighten($primary, 15);
 }
 
+// Footer wrapper lifted/adapted from page.scss
 .footer-wrap {
-  // TODO: figure out how to get the footerstuff to follow along with the center column.
+  .related-articles,
+	footer {
+		@include grid(12,10);
+		@include prefix(12,1);
+		@include suffix(12,1);
+		@media #{$small} {
+			@include grid(12,6);
+      @include prefix(12,1);
+    	@include suffix(12,1);
+		}
+		@media #{$x-large} {
+			@include grid(12,4.5);
+      @include prefix(12,1);
+    	@include suffix(12,1);
+		}
+	}
 }
