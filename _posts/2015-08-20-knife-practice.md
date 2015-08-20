@@ -3,7 +3,7 @@ layout: post
 title: "Knife Practice"
 excerpt: "One of my mini-projects this summer was to photograph a collection of knives."
 tags: [photography, digital, learning, knife, knives]
-date: 2015-08-19
+date: 2015-08-20
 ---
 
 One of my mini-projects this summer was to photograph a collection of knives. Most of them are folding knives, but there are a few other types, including some art knives.
