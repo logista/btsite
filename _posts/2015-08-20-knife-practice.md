@@ -34,8 +34,8 @@ Near the end of the project (as the knives got bigger) I realized I wanted to su
 There are more technical bits I learned, here are a few of them:
 
 - Let the fluorescent lights warm up for at least 30 minutes (preferably more)
-- The 55mm macro and 105mm macro have different color casts (the 105 appears to be greener)
-- The 55mm macro and 105mm macro do not give the same luminance for the same exposure values (the 105 appears to be about ⅓ stop lighter)
+- The 55mm macro and 105mm macro lenses have different color casts (the 105 appears to be greener)
+- The 55mm macro and 105mm macro lenses do not give the same luminance for the same exposure values (the 105 appears to be about ⅓ stop lighter)
 - Wear thick gloves when cleaning knives
 - Wear latex gloves when handling knives before photographing them
 - Have reflector cards/gobos available at all times.
