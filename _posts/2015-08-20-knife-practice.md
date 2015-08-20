@@ -14,6 +14,17 @@ My goal was to photograph them all in a similar manner, and to do it over a few 
 
 For this project, I photographed each knife against the same piece of Vermont Slate (I love rocks as backgrounds). That alone helped to unify the series. I used similar lighting, camera angles, exposure settings, and processing for the series. In the end I photographed 49 knives over about 6 weeks, with breaks for other projects. There are 738 images in my Lightroom catalog including tests, with about 650 "final" images.
 
+Here is a sampling of what I photographed:
+
+<figure class="image-s">
+  <a href="/images/posts/l/2015-08-20-tozier-knife-typology.jpg" title="">
+    <img src="/images/posts/s/2015-08-20-tozier-knife-typology.jpg">
+  </a>
+    <span class="image-s-caption">Click image to see larger</span>
+</figure>
+
+
+
 I learned a lot doing this project. First and foremost is that I *can* do this sort of repetitive subject. I know now that if I really truly wanted everything to be identical I would have made a set and not moved it until I was finished. However, given that the knives were of varying sizes, I don't think I could have *ever* made them identical.
 
 I also had "fun" picking out the slate. Given that I wanted something more "masculine" that would show off the knives, I thought it turned out ok. It wasn't as easy as I'd though it be to find the stone, and then my choices were limited. I was looking for something not-shiny, something blue/gray, something dark, something big enough to showcase the biggest knives. The slate turned out well, but on reflection, I think I would have preferred something a little more muted in color.
@@ -31,10 +42,51 @@ There are more technical bits I learned, here are a few of them:
 
 Here are some of my favorites...
 
-<!-- TODO:  put some pictures here. Should I gallery them? -->
+<figure class="image-m">
+  <img src="/images/posts/m/2015-08-20-tozier-wraith.jpg">
+  <figcaption>
+    <span class="image-m-caption">Wraith</span>
+    <span class="image-m-credit">Barbara Tozier</span>
+  </figcaption>
+</figure>
+
+<figure class="image-m">
+  <img src="/images/posts/m/2015-08-20-tozier-dagger.jpg">
+  <figcaption>
+    <span class="image-m-caption">Dagger</span>
+    <span class="image-m-credit">Barbara Tozier</span>
+  </figcaption>
+</figure>
+
+<figure class="image-m">
+  <img src="/images/posts/m/2015-08-20-tozier-crawford.jpg">
+  <figcaption>
+    <span class="image-m-caption">Crawford</span>
+    <span class="image-m-credit">Barbara Tozier</span>
+  </figcaption>
+</figure>
+
+<figure class="image-m">
+  <img src="/images/posts/m/2015-08-20-tozier-eagle-1.jpg">
+  <figcaption>
+    <span class="image-m-caption">Eagle</span>
+    <span class="image-m-credit">Barbara Tozier</span>
+  </figcaption>
+</figure>
+
+<figure class="image-m">
+  <img src="/images/posts/m/2015-08-20-tozier-eagle-2.jpg">
+  <figcaption>
+    <span class="image-m-caption">Eagle (detail)</span>
+    <span class="image-m-credit">Barbara Tozier</span>
+  </figcaption>
+</figure>
+
+
+---
 
 What would I do differently? I would probably use strobes, because of having to wait for the lights to stabilize... in a small room... in summer. It was hot working sometimes, though having continuous light is wonderful for figuring out where the reflections are going to land.
 
 I would also probably tether my camera to my computer. I don't do this enough, probably because my main photo processing computer is not in my studio, and I'd have to set up my laptop and *still* figure out a way to get the images to my desktop machine. So for a similar project in the future, I might spend the extra time to figure this part out.
 
-All in all, I'm pretty pleased with how things turned out.
+All in all, I'm pretty pleased with how things turned out. It's not "catalog" perfect, but that's not exactly what I was going for. However, I do know that I *can* do catalog work, if somebody wants me to.
