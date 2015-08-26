@@ -15,3 +15,5 @@ The advantage to large format is the large "sensor." The bigger the film (or sen
 In our class, we are going to be making images that are typical for large format: portrait, landscape, architecture, and macro. Mainly we're using [Toyo Field cameras](http://www.toyoview.com/Products/45AII/45AII.html "this is similar"), with black and white 4x5 film. We will be developing our film, and then finishing either in the darkroom or by scanning and printing digitally.
 
 I'm really looking forward to this class. I kept putting it off, because I really don't enjoy straight darkroom work. However, any day I get learn a new way of producing images is a good day.
+
+*Please don't remind me that I said this when I'm moaning about things not working a few months from now...*
