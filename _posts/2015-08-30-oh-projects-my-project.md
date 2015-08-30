@@ -16,4 +16,4 @@ I'm still working on some of the details, so I'll just give the gist here. Basic
 
 Doing this involves figuring out combinations of text and subject in advance, and then figuring out how to get the text onto the same negative as the subject.
 
-So first is the technical challenge, because knowing how I'm going to add the text will inform the types of images I'll make. This weekend I used up two very old (1995!) rolls of color film testing some ideas. I'll process them in Caffenol and go from there. I've processed color film in Caffenol before with varying success. Let's hope this is one of the good ones!
+So first is the technical challenge, because knowing how I'm going to add the text will inform the types of images I'll make. This weekend I used up two very old (1995!) rolls of color film testing some ideas. I'll process them in [Caffenol](https://en.wikipedia.org/wiki/Caffenol) and go from there. I've processed color film in Caffenol before with varying success. Let's hope this is one of the good ones!
