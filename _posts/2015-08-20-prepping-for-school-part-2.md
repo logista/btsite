@@ -14,7 +14,7 @@ In Projects, the "project" *is* the content of the class. For people who came to
 
 The people who maybe are in college for the first time, and think photography might be something for them, but they aren't sure, but they have to take this class to get the AS and maybe transfer to an art school but maybe they should just... they have a harder time figuring out even what kind of photography *to do*, let alone try to decide how to wrap it in a project.
 
-While I'm not in college for the first time, I feel more akin to the second group. However, my issue will be not that I don't know how to do a project, but that I have *so many ideas* and I don't know quite how to narrow them down. Some I can't do because of time, policys, or physical constraints. However, that still leaves a large list, some involving alternative processes, some involving film, some involving photographing people. Perhaps even some involving all of those.
+While I'm not in college for the first time, I feel more akin to the second group. However, my issue will be not that I don't know how to do a project, but that I have *so many ideas* and I don't know quite how to narrow them down. Some I can't do because of time, policies, or physical constraints. However, that still leaves a large list, some involving alternative processes, some involving film, some involving photographing people. Perhaps even some involving all of those.
 
 None of my ideas have gelled past the "hmmm, I wonder" part, so I'm not going to go through them here. Yet. I think what I need to do is 1) go to class tomorrow(!), 2) organize my ideas better. Right now I have about 80 [DayOne](http://dayoneapp.com) entries tagged "ideas" but they're not arranged in any order other than by date.
 
