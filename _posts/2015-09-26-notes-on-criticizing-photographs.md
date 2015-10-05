@@ -6,13 +6,13 @@ tags: [reading, class]
 date: 2015-09-26
 ---
 
-{% include _toc.html %}
-
 Reading Terry Barrett, _Criticizing Photographs: An Introduction to Understanding Images_, 5th ed., Mc-Graw Hill, 2012.
 
 
 Given the task for class to read through this book and then write a response paper outlining how some of the topics raised in the book relate to my project, I decided to make notes on *everything* first. These are those notes (roughly 3k words worth), which get less structured (and more irritated) as they go along. I actually use the term "lazy-ass". In short: It's a flabby book, but has some utility.
 {: .acn}
+
+{% include _toc.html %}
 
 ## Chapter 1
 
