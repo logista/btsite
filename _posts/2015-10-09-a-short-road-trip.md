@@ -104,7 +104,16 @@ For example, it was windy[^3] and barren[^4] in Harrisville:
 
 [^4]: [Harrisville State Park](http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=451)
 
-After lunch in Oscoda, a stretch at the Bay City Antique Center, and a freeway drive back in the rain (where I commemorated our return to T-Mo land)
+And forbidding in [Alabaster](http://www.ioscomuseum.org/history-of-alabaster.html):
+
+<figure class="image-s">
+  <a href="/images/posts/l/2015-10-03-barbara-tozier-keep-out.jpg" title="Keep Out!">
+    <img src="/images/posts/s/2015-10-03-barbara-tozier-keep-out.jpg">
+  </a>
+    <span class="image-s-caption">Click image to see larger</span>
+</figure>
+
+So we continued home. After lunch in Oscoda, a stretch at the Bay City Antique Center, and a freeway drive back in the rain (where I commemorated our return to T-Mo land)
 
 <figure class="image-m">
   <img src="/images/posts/m/2015-10-09-barbara-tozier-tmo-land.jpg">
