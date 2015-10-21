@@ -47,4 +47,4 @@ Powered by [Jekyll](http://jekyllrb.com){: rel="nofollow"} using a modified [Min
 
 There are no cookies, no trackers, no analytics on this site, as far as I know. It uses fonts and javascripts from Google.
 
-If you have any problems with the site, please contact me from the links on the left, or leave an issue at my [GitHub repository](https://github.com/logista/btsite2015/issues).
+If you have any problems with the site, please contact me from the links below, or leave an issue at my [GitHub repository](https://github.com/logista/btsite2015/issues).
