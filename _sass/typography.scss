@@ -139,13 +139,16 @@ blockquote {
    ========================================================================== */
 
 .footnotes {
+	padding-top:1em;
 	ol, li, p {
+		margin-top: 1.25em;
 		margin-bottom: 0;
-		// @include font-rem(14);
+		@include font-rem(10);
 	}
 	border-top: 1px dotted darken($body-color,10);
 
 }
+.footnotes::before {content: "Footnotes";}
 
 /*
    Paragraphs
