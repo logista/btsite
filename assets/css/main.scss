@@ -36,6 +36,11 @@ h1, h2, h3, h4, h5, h6 {line-height:1.1;}
   @include rounded(3px);
 }
 
+div.acn {
+  padding-bottom: 0;
+  margin-bottom: 1em;
+}
+
 .gallerypage img.thumbnail {
   max-height: 300px;
   max-width: 300px;
