@@ -11,3 +11,5 @@ This project is a survey of Alternative Processes. AltPro encompasses a wide ran
 {: .acn}
 
 {% include _gallery.html %}
+
+See [A New Gallery](/a-new-gallery/) for more information.

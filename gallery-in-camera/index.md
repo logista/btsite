@@ -22,3 +22,5 @@ Chemical and digital photography (and all mixtures of the two) are each "real" p
 
 
 {% include _gallery.html %}
+
+See [_In Camera_, Retrospective](/in-camera-retrospective/) for more information.
