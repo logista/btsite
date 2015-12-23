@@ -48,7 +48,7 @@ Cameron's work can be broadly cast into two categories: portraits of Great Men a
 
 In addition to the thematic work exemplified by the _tableaux vivants_, Cameron was influenced by and had a lesson from David Wilkie Wynfield, a painter and photographer known "to adjust the camera slightly out of focus" [M. H. Stephen Smith, quoted in Ford 2003, p 36].
 
-Cameron's portraits are known for their soft focus and frame-filling faces. The equipment she used was partly responsible: "it would have been virtually impossible with such a lens to get a close-up portrait in focus on the 11\times9\" plates.... [When] she changed her camera for one that took even bigger negatives... [it] made the problem even worse." [Ford 2003, p. 42] This technical "flaw" could have been mitigated by changing gear if she had wanted to "improve" the images.
+Cameron's portraits are known for their soft focus and frame-filling faces. The equipment she used was partly responsible: "it would have been virtually impossible with such a lens to get a close-up portrait in focus on the 11\" × 9\" plates.... [When] she changed her camera for one that took even bigger negatives... [it] made the problem even worse." [Ford 2003, p. 42] This technical "flaw" could have been mitigated by changing gear if she had wanted to "improve" the images.
 
 This is the reason her work was considered controversial when she exhibited it. Not for its subject matter, which fit perfectly well with Victorian tastes, but because she refused to make technically perfect photographs.
 
