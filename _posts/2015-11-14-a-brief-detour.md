@@ -4,6 +4,7 @@ title: "A Brief Detour to Digital Land"
 excerpt: "I was taking a break from Film, and I found a new project"
 tags: [photograph,mold,digital,color]
 date: 2015-11-14
+ogimage: "/images/posts/s/2015-11-14-barbara-tozier-alien-scape-1.jpg"
 ---
 
 The past few months I've worked mostly with film, and I've been reminded why I didn't push harder to have my own darkroom in the years between my first go around with photography and now. There are a lot of things tied up in this, but here's the gist of it: a completely chemical workflow is fiddly and frustrating and enervating and expensive.[^digital]

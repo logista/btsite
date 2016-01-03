@@ -4,6 +4,7 @@ title: "Julia Margaret Cameron and _The Kiss of Peace_"
 excerpt: "A short paper I wrote for Projects class"
 tags: [Julia Margaret Cameron, The Kiss of Peace, paper]
 date: 2015-12-22
+ogimage: "/images/posts/m/2015-12-22-umma-cameron-musart_1975_1.63.jpg"
 ---
 
 {% include _toc.html %}

@@ -4,6 +4,7 @@ title: "_In Camera_, Retrospective"
 excerpt: "I didn't talk a lot about it while I was doing it: here are ~1k words of review"
 tags: [photographs, class, projects, film]
 date: 2015-12-12
+ogimage: "/gallery-in-camera/th/01-barbara-tozier-in-camera-cover.jpg"
 ---
 
 <figure class="image-s">

@@ -4,6 +4,7 @@ title: "More Shadow Texture"
 excerpt: "I'm still trying to figure out a workflow for writing-related ad hoc images."
 tags: [photograph, texture, abstract, shadow]
 date: 2015-08-04
+ogimage: '/images/posts/l/2015-08-04-barbara-tozier-evening-shadow.jpg'
 ---
 
 I'm still trying to figure out a workflow for writing-related ad hoc images. (Or, _ad hoc_ if you listen to some people in the house.)

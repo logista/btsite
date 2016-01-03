@@ -4,6 +4,7 @@ title: "A Short Road Trip"
 excerpt: "We went 'Up North' for a couple of days, and I made some pictures."
 tags: [photographs, digital, travel, michigan, lake huron]
 date: 2015-10-09
+ogimage: "/images/posts/s/2015-10-01-barbara-tozier-dahlia-hill.jpg"
 ---
 
 Partly to get past [my resistance](/resistance/) and partly because October is our favorite month and partly because we haven't been away for a long time, we took a couple of days and went up north.[^1]

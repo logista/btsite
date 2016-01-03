@@ -4,6 +4,7 @@ title: "Trial and Error"
 excerpt: "A short report on my 'In Camera' project"
 tags: [projects, in camera, examples]
 date: '2015-09-20 20:00'
+ogimage: '/images/posts/m/2015-09-11-barbara-tozier-no-filter.jpg'
 ---
 
 In the two weeks since I last wrote, I have exposed and developed three rolls of 120 film, and one roll of 35mm film (and four 4×5 sheets of film, but not for this project). It doesn't seem like a lot, especially compared to digital, but developing takes time, and I'm limited to only a few hours a week (in which I also need to print contact sheets, scan negatives, and print inkjet images).

@@ -4,6 +4,7 @@ title: "What is White?"
 excerpt: "A short lesson on how we see white light"
 tags: [photograph, theory, white, light]
 date: '2015-08-13 14:00'
+ogimage: "/images/posts/m/2015-08-13-barbara-tozier-wow-redux.jpg"
 ---
 
 I've spent a lot of time over the last couple of days writing very long posts about how I'm going to one day show an image that I want to write about. The digression started when I made this image:
