@@ -4,6 +4,7 @@ title: "Image-in-Post Design"
 excerpt: "A long document working through how I want images to be presented in posts."
 tags: [self-referential, jekyll, images, planning]
 date: 2015-08-12
+ogimage: '/images/posts/s/2015-08-10-barbara-tozier-white-on-white.jpg'
 ---
 
 {% include _toc.html %}

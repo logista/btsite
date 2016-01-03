@@ -4,6 +4,7 @@ title: "Writing with Images"
 excerpt: "A long discourse on how I present images, with digressions."
 tags: [lightroom, website, self-referential, photographs, jekyll]
 date: 2015-08-13
+ogimage: "/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg"
 ---
 
 Seventeen hundred words on how I'm using Lightroom to generate images for the posts on this website.

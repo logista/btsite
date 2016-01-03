@@ -4,6 +4,7 @@ title: "Large Format Update"
 excerpt: "Landscape and Architecture, Oh My!"
 tags: [photography, black and white, large format]
 date: 2015-11-01
+ogimage: "/images/posts/s/2015-11-01-barbara-tozier-au-gres.jpg"
 ---
 
 I knew it'd be difficult to keep things updated here when school really got going, but I didn't expect to fall down so far, so fast.

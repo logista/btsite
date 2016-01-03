@@ -4,6 +4,7 @@ title: "Large Format Portrait"
 excerpt: "The result (so far) of our first assignment."
 tags: [large format, class]
 date: '2015-09-20 22:00'
+ogimage: '/images/posts/m/2015-09-14-barbara-tozier-bill-lf.jpg'
 ---
 
 Our first assignment is to make a portrait. Portraits are not my favorite thing. People move, they get tired, I don't know how to make them comfortable or pose them... with digital imaging, it's easy to just click the shutter a few dozen times and pick the good ones. Unless something is wrong with your settings or your subject, you *will* make an acceptable portrait.

@@ -5,6 +5,7 @@ excerpt: "Since I call myself a photographer, I suppose I should try to include 
 tags: [photograph, texture, orange, gray]
 date: 2015-08-03
 modified: 2015-08-04
+ogimage: '/images/posts/s/2015-08-03-barbara-tozier-square-orange-texture.jpg'
 ---
 
 Since I call myself a photographer, I suppose I should try to include some images in my posts. I expect that *future* posts will have some technical and/or theoretical stuff related to photography (especially as I get into my coursework at the end of the month *eek!*) but to test that this new system works (for some undefined definition of that word...)
