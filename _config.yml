@@ -9,7 +9,7 @@ url:      http://barbaratozier.com
 
 permalink:   /:title/
 markdown:    kramdown
-highlighter: rouge
+highlighter: 
 sass:
   sass_dir: _sass
   style: compressed
