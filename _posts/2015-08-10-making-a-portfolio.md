@@ -65,7 +65,7 @@ After the title, we have a list of images, each with a filename and title. I hav
 
 Here's a rough idea of the directory structure:
 
-~~~
+{% highlight text %}
 my-site |  
         | - gallery-elemental  
           | - 01-barbara-tozier-tetrahedron-fire.jpg  
@@ -76,7 +76,7 @@ my-site |
             | - 02-barbara-tozier-cube-stone.jpg  
             | - <etc>  
           | - index.md  
-~~~
+{% endhighlight %}
 
 
 ## The Gallery Index Page
