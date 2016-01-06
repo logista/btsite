@@ -19,7 +19,7 @@ sitemap: false
 @import "site";
 @import "typography";
 @import "pygments";
-@import "coderay";
+// @import "coderay";
 @import "elements";
 @import "forms";
 @import "page";
@@ -78,17 +78,7 @@ nav.pagination {
   text-align:center;
 }
 
-.text-highlight {
-  background-color: darken($bodycolor,5);
-	font-family: $code-font;
-	@include font(10);
-	color: darken($textcolor,5);
-	margin-bottom: 1.5em;
-	@include rounded(3px);
-		position: relative;
-		padding: 1em;
-    white-space:pre-wrap;
-}
+
 
 pre {
   @include font-rem(10);
@@ -98,6 +88,18 @@ pre {
 	@include rounded(3px);
   padding: .5em;
   }
+
+div.text-highlight pre{
+    background-color: darken($bodycolor,5);
+    font-family: $code-font;
+    @include font(10);
+    color: darken($textcolor,5);
+    margin-bottom: 1.5em;
+    @include rounded(3px);
+    	position: relative;
+    	padding: 1em;
+      white-space:pre-wrap;
+}
 
 .code-snippet {
   text-align:center;
