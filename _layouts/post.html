@@ -37,26 +37,13 @@
           {% if page.next %}
               <a href="{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
           {% endif %}
+          <br><a href="/writing/">View all writings</a>
       </nav><!-- /.pagination -->
     </div><!-- /.article-wrap -->
   </article>
 </div><!-- /#main -->
 
 
-<div class="footer-wrap">
-  {% if site.related_posts.size > 0 %}
-  <div class="related-articles">
-    <hr />
-  <h3>You might also enjoy <small class="pull-right">(<a href="/writing/">View everything</a>)</small></h3>
-    <ul>
-    {% for post in site.related_posts limit:3 %}
-      <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></li>
-    {% endfor %}
-    </ul>
-    <hr />
-  </div><!-- /.related-articles -->
-  {% endif %}
-</div><!-- /.footer-wrap -->
 
 {% include _footer.html %}
 
