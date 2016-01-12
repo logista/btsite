@@ -15,7 +15,7 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
-incremental: true
+# incremental: true
 
 kramdown:
   auto_ids: true
