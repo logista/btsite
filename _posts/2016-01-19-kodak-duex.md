@@ -3,7 +3,7 @@ layout: post
 title: "Kodak Duex"
 excerpt: "How do you use an old camera?"
 tags: [kodak duex, engineering, film]
-date: 2016-01-18
+date: 2016-01-19
 ogimage: "/images/posts/m/2016-01-18-barbara-tozier-duex-decision.jpg"
 ---
 
