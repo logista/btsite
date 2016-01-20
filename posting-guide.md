@@ -43,6 +43,7 @@ excerpt: "Since I call myself a photographer, I suppose I should try to include 
 tags: [photograph, texture, orange, gray]
 date: 2015-08-03
 modified: 2015-08-04
+ogimage: '/images/posts/s/2015-08-03-barbara-tozier-square-orange-texture.jpg'
 ---
 ~~~
 
@@ -55,6 +56,10 @@ Images for posts are separated by size/type. `images/posts/s` is "small" or thum
 I've also added a 4th folder called `images/posts/ss`. This is for one-off screenshots.
 
 This feels a little fiddly, but for now I'm going for it.
+
+(added later:)
+
+To get a nice "social media" promotable image, use the YAML `ogimage:` tag. Pick one of the images on the page and include the full URL.
 
 ### Pages
 
