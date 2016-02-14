@@ -46,7 +46,7 @@ gallery-altpro:
       title: "Deluxe Hotel Redux"
 
 gallery-elemental:
-  title: "West and East"
+  title: "Elemental"
   images:
     - filename: "01-barbara-tozier-tetrahedron-fire.jpg"
       title: "Tetrahedron Fire"
@@ -62,7 +62,7 @@ gallery-elemental:
       title: "Elementals"
       feature: true
     - filename: "07-barbara-tozier-elementals-3d.jpg"
-      title: "West and East (installation)"
+      title: "Elemental (installation)"
 
 gallery-stories:
   title: "Stories"
