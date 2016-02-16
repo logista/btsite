@@ -26,7 +26,7 @@ Unfortunately I haven't been able to figure out how to show the processes involv
     <span class="image-s-caption" markdown="1">_CMA, September 19, 2013_  
 Digital Negative  
 Gum Bichromate over Cyanotype  
-7.5" x 5.5"</span>
+7.5\" x 5.5\"</span>
 </figure>
 
 <figure class="image-s">
@@ -34,7 +34,7 @@ Gum Bichromate over Cyanotype
     <span class="image-s-caption" markdown="1">_Fern_  
 Digital Pinhole, Digital Negative  
 Sepia Toned Silver Gelatin Print  
-4.75" x 7.75"</span>
+4.75\" x 7.75\"</span>
 </figure>
 
 <figure class="image-s">
@@ -42,14 +42,14 @@ Sepia Toned Silver Gelatin Print
     <span class="image-s-caption" markdown="1">_Shadowed_  
 Digital Negative  
 Lith Print  
-6.75" x 9.75"</span>
+6.75\" x 9.75\"</span>
 </figure>
 
 <figure class="image-s">
     <img src="/gallery-altpro/th/04-barbara-tozier-falling-leaves.jpg">
     <span class="image-s-caption" markdown="1">_Falling Leaves_  
 Instant Film Photograms  
-Each 3" x 4"</span>
+Each 3\" x 4\"</span>
 </figure>
 
 <figure class="image-s">
@@ -57,21 +57,21 @@ Each 3" x 4"</span>
     <span class="image-s-caption" markdown="1">_Warp_  
 Separate color Emulsion Lifts  
 Cardstock  
-5" x 4.5"</span>
+5\" x 4.5\"</span>
 
 </figure><figure class="image-s">
     <img src="/gallery-altpro/th/06-barbara-tozier-in-the-morning-dark.jpg">
     <span class="image-s-caption" markdown="1">_In the Morning Dark_  
 Emulsion Lifts, Vintage Photos  
 Wooden Frame  
-10.125" x 8.125"</span>
+10.125\" x 8.125\"</span>
 </figure>
 
 <figure class="image-s">
     <img src="/gallery-altpro/th/07-barbara-tozier-hand.jpg">
     <span class="image-s-caption" markdown="1">_Hand_  
 Release Paper Inkjet Transfer  
-9.75" x 6.75"</span>
+9.75\" x 6.75\"</span>
 </figure>
 
 <figure class="image-s">
@@ -79,5 +79,10 @@ Release Paper Inkjet Transfer
     <span class="image-s-caption" markdown="1">_Deluxe Hotel Redux_  
 Vintage Slide on Instant Film  
 Release Paper Inkjet Transfer  
-7.25" x 6"</span>
+7.25\" x 6\"</span>
 </figure>
+
+
+---
+
+**Updated 2016-02-15** I've made photos of the last two images from the class, which are being shown on long-term loan to Washtenaw Community College. You can read about them [here](/two-more-from-alternative-processes/).

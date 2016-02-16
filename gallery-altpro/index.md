@@ -13,3 +13,5 @@ This project is a survey of Alternative Processes. AltPro encompasses a wide ran
 {% include _gallery.html %}
 
 See [A New Gallery](/a-new-gallery/) for more information.
+
+Updates (two new prints --- _Pears_ and _Calla_) are in [Two More from Alternative Processes](/two-more-from-alternative-processes/).
