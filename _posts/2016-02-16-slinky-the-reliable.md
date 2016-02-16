@@ -26,7 +26,7 @@ However, since I'm *in* the class (and taking it for credit) I, uh, actually nee
 
 The current assignment is "Motion" --- stop motion, slowed motion, panning... stuff that's all pretty easy to accomplish if the weather is decent, and is a pain to do if you're stuck inside. Like I have been for the past week.. and need to have a roll to develop tomorrow...
 
-I was trying all sorts of things: bean pours (like a beer pour, but with beans), fake waterfalls, bouncing balls... and nothing was working. Either I wasn't able to make an interesting composition or I didn't have the right sort of light to get the effect I wanted. In then end, I turned to my old friend Slinky.
+I was trying all sorts of things: bean pours (like a [beer pour](https://www.google.com/search?q=beer+pour&tbm=isch), but with beans), fake waterfalls, bouncing balls... and nothing was working. Either I wasn't able to make an interesting composition or I didn't have the right sort of light to get the effect I wanted. In the end, I turned to my old friend Slinky.
 
 Slinky is a wonderful subject --- it can move, it can be still, it can look super abstract, and often all in the same image. The pictures here are digital; I'm hoping I have similar (or better!) ones on film.[^spend]
 
