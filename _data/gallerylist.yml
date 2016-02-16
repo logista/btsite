@@ -44,6 +44,10 @@ gallery-altpro:
       title: "Hand"
     - filename: "08-barbara-tozier-deluxe-hotel-redux.jpg"
       title: "Deluxe Hotel Redux"
+    - filename: "09-barbara-tozier-pears.jpg"
+      title: "Pears"
+    - filename: "10-barbara-tozier-calla.jpg"
+      title: "Calla"
 
 gallery-elemental:
   title: "Elemental"
