@@ -186,3 +186,11 @@ Sometimes I want a "code style" block to have wrapping. This was the way I manag
 ### other dribs and drabs
 
 `{: .code-snippet}` is a way to on occasion center a small bit of text --- code, usually. Its snippet code is `scs`.
+
+### Video posts
+
+There is an include (`_video-embed.html`) that will help put a YouTube video into a post. It's called from within the post. The YAML header should include a key-value pair of `youtubeId: yourvideoid`
+
+~~~ HTML
+{% include _video-embed.html id=page.youtubeId %}
+~~~
