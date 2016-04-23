@@ -40,10 +40,17 @@ Barbara Tozier is a conceptual artist whose medium is photography in all of its 
 - Film
     - 2015 _My Father, The Alien_, short film (producer, writer)
     - 2012 _Tommy Button_, short film (producer)
+    - 2010, 1st Assistant Director, _Felix Graves_ episode 2, "Double Booked"
 - Education
     - 2016 (expected) AS, Photographic Technology, Washtenaw Community College
     - 2002, MBA with High Distinction, University of Michigan
     - 1987, BS, Mechanical Engineering, Case Western Reserve University
+- Related Work experience
+    - 2013--present, Student Lab Assistant, Photo Lab, Washtenaw Community College
+    - 2009--present, Self-employed Product Photographer
+    - 2009--present, Co-owner and Producer, Fun Yet Films
+    - 2008--2015, Freelance Camera Assistant
+    - 2009--2010, Freelance Production Assistant
 
 ### Site
 
