@@ -2,7 +2,7 @@
 layout: gallerypage
 gallery: gallery-in-camera
 title: "In Camera"
-excerpt: "A survey of alternative processes"
+excerpt: "A portfolio project"
 tags: [photograph, film, fine art, commentary, teasing]
 date: 2015-12-11
 ---
