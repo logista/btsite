@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "After LeWitt, Part 1: Diverse"
-excerpt: "A video examining one assumption underlying a Sol LeWitt piece."
+excerpt: "A time lapse video examining one assumption underlying a Sol LeWitt piece."
 tags: [cubes, video, lewitt, grid]
-date: "2016-04-24 08:30:00 -0500"
-ogimage: ""
-youtubeId: Gh8Lw8dP4S4
+date: "2016-04-23 08:30:00 -0500"
+ogimage: "/images/posts/m/2016-04-23-barbara-tozier-cubes.png"
+youtubeId: RTpdioaBoFo
 ---
 
 {% include _video-embed.html id=page.youtubeId %}
