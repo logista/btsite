@@ -7,6 +7,6 @@
   {% endif %}
 alt="{{ page.title }} feature image">
 {% if page.image.title %}
-  <span class="image-credit">{{ page.image.title }}</span>
+  <span class="image-credit">{{ page.image.title  | markdownify | remove: '<p>' | remove: '</p>'}}</span>
 {% endif %}
 </div><!-- /.image-wrap -->
