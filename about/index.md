@@ -32,7 +32,8 @@ Barbara Tozier is a conceptual artist whose medium is photography in all of its 
 - Honors
     - 2015--2016 Washtenaw Community College Divisional Scholarship
 - Photography
-    - 2016 Joint show, _Alternative Processes_, Washtenaw Community College
+    - 2016 Joint show, _WCC Alternative Processes_, 22 North Gallery, Ypsilanti
+    - 2016 Joint show, _Dancing in the Dark_ (Alternative Processes), Washtenaw Community College
     - 2016 Joint show, _Portraits_, Washtenaw Community College
     - 2015 Joint show, _Food_, Washtenaw Community College Gallery One
     - 2015 Joint show, _Modernizing the Archaic_, Kerrytown Concert House
@@ -43,6 +44,7 @@ Barbara Tozier is a conceptual artist whose medium is photography in all of its 
     - 2010, 1st Assistant Director, _Felix Graves_ episode 2, "Double Booked"
 - Education
     - 2016 (expected) AS, Photographic Technology, Washtenaw Community College
+    - 2016 Certificate, Photographic Imaging, Washtenaw Community College
     - 2002, MBA with High Distinction, University of Michigan
     - 1987, BS, Mechanical Engineering, Case Western Reserve University
 - Related Work experience
