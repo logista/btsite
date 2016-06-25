@@ -14,13 +14,13 @@ modified: 2016-04-23
 
 ### Statement
 
-My work considers photography in all of its aspects, and in many of its forms, often commenting on photographic and contemporary art culture in self-contained projects. I have been influenced by artists like Sol LeWitt, William Powhida, and every photographer on the internet. I don't use any one technique for my work, each piece dictates its own final form. My subjects tend toward mathematical and/or minimalist representations of everyday things, and are often abstract. If there is a "red thread" through my work, it would be represented by the acronym HATCHES (Handwork, Algorithm, Text, Chaos, Humor, Experimentation, Simplicity), which describes how I go about making my art.
+My work considers photography in all of its aspects, and in many of its forms, often commenting on photographic and contemporary art culture in self-contained projects. I don't use any one technique for my work, each piece dictates its own final form. My subjects tend toward mathematical and/or minimalist representations of everyday things, and are often abstract. If there is a "red thread" through my work, it would be represented by the acronym HATCHES (Handwork, Algorithm, Text, Chaos, Humor, Experimentation, Simplicity), which describes how I go about making my art.
 
 ### Bio
 
-Born in Ohio, Barbara Tozier works in photography --- digital, analog, and hybrid --- with forays into video and multimedia. She settled in Michigan in 1997, after an engineering career that took her to Pennsylvania and the Netherlands. In 2009 she reconnected with photography (having studied with Nicholas Hlobeczy in college), and in 2012 started taking photo classes at Washtenaw Community College where she expects to receive an Associates degree in May 2016.
+Born in Ohio, Barbara Tozier works in photography --- digital, analog, and hybrid --- with forays into video and multimedia. She settled in Michigan in 1997, after an engineering career that took her to Pennsylvania and the Netherlands. In 2009 she reconnected with photography (having studied with Nicholas Hlobeczy in college), and in 2012 started taking photo classes at Washtenaw Community College where she received an Associates degree in May 2016.
 
-She has exhibited at the Ann Arbor Street Art Fair, The Original, and in group shows at Washtenaw Community College and Kerrytown Concert House. In 2015 she was awarded a Divisional Scholarship by WCC. She lives and works in Ann Arbor, Michigan.
+She has exhibited at the Ann Arbor Street Art Fair, The Original, and in group shows at 22 North Gallery (Ypsilanti), Washtenaw Community College and Kerrytown Concert House (Ann Arbor). She lives and works in Ann Arbor, Michigan.
 
 ### Blurb
 
@@ -29,8 +29,6 @@ Barbara Tozier is a conceptual artist whose medium is photography in all of its 
 
 ### CV (selected)
 
-- Honors
-    - 2015--2016 Washtenaw Community College Divisional Scholarship
 - Photography
     - 2016 Joint show, _WCC Alternative Processes_, 22 North Gallery, Ypsilanti
     - 2016 Joint show, _Dancing in the Dark_ (Alternative Processes), Washtenaw Community College
@@ -43,10 +41,12 @@ Barbara Tozier is a conceptual artist whose medium is photography in all of its 
     - 2012 _Tommy Button_, short film (producer)
     - 2010, 1st Assistant Director, _Felix Graves_ episode 2, "Double Booked"
 - Education
-    - 2016 (expected) AS, Photographic Technology, Washtenaw Community College
+    - 2016 AS with High Honors, Photographic Technology, Washtenaw Community College
     - 2016 Certificate, Photographic Imaging, Washtenaw Community College
     - 2002, MBA with High Distinction, University of Michigan
     - 1987, BS, Mechanical Engineering, Case Western Reserve University
+- Honors
+    - 2015--2016 Washtenaw Community College Divisional Scholarship
 - Related Work experience
     - 2013--present, Student Lab Assistant, Photo Lab, Washtenaw Community College
     - 2009--present, Self-employed Product Photographer
