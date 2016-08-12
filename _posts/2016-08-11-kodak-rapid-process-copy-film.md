@@ -36,7 +36,7 @@ Now what does 60 seconds mean in this context? When I metered this scene, I set 
 
 [^expect]: To be honest, I expected the "best" exposure to be in the 30 second range, but many factors could have affected the time, not the least of which is the age of the film or my development method.
 
-I developed it in Kodak HC-110 with a bit of a guess at a dilution. Some people say to use "Dilution E" which is (1+47), and some others use (1+49). I don't have stock HC-110; I happen to have some premixed to "Dilution B" which is (1+9). After hemming and hawing with milliliters and ounces and trying to remember my high school chemistry calculations, I settled on 10 ounces of the premixed Dilution B plus 6 ounces of water. This is more than enough for one roll in my developing tank. I developed for 6 minutes: I agitated for 30 seconds to start, then for 10 seconds every minute thereafter. I used water to stop, then Ilford Rapid Fix (1+4), and then wash and dry.[^pf]
+I developed it in Kodak HC-110 with a bit of a guess at a dilution. Some people say to use "Dilution E" which is (1+47), and some others use (1+49). I don't have stock HC-110; I happen to have some premixed to "Dilution B" which is (1+31). After hemming and hawing with milliliters and ounces and trying to remember my high school chemistry calculations, I settled on 10 ounces of the premixed Dilution B plus 6 ounces of water. This is more than enough for one roll in my developing tank. I developed for 6 minutes: I agitated for 30 seconds to start, then for 10 seconds every minute thereafter. I used water to stop, then Ilford Rapid Fix (1+4), and then wash and dry.[^pf]
 
 [^pf]: I didn't use any Photoflo because I don't have any. I might get some one day.
 
