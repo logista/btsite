@@ -15,6 +15,24 @@ During our visit, I realized that the question of "is this a functional object o
 
 Ah, but that is a question for further study, and not what I wanted to share here. The particular exhibit we saw was showing glass that is held in private collections, which means pieces that aren't often seen by the public. We also spent a few moments in the Glass Study Room and saw items in the TMA permanent collection.
 
+<figure class="image-m">
+  <img src="/images/posts/m/2016-08-03-steffen_dam_picture_block.jpg">
+  <figcaption>
+    <span class="image-m-caption" markdown="1">Steffen Dam, _Picture Block_</span>
+  </figcaption>
+</figure>
+
+I liked this work by Dam because of its organic feel, and for its echo of natural history books. I photographed it with the damp-stained curtain in the background because it extended the feeling of being in the water.
+
+
+<figure class="image-m">
+  <img src="/images/posts/m/2016-08-03-nicole_ayliffe_coast_at_byron_bay.jpg">
+  <figcaption>
+    <span class="image-m-caption" markdown="1">Nicole Ayliffe, _Coast at Byron Bay_</span>
+  </figcaption>
+</figure>
+
+Ayliffe's work is the most "photographic" of the pieces, what with the photograph being attached to the glass and all. I'm not a fan of *doing* image transfers, but I appreciate when others do them. This is a well-done example and makes me wonder if there are other ways to incorporate photography and glass.
 
 
 
