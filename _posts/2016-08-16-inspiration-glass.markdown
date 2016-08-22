@@ -35,6 +35,31 @@ I liked this work by Dam because of its organic feel, and for its echo of natura
 Ayliffe's work is the most "photographic" of the pieces, what with the photograph being attached to the glass and all. I'm not a fan of *doing* image transfers, but I appreciate when others do them. This is a well-done example and makes me wonder if there are other ways to incorporate photography and glass.
 
 
+<figure class="image-m">
+  <img src="/images/posts/m/2016-08-03-flora_mace_joey_kirkpatrick_lime.jpg">
+  <figcaption>
+    <span class="image-m-caption" markdown="1">Flora Mace and Joey Kirkpatrick, _Lime_</span>
+  </figcaption>
+</figure>
+
+Wow. This piece is about the size of a football. I also love the color --- lime green is one of my favorites.
+
+<figure class="image-m">
+  <img src="/images/posts/m/2016-08-03-preston_singletary_chest.jpg">
+  <figcaption>
+    <span class="image-m-caption" markdown="1">Preston Singletary, _Chest_</span>
+  </figcaption>
+</figure>
+
+This internally-lit double-sided sculpture interprets Tlingit imagery into a different medium. A lovely way of separating "function" from "symbol".
+
+<figure class="image-m">
+  <img src="/images/posts/m/2016-08-03-tom_patti_spectral_starphire.jpg">
+  <figcaption>
+    <span class="image-m-caption" markdown="1">Tom Patti, _Spectral Starphire_</span>
+  </figcaption>
+</figure>
+
 
 
 The pictures here were made for my own study --- I encourage you to visit the artists' websites to see more of their work.
