@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Inspiration: Glass"
-date: "2016-08-16 22:50:19 -0400"
-excerpt: ""
-tags: []
-ogimage: ""
+date: "2016-08-30 22:50:19 -0400"
+excerpt: "A visit to the Toledo Museum of Art Glass Pavillion"
+tags: [inspiration,glass,toledo,museum]
+ogimage: "/images/posts/m/2016-08-03-flora_mace_joey_kirkpatrick_lime.jpg"
 ---
 
 My [husband](http://vaguery.com) and I recently went to the [Glass Pavilion](http://www.toledomuseum.org/glass-pavilion/) at the [Toledo Museum of Art](http://www.toledomuseum.org). I love to visit museums, but I find it works out best when I don't try to see everything in one go. Lucky for me, a visit to Toledo is a nice little day trip, so I can go just about whenever I get the idea.
@@ -42,7 +42,7 @@ Ayliffe's work is the most "photographic" of the pieces, what with the photograp
   </figcaption>
 </figure>
 
-Wow. This piece is about the size of a football. I also love the color --- lime green is one of my favorites.
+Wow. This piece is about the size of a football. I also love the color --- lime green is one of my favorites. I appreciate the skill involved in making this piece --- it feels like it would weigh about as much as a balloon.
 
 <figure class="image-m">
   <img src="/images/posts/m/2016-08-03-preston_singletary_chest.jpg">
@@ -60,7 +60,36 @@ This internally-lit double-sided sculpture interprets Tlingit imagery into a dif
   </figcaption>
 </figure>
 
+This "stacked" glass sculpture scratches my math/geometry itch.
 
+<figure class="image-m">
+  <img src="/images/posts/m/2016-08-03-christopher_ries_point_of_view.jpg">
+  <figcaption>
+    <span class="image-m-caption" markdown="1">Chrisopher Ries, _Point of View_</span>
+  </figcaption>
+</figure>
+
+Sometimes a piece surprises you with its depth. This is a wonderful example of a "smooth" surface showing more than you would expect. Each face of the sculpture (and each orientation of the viewer with respect to the surface) exposes a different geometric arrangement.
+
+<figure class="image-m">
+  <img src="/images/posts/m/2016-08-03-william_carlson_pragnanz_series_ii.jpg">
+  <figcaption>
+    <span class="image-m-caption" markdown="1">William Carlson, _Pragnanz, Series II_</span>
+  </figcaption>
+</figure>
+
+This assemblage is in the study gallery, so it's not the best way to appreciate it from all angles, but I like how it makes use of varied materials. It was completed in 1986, and I must say that it *feels* like it's from the ’80s.
+
+<figure class="image-m">
+  <img src="/images/posts/m/2016-08-03-karla_trinkley_pink_bowl.jpg">
+  <figcaption>
+    <span class="image-m-caption" markdown="1">Karla Trinkley, _Pink Bowl_</span>
+  </figcaption>
+</figure>
+
+Another one from the study gallery, this piece by Trinkley reminds me that glass is not *always* smooth.
+
+---
 
 The pictures here were made for my own study --- I encourage you to visit the artists' websites to see more of their work.
 
