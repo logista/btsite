@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Inspiration: Glass"
-date: "2016-08-30 22:50:19 -0400"
+date: "2016-08-30 20:50:19 -0400"
 excerpt: "A visit to the Toledo Museum of Art Glass Pavillion"
 tags: [inspiration,glass,toledo,museum]
 ogimage: "/images/posts/m/2016-08-03-flora_mace_joey_kirkpatrick_lime.jpg"
