@@ -3,8 +3,8 @@ layout: post
 title: "Glass Practice"
 date: "2016-09-01 10:05:35 -0400"
 excerpt: "A few examples of my glass photography"
-tags: []
-ogimage: ""
+tags: [photography,digital,color,glass,product]
+ogimage: "/images/posts/s/2016-08-30-barbara-tozier-cruet.jpg"
 ---
 
 I mentioned in [Inspiration: Glass](/inspiration-glass) that I really enjoy photographing glass. Here are a few examples:
