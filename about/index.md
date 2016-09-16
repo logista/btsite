@@ -30,6 +30,7 @@ Barbara Tozier is a conceptual artist whose medium is photography in all of its 
 ### CV (selected)
 
 - Photography
+    - 2017-2017 Artist in Residence, University Musical Society
     - 2016, _Somerville Toy Camera Festival 2016_, Somerville, MA, juror Christopher James
     - 2016 Joint show, _WCC Alternative Processes_, 22 North Gallery, Ypsilanti
     - 2016 Joint show, _Dancing in the Dark_ (Alternative Processes), Washtenaw Community College
@@ -49,9 +50,9 @@ Barbara Tozier is a conceptual artist whose medium is photography in all of its 
 - Honors
     - 2015--2016 Washtenaw Community College Divisional Scholarship
 - Related Work experience
-    - 2013--present, Student Lab Assistant, Photo Lab, Washtenaw Community College
     - 2009--present, Self-employed Product Photographer
     - 2009--present, Co-owner and Producer, Fun Yet Films
+    - 2013--2016, Student Lab Assistant, Photo Lab, Washtenaw Community College
     - 2008--2015, Freelance Camera Assistant
     - 2009--2010, Freelance Production Assistant
 
