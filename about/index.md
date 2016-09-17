@@ -30,7 +30,7 @@ Barbara Tozier is a conceptual artist whose medium is photography in all of its 
 ### CV (selected)
 
 - Photography
-    - 2017-2017 Artist in Residence, University Musical Society
+    - 2016-2017 Artist in Residence, University Musical Society, Ann Arbor
     - 2016, _Somerville Toy Camera Festival 2016_, Somerville, MA, juror Christopher James
     - 2016 Joint show, _WCC Alternative Processes_, 22 North Gallery, Ypsilanti
     - 2016 Joint show, _Dancing in the Dark_ (Alternative Processes), Washtenaw Community College
