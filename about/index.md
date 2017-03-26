@@ -10,7 +10,7 @@ date: 2015-07-31
 modified: 2016-04-23
 ---
 
-{% include _toc.html %}
+{% include _toc.html %} <!--- (._.) ~ ︵ ┻━┻ --->
 
 ### Statement
 
@@ -29,17 +29,20 @@ Barbara Tozier is a conceptual artist whose medium is photography in all of its 
 
 ### CV (selected)
 
-- Photography
+- Residencies and Honors
     - 2016-2017 Artist in Residence, University Musical Society, Ann Arbor
+    - 2015--2016 Washtenaw Community College Divisional Scholarship
+- Photography Shows
+    - 2017, _Hatchback 11_, Hamtramck, juror Treena Flannery Ericson
     - 2016, _Somerville Toy Camera Festival 2016_, Somerville, MA, juror Christopher James
-    - 2016 Joint show, _WCC Alternative Processes_, 22 North Gallery, Ypsilanti
-    - 2016 Joint show, _Dancing in the Dark_ (Alternative Processes), Washtenaw Community College
-    - 2016 Joint show, _Portraits_, Washtenaw Community College
-    - 2015 Joint show, _Food_, Washtenaw Community College Gallery One
-    - 2015 Joint show, _Modernizing the Archaic_, Kerrytown Concert House
-    - 2014 Selected as New Artist, Ann Arbor Street Art Fair, The Original
+    - 2016-2017 _Dancing in the Dark_ (Alternative Processes), Washtenaw Community College
+    - 2016 _WCC Alternative Processes_, 22 North Gallery, Ypsilanti
+    <!-- - 2016 _Portraits_, Washtenaw Community College -->
+    <!-- - 2015 _Food_, Washtenaw Community College Gallery One -->
+    - 2015 _Modernizing the Archaic_, Kerrytown Concert House
+    - 2014 _New Art, New Artists_, Ann Arbor Street Art Fair, The Original
 - Film
-    - 2015 _My Father, The Alien_, short film (producer, writer)
+    - 2016 _My Father, The Alien_, short film (producer, writer)
     - 2012 _Tommy Button_, short film (producer)
     - 2010, 1st Assistant Director, _Felix Graves_ episode 2, "Double Booked"
 - Education
@@ -47,8 +50,6 @@ Barbara Tozier is a conceptual artist whose medium is photography in all of its 
     - 2016 Certificate, Photographic Imaging, Washtenaw Community College
     - 2002, MBA with High Distinction, University of Michigan
     - 1987, BS, Mechanical Engineering, Case Western Reserve University
-- Honors
-    - 2015--2016 Washtenaw Community College Divisional Scholarship
 - Related Work experience
     - 2009--present, Self-employed Product Photographer
     - 2009--present, Co-owner and Producer, Fun Yet Films
