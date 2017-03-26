@@ -2,38 +2,85 @@
 sitemap: false
 ---
 
-/*
- *
- *  Minimal Mistakes
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
-*/
 
-// Partials
-@import "variables";
-@import "grid";
-@import "mixins";
-@import "normalize";
-@import "site";
-@import "typography";
-@import "pygments";
-// @import "coderay";
-@import "elements";
-@import "forms";
-@import "page";
+$doc-font-size: 10;
+$doc-line-height: 16;
+$paragraph-indent: false !default;
+$base-font: 'Source Sans Pro', 'PT Serif', serif;
+$heading-font: 'Economica', 'PT Sans Narrow', sans-serif;
+$code-font: "Source Code Pro", "Anonymous Pro", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+$alt-font: $base-font;
+
+/*
+   Colors
+   ========================================================================== */
+
+$bodycolor      : #faf9fb;
+$body-color     : $bodycolor;
+$textcolor      : #2D3A57;
+$text-color     : $textcolor;
+$border-color   : $text-color;
+$basecolor 		  : #322B39; //#343434
+$compcolor 		  : spin($basecolor, 180);
+$bordercolor    : $basecolor;
+$white          : $bodycolor; //set to $bodycolor because I prefer it to straight white
+$black          : #111;
+$accentcolor    : $black;
+$tozier-color   : #8B0300; //because I don't have a place to stash it
+
+/* buttons */
+$primary			: $basecolor;
+$success			: #5cb85c;
+$warning			: #dd8338;
+$danger				: #C64537;
+$info				  : #308cbc;
+
+/* brands */
+$facebook-color     : #3b5998;
+$flickr-color       : #ff0084;
+$foursquare-color   : #0cbadf;
+$google-plus-color  : #dd4b39;
+$instagram-color    : #4e433c;
+$linkedin-color     : #4875b4;
+$pinterest-color    : #cb2027;
+$rss-color          : #fa9b39;
+$tumblr-color       : #2c4762;
+$twitter-color      : #55acee;
+$vimeo-color        : #1ab7ea;
+$youtube-color      : #ff3333;
+$github-color       : #333333;
+
+
+/* links */
+$linkcolor 		    : darken($textcolor,30); //#343434;
+$link-color       : $linkcolor;
+$linkcolorhover 	: lighten($linkcolor, 20);
+$linkcolorvisited : lighten($linkcolorhover, 20);
+$linkcolorfocus 	: darken($linkcolorvisited, 10);
+
+
+
 @import "vendor/rensburg-svg/svg-icons";
 @import "vendor/magnific-popup/magnific-popup";
 
-h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {font-size:65%;}
-h1, h2, h3, h4, h5, h6 {line-height:1.1;}
+body {
+  font-family: $base-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height:1.1;
+  font-family: $heading-font;
+}
+
+h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
+  font-size:65%;
+}
+
 
 .acn {
   background-color: lighten($border-color,70);
   padding: 1em;
   border: 1px $border-color solid;
-  @include rounded(3px);
 }
 
 div.acn {
@@ -49,30 +96,6 @@ div.acn {
   margin:5px;
 }
 
-/* Site name */
-.site-name {
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
-	margin-bottom: 0em;
-	float: none;
-	display: block;
-	@include font-rem(24);
-  @media #{$micro} {
-    text-align:center;
-  }
-	@media #{$small} {
-		@include grid(12,2);
-		@include prefix(12,0.5);
-		@include suffix(12,0.5);
-		@include font-rem(16);
-	}
-	@media #{$x-large} {
-		@include grid(12,2);
-		@include prefix(12,0);
-	}
-}
-
 
 nav.pagination {
   text-align:center;
@@ -81,21 +104,17 @@ nav.pagination {
 
 
 pre {
-  @include font-rem(10);
   line-height: 1.5;
   overflow-x: auto;
   background-color: darken($bodycolor,5);
-	@include rounded(3px);
   padding: .5em;
   }
 
 div.text-highlight pre{
     background-color: darken($bodycolor,5);
     font-family: $code-font;
-    @include font(10);
     color: darken($textcolor,5);
     margin-bottom: 1.5em;
-    @include rounded(3px);
     	position: relative;
     	padding: 1em;
       white-space:pre-wrap;
@@ -108,10 +127,8 @@ div.text-highlight pre{
 /* asides */
 
 .aside {
-  @include font-rem(10);
   background-color: lighten($text-color,70);
   color: lighten($textcolor,20);
-  @include rounded(3px);
   padding: .5em;
   // width:40%;
   // margin-left:1em;
@@ -146,7 +163,6 @@ figure.image-m {
 .image-m-caption, .image-m-credit {
   display: inline-block;
   width:49%;
-  @include font(10);
   color: lighten($text-color, 20);
 }
 
@@ -166,51 +182,10 @@ figure.image-s img {
 
 .image-s-caption {
   display: block;
-  @include font(10);
   color: lighten($text-color, 20);
 }
 
-// Main content  lifted/adapted from page.scss
-#main {
-	.post,
-	.page {
-		@include container;
-		@include grid(12,10);
-		@include prefix(12,1);
-		@include suffix(12,1);
-		margin-bottom: 2em;
-		@media #{$small} {
-			@include grid(12,6);
-			@include prefix(12,1);
-			@include suffix(12,1);
-		}
-		@media #{$x-large} {
-			@include grid(12,6);
-      @include prefix(12,1);
-      @include suffix(12,1);
 
-		}
-	}
-}
-
-// index column styling lifted/adapted from page.scss
-#index {
-	@include container;
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
-	margin-bottom: 2em;
-	@media #{$small} {
-		@include grid(12,6);
-    @include prefix(12,1);
-  	@include suffix(12,1);
-	}
-	@media #{$x-large} {
-		@include grid(12,4.5);
-    @include prefix(12,1);
-  	@include suffix(12,1);
-	}
-}
 
 
 // Author module (lifted/adapted from page.scss)
@@ -222,7 +197,6 @@ figure.image-s img {
 	.bio-photo {
     max-width: 150px;
 		margin: 0 25px 10px 0;
-		@include rounded(3px);
 	}
 
 	.soc {
@@ -273,24 +247,4 @@ footer {
 }
 .nav .navtoogle {
   background-color: lighten($primary, 15);
-}
-
-// Footer wrapper lifted/adapted from page.scss
-.footer-wrap {
-  .related-articles,
-	footer {
-		@include grid(12,10);
-		@include prefix(12,1);
-		@include suffix(12,1);
-		@media #{$small} {
-			@include grid(12,6);
-      @include prefix(12,1);
-    	@include suffix(12,1);
-		}
-		@media #{$x-large} {
-			@include grid(12,4.5);
-      @include prefix(12,1);
-    	@include suffix(12,1);
-		}
-	}
 }
