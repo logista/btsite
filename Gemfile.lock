@@ -49,9 +49,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   bootstrap (~> 4.0.0.alpha6)
   jekyll (~> 3.4)
   jekyll-sitemap
 
 BUNDLED WITH
-   1.11.2
+   1.14.6

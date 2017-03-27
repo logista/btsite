@@ -5,7 +5,7 @@ locale:   en_US
 url:      http://barbaratozier.com
 
 
-# Jekyll configuration
+# Jekyll configuration adding something
 
 permalink:   /:title/
 markdown:    kramdown
@@ -15,6 +15,8 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - bootstrap
+  - autoprefixer-rails
 # incremental: true
 
 kramdown:
