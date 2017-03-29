@@ -5,248 +5,244 @@ sitemap: false
 @import "custom";
 @import "bootstrap";
 
-$doc-font-size: 10;
-$doc-line-height: 16;
-$paragraph-indent: false !default;
-$base-font: 'Source Sans Pro', 'PT Serif', serif;
-$heading-font: 'Economica', 'PT Sans Narrow', sans-serif;
-$code-font: "Source Code Pro", "Anonymous Pro", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
-$alt-font: $base-font;
-
-/*
-   Colors
-   ========================================================================== */
-
-$bodycolor      : #faf9fb;
-$body-color     : $bodycolor;
-$textcolor      : #2D3A57;
-$text-color     : $textcolor;
-$border-color   : $text-color;
-$basecolor 		  : #322B39; //#343434
-$compcolor 		  : spin($basecolor, 180);
-$bordercolor    : $basecolor;
-$white          : $bodycolor; //set to $bodycolor because I prefer it to straight white
-$black          : #111;
-$accentcolor    : $black;
-$tozier-color   : #8B0300; //because I don't have a place to stash it
-
-/* buttons */
-$primary			: $basecolor;
-$success			: #5cb85c;
-$warning			: #dd8338;
-$danger				: #C64537;
-$info				  : #308cbc;
-
-/* brands */
-$facebook-color     : #3b5998;
-$flickr-color       : #ff0084;
-$foursquare-color   : #0cbadf;
-$google-plus-color  : #dd4b39;
-$instagram-color    : #4e433c;
-$linkedin-color     : #4875b4;
-$pinterest-color    : #cb2027;
-$rss-color          : #fa9b39;
-$tumblr-color       : #2c4762;
-$twitter-color      : #55acee;
-$vimeo-color        : #1ab7ea;
-$youtube-color      : #ff3333;
-$github-color       : #333333;
-
-
-/* links */
-$linkcolor 		    : darken($textcolor,30); //#343434;
-$link-color       : $linkcolor;
-$linkcolorhover 	: lighten($linkcolor, 20);
-$linkcolorvisited : lighten($linkcolorhover, 20);
-$linkcolorfocus 	: darken($linkcolorvisited, 10);
-
-
-
-// @import "vendor/rensburg-svg/svg-icons";
-// @import "vendor/magnific-popup/magnific-popup";
-
-body {
-  font-family: $base-font;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  line-height:1.1;
-  font-family: $heading-font;
-}
-
-h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
-  font-size:65%;
-}
-
-
-.acn {
-  background-color: lighten($border-color,70);
-  padding: 1em;
-  border: 1px $border-color solid;
-}
-
-div.acn {
-  padding-bottom: 0;
-  margin-bottom: 1em;
-}
-
-.gallerypage img.thumbnail {
-  max-height: 300px;
-  max-width: 300px;
-  width: auto;
-  height: auto;
-  margin:5px;
-}
-
-
-nav.pagination {
-  text-align:center;
-}
-
-
-
-pre {
-  line-height: 1.5;
-  overflow-x: auto;
-  background-color: darken($bodycolor,5);
-  padding: .5em;
-  }
-
-div.text-highlight pre{
-    background-color: darken($bodycolor,5);
-    font-family: $code-font;
-    color: darken($textcolor,5);
-    margin-bottom: 1.5em;
-    	position: relative;
-    	padding: 1em;
-      white-space:pre-wrap;
-}
-
-.code-snippet {
-  text-align:center;
-}
-
-/* asides */
-
-.aside {
-  background-color: lighten($text-color,70);
-  color: lighten($textcolor,20);
-  padding: .5em;
-  // width:40%;
-  // margin-left:1em;
-  // float:right;
-}
-
-.aside::before {
-  content: "Aside  ";
-  font-style:italic;
-}
-
-div.aside, div.aside p {
-  padding-bottom: 0px;
-}
-
-/* my image css */
-
-// screenshots
-figure.image-ss {
-  display: table;
-  margin:1em auto;
-  // text-align: center;
-}
-
-// medium images
-figure.image-m {
-  display: table;
-  margin:3em auto 1em auto;
-  // text-align: center;
-}
-
-.image-m-caption, .image-m-credit {
-  display: inline-block;
-  width:49%;
-  color: lighten($text-color, 20);
-}
-
-.image-m-credit{
-  text-align: right;
-}
-
-// small images
-figure.image-s {
-  display: table;
-  margin:1em auto;
-}
-
-figure.image-s img {
-  padding: 3px;
-}
-
-.image-s-caption {
-  display: block;
-  color: lighten($text-color, 20);
-}
-
-
-
-
-// Author module (lifted/adapted from page.scss)
-// .article-author-bottom {
-// 	margin-bottom: 1em;
-// 	@media #{$small} {
-// 		display: none;
-// 	}
-// 	.bio-photo {
-//     max-width: 150px;
-// 		margin: 0 25px 10px 0;
-// 	}
+// $doc-font-size: 10;
+// $doc-line-height: 16;
+// $paragraph-indent: false !default;
+// $base-font: 'Source Sans Pro', 'PT Serif', serif;
+// $heading-font: 'Economica', 'PT Sans Narrow', sans-serif;
+// $code-font: "Source Code Pro", "Anonymous Pro", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+// $alt-font: $base-font;
 //
-// 	.soc {
-//     display:inline-block;
-//   }
+// /*
+//    Colors
+//    ========================================================================== */
 //
-// 	h3 {
-//     display:inline-block;
-//     font-size: 125%;
-//     margin-top: 0;}
+// $bodycolor      : #faf9fb;
+// $body-color     : $bodycolor;
+// $textcolor      : #2D3A57;
+// $text-color     : $textcolor;
+// $border-color   : $text-color;
+// $basecolor 		  : #322B39; //#343434
+// $compcolor 		  : spin($basecolor, 180);
+// $bordercolor    : $basecolor;
+// $white          : $bodycolor; //set to $bodycolor because I prefer it to straight white
+// $black          : #111;
+// $accentcolor    : $black;
+// $tozier-color   : #8B0300; //because I don't have a place to stash it
 //
-// 	p.slogan {
-//     display:block;
-//     font-size: 80%;
-//   }
+// /* buttons */
+// $primary			: $basecolor;
+// $success			: #5cb85c;
+// $warning			: #dd8338;
+// $danger				: #C64537;
+// $info				  : #308cbc;
 //
-//   p.connect {
-//     display:block;
-//     font-size:80%;
-//     font-style: italic;
-//   }
+// /* brands */
+// $facebook-color     : #3b5998;
+// $flickr-color       : #ff0084;
+// $foursquare-color   : #0cbadf;
+// $google-plus-color  : #dd4b39;
+// $instagram-color    : #4e433c;
+// $linkedin-color     : #4875b4;
+// $pinterest-color    : #cb2027;
+// $rss-color          : #fa9b39;
+// $tumblr-color       : #2c4762;
+// $twitter-color      : #55acee;
+// $vimeo-color        : #1ab7ea;
+// $youtube-color      : #ff3333;
+// $github-color       : #333333;
 //
-//   p.rights {
-//     text-align: right;
-//     font-size: 60%;
-//     margin-bottom:0;
-//   }
 //
-//   @media #{$large} {
-// 		h3,
-// 		p {
-//       max-width: inherit;
-// 		}
-//     .bio-photo{ max-width:150px;}
-// 	}
+// /* links */
+// $linkcolor 		    : darken($textcolor,30); //#343434;
+// $link-color       : $linkcolor;
+// $linkcolorhover 	: lighten($linkcolor, 20);
+// $linkcolorvisited : lighten($linkcolorhover, 20);
+// $linkcolorfocus 	: darken($linkcolorvisited, 10);
+//
+//
+// body {
+//   font-family: $base-font;
 // }
-
-footer {
-  border-top: 1px solid lighten($border-color,70);
-  border-bottom: 1px solid lighten($border-color,70);
-  padding:10px;
-}
-
-// Center the menu/navigation button when small screen
-.navicon-lines-button {
-  display:block;
-  margin: 0 auto;
-}
-.nav .navtoogle {
-  background-color: lighten($primary, 15);
-}
+//
+// h1, h2, h3, h4, h5, h6 {
+//   line-height:1.1;
+//   font-family: $heading-font;
+// }
+//
+// h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
+//   font-size:65%;
+// }
+//
+//
+// .acn {
+//   background-color: lighten($border-color,70);
+//   padding: 1em;
+//   border: 1px $border-color solid;
+// }
+//
+// div.acn {
+//   padding-bottom: 0;
+//   margin-bottom: 1em;
+// }
+//
+// .gallerypage img.thumbnail {
+//   max-height: 300px;
+//   max-width: 300px;
+//   width: auto;
+//   height: auto;
+//   margin:5px;
+// }
+//
+//
+// nav.pagination {
+//   text-align:center;
+// }
+//
+//
+//
+// pre {
+//   line-height: 1.5;
+//   overflow-x: auto;
+//   background-color: darken($bodycolor,5);
+//   padding: .5em;
+//   }
+//
+// div.text-highlight pre{
+//     background-color: darken($bodycolor,5);
+//     font-family: $code-font;
+//     color: darken($textcolor,5);
+//     margin-bottom: 1.5em;
+//     	position: relative;
+//     	padding: 1em;
+//       white-space:pre-wrap;
+// }
+//
+// .code-snippet {
+//   text-align:center;
+// }
+//
+// /* asides */
+//
+// .aside {
+//   background-color: lighten($text-color,70);
+//   color: lighten($textcolor,20);
+//   padding: .5em;
+//   // width:40%;
+//   // margin-left:1em;
+//   // float:right;
+// }
+//
+// .aside::before {
+//   content: "Aside  ";
+//   font-style:italic;
+// }
+//
+// div.aside, div.aside p {
+//   padding-bottom: 0px;
+// }
+//
+// /* my image css */
+//
+// // screenshots
+// figure.image-ss {
+//   display: table;
+//   margin:1em auto;
+//   // text-align: center;
+// }
+//
+// // medium images
+// figure.image-m {
+//   display: table;
+//   margin:3em auto 1em auto;
+//   // text-align: center;
+// }
+//
+// .image-m-caption, .image-m-credit {
+//   display: inline-block;
+//   width:49%;
+//   color: lighten($text-color, 20);
+// }
+//
+// .image-m-credit{
+//   text-align: right;
+// }
+//
+// // small images
+// figure.image-s {
+//   display: table;
+//   margin:1em auto;
+// }
+//
+// figure.image-s img {
+//   padding: 3px;
+// }
+//
+// .image-s-caption {
+//   display: block;
+//   color: lighten($text-color, 20);
+// }
+//
+//
+//
+//
+// // Author module (lifted/adapted from page.scss)
+// // .article-author-bottom {
+// // 	margin-bottom: 1em;
+// // 	@media #{$small} {
+// // 		display: none;
+// // 	}
+// // 	.bio-photo {
+// //     max-width: 150px;
+// // 		margin: 0 25px 10px 0;
+// // 	}
+// //
+// // 	.soc {
+// //     display:inline-block;
+// //   }
+// //
+// // 	h3 {
+// //     display:inline-block;
+// //     font-size: 125%;
+// //     margin-top: 0;}
+// //
+// // 	p.slogan {
+// //     display:block;
+// //     font-size: 80%;
+// //   }
+// //
+// //   p.connect {
+// //     display:block;
+// //     font-size:80%;
+// //     font-style: italic;
+// //   }
+// //
+// //   p.rights {
+// //     text-align: right;
+// //     font-size: 60%;
+// //     margin-bottom:0;
+// //   }
+// //
+// //   @media #{$large} {
+// // 		h3,
+// // 		p {
+// //       max-width: inherit;
+// // 		}
+// //     .bio-photo{ max-width:150px;}
+// // 	}
+// // }
+//
+// footer {
+//   border-top: 1px solid lighten($border-color,70);
+//   border-bottom: 1px solid lighten($border-color,70);
+//   padding:10px;
+// }
+//
+// // Center the menu/navigation button when small screen
+// .navicon-lines-button {
+//   display:block;
+//   margin: 0 auto;
+// }
+// .nav .navtoogle {
+//   background-color: lighten($primary, 15);
+// }
