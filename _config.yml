@@ -17,6 +17,7 @@ gems:
   - jekyll-sitemap
   - bootstrap
   - autoprefixer-rails
+  - jekyll-feed
 # incremental: true
 
 kramdown:
