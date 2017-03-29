@@ -1,4 +1,5 @@
 ---
+permalink: /about/
 layout: page
 title: "About Me"
 excerpt: "About Barbara Tozier, an artist-photographer in Ann Arbor, Michigan."

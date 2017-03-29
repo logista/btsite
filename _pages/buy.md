@@ -1,4 +1,5 @@
 ---
+permalink: /buy/
 layout: page
 title: "Purchasing Prints"
 excerpt: "How to buy a print"

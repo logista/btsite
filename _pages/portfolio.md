@@ -1,4 +1,5 @@
 ---
+permalink: /portfolio/
 layout: gallerypage
 title: "Portfolio Index"
 excerpt: "Index of Galleries"

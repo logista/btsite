@@ -1,4 +1,5 @@
 ---
+permalink: /writing/
 layout: post-index
 title: "Writing Index"
 excerpt: "A list of all of the writing on the Barbara Tozier site"
