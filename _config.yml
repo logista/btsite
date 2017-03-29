@@ -5,7 +5,7 @@ locale:   en_US
 url:      http://barbaratozier.com
 
 
-# Jekyll configuration adding something
+# Jekyll configuration
 
 permalink:   /:title/
 markdown:    kramdown
@@ -18,7 +18,6 @@ gems:
   - bootstrap
   - autoprefixer-rails
   - jekyll-feed
-# incremental: true
 
 kramdown:
   auto_ids: true
@@ -26,7 +25,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-  # parse_block_html: true
 
 # Site owner
 owner:
@@ -41,14 +39,3 @@ owner:
 
 include: [".htaccess", "_pages"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt", "posting-guide.md"]
-
-links:
-  - title: Writing
-    url: /writing/
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      share: false
