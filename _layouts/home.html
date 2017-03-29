@@ -1,19 +1,18 @@
 ---
 layout: default
 ---
+<div class="album text-muted">
+  <div class="container-fluid">
+    <div class="row">
 
-<div>
-  <div>
-    <h3><a href="/writing/">Recent writing</a></h3>
-    {% for post in site.posts limit:9 %}
-    <article>
-      {% if post.link %}
-        <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" title="{{ post.title }}"></h2>
-      {% else %}
-        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h2>
-        {{ post.excerpt | markdownify }}
-      {% endif %}
-    </article>
-    {% endfor %}
-  </div><!-- /#index -->
-</div><!-- /#main -->
+{% for post in site.posts limit:9 %}
+
+      <div class="card card-block">
+        <img src="{% if post.ogimage %}{{ site.url }}{{ post.ogimage }}{% else %}{{ site.url }}{{ site.og-image-default }}{% endif %}" alt="post image">
+        <h3 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h3>
+        <p class="card-text">{{ post.excerpt | markdownify  | remove: '<p>' | remove: '</p>'}}</p>
+      </div>
+{% endfor %}
+    </div>
+  </div>
+</div>

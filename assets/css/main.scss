@@ -4,6 +4,29 @@ sitemap: false
 
 @import "custom";
 @import "bootstrap";
+.album {
+  /* min-height: 50rem;  Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #faf9fb;
+}
+.card {
+  float: left;
+  width: 33.33%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  background-color: #faf9fb;
+}
+
+.card > img {
+  width:100%;
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
 
 // $doc-font-size: 10;
 // $doc-line-height: 16;
