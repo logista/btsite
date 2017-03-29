@@ -1,16 +1,11 @@
-<!doctype html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: default
+---
 
-{% include _head.html %}
-
-<body class="home">
-
-{% include _navigation.html %}
-
-<div id="main" role="main">
-  <div id="index">
+<div>
+  <div>
     <h3><a href="/writing/">Recent writing</a></h3>
-    {% for post in site.posts limit:7 %}
+    {% for post in site.posts limit:9 %}
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" title="{{ post.title }}"></h2>
@@ -22,8 +17,3 @@
     {% endfor %}
   </div><!-- /#index -->
 </div><!-- /#main -->
-
-{% include _footer.html %}
-{% include _scripts.html %}
-</body>
-</html>

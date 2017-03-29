@@ -8,10 +8,10 @@ image:
   feature: barbara-tozier-prof-blues-gray.jpg
   title: "Professional Blues (from the <a href='/gallery-stories/'>Stories</a> gallery)"
 date: 2015-07-31
-modified: 2016-04-23
+modified: 2017-03-26
 ---
 
-{% include _toc.html %} <!--- (._.) ~ ︵ ┻━┻ --->
+<!-- {  % include _toc.html %  } <!--- (._.) ~ ︵ ┻━┻ ---> -->
 
 ### Statement
 

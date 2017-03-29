@@ -1,14 +1,14 @@
-<div class="navigation-wrapper">
-	<div class="site-name">
+<div>
+	<div>
 		<a href="/">{{ site.title }}</a>
-	</div><!-- /.site-name -->
+	</div>
 	<div class="top-navigation">
-		<nav role="navigation" id="site-nav" class="nav">
+		<nav role="navigation">
 		    <ul>
 		        {% for link in site.data.navigation %}
 				    <li><a href="{{ link.url }}" {% if link.url contains 'http' %}{% endif %}>{{ link.title }}</a></li>
 				{% endfor %}
 		    </ul>
 		</nav>
-	</div><!-- /.top-navigation -->
-</div><!-- /.navigation-wrapper -->
+	</div>
+</div>

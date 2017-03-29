@@ -34,15 +34,9 @@ owner:
   bio: "I'm a a conceptual artist whose medium is photography in all of its forms."
   email: info@barbaratozier.com
   twitter: logista
-  google:
-    plus:
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
   github: logista
   tumblr: logista
-
+  instagram: logista
 
 include: [".htaccess", "_pages"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt", "posting-guide.md"]
