@@ -6,12 +6,11 @@ sitemap: false
 @import "bootstrap";
 
 .album {
-  padding-top: 1rem;
+  padding-top: 4rem;
   padding-bottom: 1rem;
   // border: 3px black solid;
   // background-color: #fff;
 }
-
 .card {
   width: 22rem;
   margin:.25rem;
@@ -31,6 +30,11 @@ sitemap: false
     border:0;
     background-color: inherit;
 }
+footer {
+    color: $gray-light;
+}
+
+footer svg path {fill: $gray-light;}
 
 // $doc-font-size: 10;
 // $doc-line-height: 16;
