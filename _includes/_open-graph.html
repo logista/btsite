@@ -8,7 +8,7 @@
 <meta name="twitter:image" content="{{ site.url }}/images/website/{{ page.image.feature }}">
 {% else %}
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{% if page.ogimage %}{{ site.url }}{{ page.ogimage }}{% else %}{{ site.url }}/images/website/tozier-default-thumb.jpg{% endif %}">
+<meta name="twitter:image" content="{% if page.ogimage %}{{ site.url }}{{ page.ogimage }}{% else %}{{ site.url }}{{ site.og-image-default }}{% endif %}">
 {% endif %}
 
 <!-- Open Graph -->
@@ -21,5 +21,5 @@
 {% if page.image.feature %}
 <meta property="og:image" content="{{ site.url }}/images/website/{{ page.image.feature }}">
 {% else %}
-<meta property="og:image" content="{% if page.ogimage %}{{ site.url }}{{ page.ogimage }}{% else %}{{ site.url }}/images/website/tozier-default-thumb.jpg{% endif %}">
+<meta property="og:image" content="{% if page.ogimage %}{{ site.url }}{{ page.ogimage }}{% else %}{{ site.url }}{{ site.og-image-default }}{% endif %}">
 {% endif %}

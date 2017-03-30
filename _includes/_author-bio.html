@@ -1,5 +1,5 @@
 <div itemscope itemtype="http://schema.org/Person">
-	<img src="/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} bio photo">
+	<img src="{{ site.url }}{{ site.owner.avatar }}" alt="{{ site.owner.name }} bio photo">
 	<h3 itemprop="name">{{ site.owner.name }}</h3>
 	<p class="slogan">{{ site.owner.bio | markdownify | remove:'<p>' | remove:'</p>' }}</p>
 	<p class="connect">connect <br>

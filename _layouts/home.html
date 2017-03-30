@@ -1,19 +1,22 @@
 ---
 layout: default
 ---
+<div class="container">
+{% for i in (0..2) %}
+     <div class="row-{{ i | plus: 1 }}">
+    {% capture foo %} {% cycle 0, 3, 6 %} {% endcapture %}
+{% for post in site.posts limit:3 offset:foo %}
+    <div class="col">
+        <div class="card">
+            <div class="card-block">
+                <img class="card-img-top" src="{% if post.ogimage %}{{ site.url }}{{ post.ogimage }}{% else %}{{ site.url }}{{ site.og-image-default }}{% endif %}" alt="post image">
+                <h3 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h3>
+                <p class="card-text">{{ post.excerpt | markdownify  | remove: '<p>' | remove: '</p>'}}</p>
+            </div>
+        </div>
+    </div>
+{% endfor %}
 
-<div>
-  <div>
-    <h3><a href="/writing/">Recent writing</a></h3>
-    {% for post in site.posts limit:9 %}
-    <article>
-      {% if post.link %}
-        <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" title="{{ post.title }}"></h2>
-      {% else %}
-        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h2>
-        {{ post.excerpt | markdownify }}
-      {% endif %}
-    </article>
-    {% endfor %}
-  </div><!-- /#index -->
-</div><!-- /#main -->
+    </div>
+{% endfor %}
+</div>
