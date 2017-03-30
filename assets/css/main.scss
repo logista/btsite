@@ -4,28 +4,32 @@ sitemap: false
 
 @import "custom";
 @import "bootstrap";
+
 .album {
-  /* min-height: 50rem;  Can be removed; just added for demo purposes */
-  // padding-top: 3rem;
-  // padding-bottom: 3rem;
-  background-color: #faf9fb;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  // border: 3px black solid;
+  // background-color: #fff;
 }
+
 .card {
-  // float: left;
-  width: 20rem;
-  // padding: .75rem;
-  // margin-bottom: 2rem;
-  // border: 0;
-  background-color: #faf9fb;
+  width: 22rem;
+  margin:.25rem;
+  margin-bottom: 2rem;
+  // border:0;
+  background-color: #fcfefe;
 }
-
-.card > img {
+.card-block {
+    padding:.5rem;
+}
+.card-img-top {
   width:100%;
-  // margin-bottom: .75rem;
+  margin-bottom: .75rem;
 }
-
-.card-text {
-  // font-size: 85%;
+.card-footer{
+    text-align: right;
+    border:0;
+    background-color: inherit;
 }
 
 // $doc-font-size: 10;
