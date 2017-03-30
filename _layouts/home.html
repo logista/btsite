@@ -1,18 +1,22 @@
 ---
 layout: default
 ---
-<div class="album text-muted">
-  <div class="container-fluid">
-    <div class="row">
-
-{% for post in site.posts limit:9 %}
-
-      <div class="card card-block">
-        <img src="{% if post.ogimage %}{{ site.url }}{{ post.ogimage }}{% else %}{{ site.url }}{{ site.og-image-default }}{% endif %}" alt="post image">
-        <h3 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h3>
-        <p class="card-text">{{ post.excerpt | markdownify  | remove: '<p>' | remove: '</p>'}}</p>
-      </div>
-{% endfor %}
+<div class="container">
+{% for i in (0..2) %}
+     <div class="row-{{ i | plus: 1 }}">
+    {% capture foo %} {% cycle 0, 3, 6 %} {% endcapture %}
+{% for post in site.posts limit:3 offset:foo %}
+    <div class="col">
+        <div class="card">
+            <div class="card-block">
+                <img class="card-img-top" src="{% if post.ogimage %}{{ site.url }}{{ post.ogimage }}{% else %}{{ site.url }}{{ site.og-image-default }}{% endif %}" alt="post image">
+                <h3 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h3>
+                <p class="card-text">{{ post.excerpt | markdownify  | remove: '<p>' | remove: '</p>'}}</p>
+            </div>
+        </div>
     </div>
-  </div>
+{% endfor %}
+
+    </div>
+{% endfor %}
 </div>
