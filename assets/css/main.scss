@@ -5,107 +5,81 @@ sitemap: false
 @import "custom";
 @import "bootstrap";
 
+.navbar-brand {
+    font-family: $headings-font-family;
+    font-size: $font-size-lg*1.4;
+    line-height: $navbar-brand-height*.6;
+    margin: .75rem;
+}
+
+.nav-link, .nav-item {
+    font-size: $font-size-lg;
+}
+
 .album {
-  padding-top: 4rem;
+  // padding-top: 1rem;
   padding-bottom: 1rem;
-  // border: 3px black solid;
-  // background-color: #fff;
 }
 .card {
   width: 22rem;
   margin:.25rem;
   margin-bottom: 2rem;
-  // border:0;
-  background-color: #fcfefe;
 }
+
 .card-block {
     padding:.5rem;
 }
+
 .card-img-top {
   width:100%;
   margin-bottom: .75rem;
 }
+
 .card-footer{
     text-align: right;
     border:0;
     background-color: inherit;
 }
-footer {
+
+footer p {
     color: $gray-light;
+    // font-size: 1.25rem;
+}
+footer svg {
+    width:1.75rem;
+}
+footer svg path {
+    fill: $gray-light;
 }
 
-footer svg path {fill: $gray-light;}
+.soc:hover svg path {
+    fill: $white;
+}
 
-// $doc-font-size: 10;
-// $doc-line-height: 16;
-// $paragraph-indent: false !default;
-// $base-font: 'Source Sans Pro', 'PT Serif', serif;
-// $heading-font: 'Economica', 'PT Sans Narrow', sans-serif;
-// $code-font: "Source Code Pro", "Anonymous Pro", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
-// $alt-font: $base-font;
-//
-// /*
-//    Colors
-//    ========================================================================== */
-//
-// $bodycolor      : #faf9fb;
-// $body-color     : $bodycolor;
-// $textcolor      : #2D3A57;
-// $text-color     : $textcolor;
-// $border-color   : $text-color;
-// $basecolor 		  : #322B39; //#343434
-// $compcolor 		  : spin($basecolor, 180);
-// $bordercolor    : $basecolor;
-// $white          : $bodycolor; //set to $bodycolor because I prefer it to straight white
-// $black          : #111;
-// $accentcolor    : $black;
-// $tozier-color   : #8B0300; //because I don't have a place to stash it
-//
-// /* buttons */
-// $primary			: $basecolor;
-// $success			: #5cb85c;
-// $warning			: #dd8338;
-// $danger				: #C64537;
-// $info				  : #308cbc;
-//
-// /* brands */
-// $facebook-color     : #3b5998;
-// $flickr-color       : #ff0084;
-// $foursquare-color   : #0cbadf;
-// $google-plus-color  : #dd4b39;
-// $instagram-color    : #4e433c;
-// $linkedin-color     : #4875b4;
-// $pinterest-color    : #cb2027;
-// $rss-color          : #fa9b39;
-// $tumblr-color       : #2c4762;
-// $twitter-color      : #55acee;
-// $vimeo-color        : #1ab7ea;
-// $youtube-color      : #ff3333;
-// $github-color       : #333333;
-//
-//
-// /* links */
-// $linkcolor 		    : darken($textcolor,30); //#343434;
-// $link-color       : $linkcolor;
-// $linkcolorhover 	: lighten($linkcolor, 20);
-// $linkcolorvisited : lighten($linkcolorhover, 20);
-// $linkcolorfocus 	: darken($linkcolorvisited, 10);
-//
-//
-// body {
-//   font-family: $base-font;
-// }
-//
-// h1, h2, h3, h4, h5, h6 {
-//   line-height:1.1;
-//   font-family: $heading-font;
-// }
-//
-// h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
-//   font-size:65%;
-// }
-//
-//
+.soc-email:hover svg {
+    background: $email-color;
+}
+
+.soc-feed:hover svg {
+    background: $rss-color;
+}
+
+.soc-github:hover svg {
+    background: $github-color;
+}
+
+.soc-instagram:hover svg {
+    background: $instagram-color;
+}
+
+.soc-tumblr:hover svg {
+    background: $tumblr-color;
+}
+
+.soc-twitter:hover svg {
+    background: $twitter-color;
+}
+
 // .acn {
 //   background-color: lighten($border-color,70);
 //   padding: 1em;

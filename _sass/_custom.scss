@@ -6,7 +6,7 @@
 
 // Start with assigning color names to specific hex values.
 $white:  #fafcfc;
-$black:  #000 !default;
+$black:  #111;
 $red:    #d9534f !default;
 $orange: #f0ad4e !default;
 $yellow: #ffd500 !default;
@@ -24,12 +24,21 @@ $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
 // Reassign color vars to semantic color scheme
-$brand-primary:             $blue !default;
-$brand-success:             $green !default;
-$brand-info:                $teal !default;
-$brand-warning:             $orange !default;
-$brand-danger:              $red !default;
-$brand-inverse:             $gray-dark !default;
+$brand-primary:             #2D3A57;
+$brand-success:             lighten($green,20%);
+$brand-info:                lighten($teal,20%);
+$brand-warning:             lighten($orange,20%);
+$brand-danger:              lighten($red,20%);
+$brand-inverse:             lighten($brand-primary,70%);
+
+// variables added by me
+$tozier-color       : #8B0300;
+$instagram-color    : #4e433c;
+$rss-color          : #fa9b39;
+$tumblr-color       : #2c4762;
+$twitter-color      : #55acee;
+$github-color       : #333333;
+$email-color        : #d9264a;
 
 
 // Options
@@ -72,10 +81,10 @@ $body-color:    $gray-dark !default;
 //
 // Style anchor elements.
 
-$link-color:            $brand-primary !default;
+$link-color:            lighten($brand-primary,20%);
 $link-decoration:       none !default;
-$link-hover-color:      darken($link-color, 15%) !default;
-$link-hover-decoration: underline !default;
+$link-hover-color:      darken($link-color, 40%);
+$link-hover-decoration: none;
 
 
 // Grid breakpoints
@@ -147,8 +156,8 @@ $transition-collapse:    height .35s ease !default;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
-$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-sans-serif: 'Source Sans Pro',-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-monospace:  'Source Code Pro', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:       $font-family-sans-serif !default;
 
 $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
@@ -170,8 +179,8 @@ $font-size-h5: 1.25rem !default;
 $font-size-h6: 1rem !default;
 
 $headings-margin-bottom: ($spacer / 2) !default;
-$headings-font-family:   inherit !default;
-$headings-font-weight:   500 !default;
+$headings-font-family:   'Economica', 'PT Sans Narrow', sans-serif;
+$headings-font-weight:   400;
 $headings-line-height:   1.1 !default;
 $headings-color:         inherit !default;
 
@@ -593,7 +602,7 @@ $card-border-radius:       $border-radius !default;
 $card-border-color:        rgba($black,.125) !default;
 $card-border-radius-inner: calc(#{$card-border-radius} - #{$card-border-width}) !default;
 $card-cap-bg:              $gray-lightest !default;
-$card-bg:                  $white !default;
+$card-bg:                  #fcfefe;
 
 $card-link-hover-color:    $white !default;
 
@@ -824,7 +833,7 @@ $close-text-shadow:           0 1px 0 $white !default;
 $code-font-size:              90% !default;
 $code-padding-x:              .4rem !default;
 $code-padding-y:              .2rem !default;
-$code-color:                  #bd4147 !default;
+$code-color:                 $tozier-color;
 $code-bg:                     $gray-lightest !default;
 
 $kbd-color:                   $white !default;

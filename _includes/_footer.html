@@ -1,12 +1,12 @@
 <footer role="contentinfo" class="container d-flex">
-    	<p class="ml-left">connect:</p>
+    	<!-- <p class="p-foot ml-left">connect:</p> -->
         <div class="d-flex justify-content-start">
-        	<div class="p-1"><a href="http://twitter.com/{{ site.owner.twitter }}" title="Twitter">{% include _svgs/_svg-twitter.html %}</a></div>
-        	<div class="p-1"><a href="http://{{ site.owner.tumblr }}.tumblr.com" title="Tumblr">{% include _svgs/_svg-tumblr.html %}</a></div>
-        	<div class="p-1"><a href="http://instagram.com/{{ site.owner.instagram }}" title="Instagram">{% include _svgs/_svg-instagram.html %}</a></div>
-        	<div class="p-1"><a href="http://github.com/{{ site.owner.github }}" title="GitHub">{% include _svgs/_svg-github.html %}</a></div>
-        	<div class="p-1"><a href="mailto:{{ site.owner.email }}" title="Email">{% include _svgs/_svg-envelope.html %}</a></div>
-        	<div class="p-1"><a href="/feed.xml" title="Feed">{% include _svgs/_svg-feed.html %}</a></div>
+        	<div class="p-2"><a class="soc soc-twitter" href="http://twitter.com/{{ site.owner.twitter }}" title="Twitter">{% include _svgs/_svg-twitter.html %}</a></div>
+        	<div class="p-2"><a class="soc soc-tumblr" href="http://{{ site.owner.tumblr }}.tumblr.com" title="Tumblr">{% include _svgs/_svg-tumblr.html %}</a></div>
+        	<div class="p-2"><a class="soc soc-instagram" href="http://instagram.com/{{ site.owner.instagram }}" title="Instagram">{% include _svgs/_svg-instagram.html %}</a></div>
+        	<div class="p-2"><a class="soc soc-github" href="http://github.com/{{ site.owner.github }}" title="GitHub">{% include _svgs/_svg-github.html %}</a></div>
+        	<div class="p-2"><a class="soc soc-email" href="mailto:{{ site.owner.email }}" title="Email">{% include _svgs/_svg-envelope.html %}</a></div>
+        	<div class="p-2"><a class="soc soc-feed" href="/feed.xml" title="Feed">{% include _svgs/_svg-feed.html %}</a></div>
     </div>
-    <p class="ml-auto">&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}</p>
+    <p class="p-foot ml-auto">&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}</p>
 </footer>
