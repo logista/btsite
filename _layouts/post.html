@@ -4,30 +4,23 @@ layout: default
 
 <div id="main" role="main" class="container">
     <article class="row justify-content-center">
-        <div class="col-12 col-md-8">
-            <h1><a href="{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h1>
-        </div>
-        <div class="col-12 col-md-8">
-          {{ content }}
-        </div>
+        <div class="col-9">
+            <h1 class="pb-3">{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</h1>
+            {{ content }}
     </article>
     <div class="post-footer row justify-content-center">
         <div class="col-6">
-        <p class="byline text-center"><strong>{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
-
-        <div class="btn-toolbar btn-group-sm  justify-content-between" role="navigation" aria-label="Navigating between posts">
-            <div class="btn-group" role="group" aria-label="First group">
-            {% if page.previous %}
-                <a href="{{ page.previous.url }}" class="btn btn-outline-primary" role="button" title="{{ page.previous.title }}">Previous article</a>
-            {% endif %}
-            {% if page.next %}
-                <a href="{{ page.next.url }}" class="btn btn-outline-primary" role="button"title="{{ page.next.title }}">Next article</a>
-            {% endif %}
+            <div class="card text-center m-3">
+                <p class="byline p-1 mb-0"><strong>{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
             </div>
-            <div class="btn-group">
-            <a class="btn btn-outline-primary" role="button" href="/writing/">View all writings</a>
-        </div>
-        </div>
+            <div class="btn-toolbar justify-content-between" role="navigation" aria-label="Navigating between posts">
+                {% if page.previous %}
+                    <a href="{{ page.previous.url }}" class="btn btn-outline-primary" role="button" title="{{ page.previous.title }}">Previous article</a>
+                {% endif %}
+                {% if page.next %}
+                    <a href="{{ page.next.url }}" class="btn btn-outline-primary" role="button"title="{{ page.next.title }}">Next article</a>
+                {% endif %}
+            </div>
         </div>
     </div>
 </div>
