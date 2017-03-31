@@ -12,9 +12,6 @@ ogimage: "/images/posts/m/2015-12-22-umma-cameron-musart_1975_1.63.jpg"
 Roughly 1700 words, a superficial biography of an early Artistic Photographer. As a class we saw fifteen works (originals and not behind glass!) and then had to write a paper. We had been given some leading questions about controversy and were asked to include a reaction to the artist and the work. I meant to post this just after I wrote it, but you know...  
 {: .acn}
 
-You can see the photograph in context [at UMMA](http://www.umma.umich.edu/view/exhibitions/2015-early-british-photographs.php) until May 8, 2016.
-{: .aside}
-
 
 <figure class="image-m">
   <img src="/images/posts/m/2015-12-22-umma-cameron-musart_1975_1.63.jpg">
