@@ -8,11 +8,12 @@ layout: default
 {% for post in site.posts limit:9 %}
         <div class="col-xs-1">
             <div class="card">
+                <a class="card-link" href="{{ post.url }}" title="Go to {{ post.title }}"></a>
                 <div class="card-block">
-                    {% if post.ogimage %} <!-- if there is an image associated with the post, show it -->
+                    {% if post.ogimage %}
                     <img class="card-img-top" src="{{ site.url }}{{ post.ogimage }}" alt="post image">
                     {% endif %}
-                    <h3 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h3>
+                    <h3 class="card-title">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
                     <p class="card-text">{{ post.excerpt | markdownify  | remove: '<p>' | remove: '</p>'}}</p>
                     <div class="card-footer">
                       <small class="text-muted align-bottom">

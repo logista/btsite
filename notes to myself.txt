@@ -45,3 +45,23 @@ Noticing that many times the original designer chose "white" instead of "bodycol
 Similar for "black" and "textcolor" or maybe it should be my emphasis color of "tozier-color" with some variations? (eh, no. Variations on Text Color)
 
 Have since changed many instances of "bodycolor" back to "white" but then redefined "white" to "bodycolor". Ignoring the code syntax coloration for the moment.
+
+===
+2017-04-01
+Working out Bootstrap 4 grid breakpoints for the image `srcset` subproject...
+
+If the post is in a `.container` and the browser window is wider than 1200px, then the maximum width of the `.container` is 1140px. No matter how big the screen, the widest the `.container` will be is 1140 pixels wide. This means I can limit my widest images to 1200 pixels wide. (I don't make images for desktop backgrounds.) This is a comfortable size for me, though it may mean my portrait oriented pictures are more than 1800 pixels tall. That is less comfortable...
+
+**First Rule of Thumb:** No images larger than 1200px wide.
+
+Right now, the post images are in a 9-column wide container (out of 12). So instead of 1140px maximum, it's really 1140*9/12, or 855 pixels will be the widest the image can get (in actual terms). So a 900px wide image would be enough in a page. A 1200px image would be more "future-proof" and would possibly look better in a slideshow/lightbox if I put one back in. But if I don't do that, then smaller is better.
+
+**Second Rule of Thumb:** No images larger than 900px wide.
+
+How do I want them to appear on the page? If I only do it "1-up" then they'd be centered, I guess. I haven't been doing much wrap-around with text stuff (none, really), but I often will put two "small" pictures next to each other.
+
+But I just as frequently put a series of "medium" images after each other. So I don't think I need to get into `small` `medium` `large` for the purposes of *posting*, just for serving. I could be "mean" and just have the one large image for everything, but that feels wrong. I'm trying to do things ok, and learn stuff.
+
+So, back to breakpoints, leaving post design philosophy for another time. By the way, the site looks TERRIBLE on my phone, so any changes I make need to be able to be easily redone, which is why I want to use Jekyll/Liquid partials to generate the `srcset` code.
+
+I guess that's my goal for the next period.

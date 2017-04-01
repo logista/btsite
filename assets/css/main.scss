@@ -99,6 +99,15 @@ a:hover, a.navbar-brand:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
 }
+a.card-link {
+position: absolute;
+top: 0; left: 0;
+height: 100%; width: 100%;
+}
+a.card-link:hover {
+    background-color: rgba(lighten($brand-primary,50%),.5);
+}
+
 // screenshots
 .image-ss {
   margin:1em auto;
