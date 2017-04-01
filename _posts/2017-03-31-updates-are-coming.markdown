@@ -4,7 +4,7 @@ title: "Updates are coming..."
 date: "2017-03-31 20:08:25 -0400"
 excerpt: "I'm working on redeveloping my website."
 tags: [self-referential, website]
-ogimage: ""
+ogimage:
 ---
 
 I'm working on redeveloping my website. I have a new home page in the works (YAY), as well as updated post pages and other stuff. I'm not changing the *design* so much as the underlying structure. It won't look exactly the same, of course, but it will look similar to the old version.

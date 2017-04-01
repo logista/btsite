@@ -36,8 +36,9 @@ Right. So I picked out a Jekyll theme called "Minimal Mistakes" which in itself 
 
 I knew from previous versions of my site that I wanted to have my portfolio galleries completely independent from each other, and completely independent from any "website" or "post/writing" images. This means I don't put my portfolio images in an `images` folder, but in a folder specific to a gallery. The way that I have Jekyll set up, each page of my site is actually held within a little folder with the post or page name on it.
 
-![Segment of Site Structure](/images/posts/ss/2015-08-04-screen-shot-site-structure.png)
-{: .image-ss}
+<figure class="image-ss">
+  <img src="/images/posts/ss/2015-08-04-screen-shot-site-structure.png" alt="Segment of Site Structure">
+</figure>
 
 This means that I can have a folder for each gallery, and I can have it hold all of the images associated with that gallery. Yay! But now, how do I actually tell Jekyll about those images I put there, without having to type a new `index.html` every time I make a change?
 

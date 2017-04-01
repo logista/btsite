@@ -9,12 +9,9 @@ ogimage: "/images/posts/m/2015-08-13-barbara-tozier-wow-redux.jpg"
 
 I've spent a lot of time over the last couple of days writing very long posts about how I'm going to one day show an image that I want to write about. The digression started when I made this image:
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg">
-  <figcaption>
-    <span class="image-m-caption">White on White</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg">
+  <figcaption class="image-m-cap figure-caption">White on White</figcaption>
 </figure>
 
 and wanted to talk about it.
@@ -23,12 +20,9 @@ I made this photo in my studio, on a pretty evening in a few days ago. It appear
 
 Now, here's approximately the same scene, made just a few minutes ago (around lunchtime).
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-13-barbara-tozier-wow-redux.jpg">
-  <figcaption>
-    <span class="image-m-caption">WoW Redux</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-08-13-barbara-tozier-wow-redux.jpg">
+  <figcaption class="image-m-cap figure-caption">WoW Redux</figcaption>
 </figure>
 
 Both photographs were made with available natural window light. Here's a hint as to why they appear differently --- reread *when* I said I made the pictures. Right. One was a "pretty evening" and the other was "around lunchtime". This is the same room, and the same setup, but very different effects.

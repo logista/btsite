@@ -15,12 +15,9 @@ I've also been considering what to do with my old iPhoto and Aperture catalogs. 
 
 To test my new workflow (which should reduce my ongoing backup requirements by 50%), I of course did a couple of self portraits. Here's one:
 
-<figure class="image-m">
-  <img src="/images/posts/m/2016-01-03-barbara-tozier-same-me.jpg">
-  <figcaption>
-    <span class="image-m-caption">Same Me</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2016-01-03-barbara-tozier-same-me.jpg">
+  <figcaption class="image-m-cap figure-caption">Same Me</figcaption>
 </figure>
 
 Most of my process hasn't changed. Make a photograph, copy it to my computer twice. One goes into my "negative" file, the other goes to where Lightroom can access it. Because I can't convert to DNG on `Move` (as I have learned), I `Copy as DNG`. Edit/output as required. Then at some point I have to remember to delete the Working Copy RAW file. I suppose I could `Copy as DNG` directly from the "negative" drive, but I really like having 2 copies directly from the camera's SD card.

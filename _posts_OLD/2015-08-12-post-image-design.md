@@ -112,7 +112,7 @@ Well, after hours of messing about (after I realized I had only styled a horizon
   <img src="/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg">
   <figcaption>
     <span class="image-m-caption">White on White</span>
-    <span class="image-m-credit">Barbara Tozier</span>
+    
   </figcaption>
 </figure>
 {% endhighlight %}
@@ -123,7 +123,7 @@ And here's the final image:
   <img src="/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg">
   <figcaption>
     <span class="image-m-caption">White on White</span>
-    <span class="image-m-credit">Barbara Tozier</span>
+
   </figcaption>
 </figure>
 
@@ -131,7 +131,7 @@ And here's the final image:
     <img src="/images/posts/m/2015-02-15-barbara-tozier-frost.jpg">
     <figcaption>
       <span class="image-m-caption">Frost</span>
-      <span class="image-m-credit">Barbara Tozier</span>
+
     </figcaption>
 </figure>
 

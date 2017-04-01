@@ -160,10 +160,10 @@ $font-family-sans-serif: 'Source Sans Pro',-apple-system, system-ui, BlinkMacSys
 $font-family-monospace:  'Source Code Pro', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:       $font-family-sans-serif !default;
 
-$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
-$font-size-lg:   1.25rem !default;
-$font-size-sm:   .875rem !default;
-$font-size-xs:   .75rem !default;
+$font-size-base: 1.5rem;
+$font-size-lg:   1.75rem;
+$font-size-sm:   1rem;
+$font-size-xs:   .75rem;
 
 $font-weight-normal: normal !default;
 $font-weight-bold: bold !default;
@@ -783,7 +783,7 @@ $thumbnail-transition:        all .2s ease-in-out !default;
 
 // Figures
 
-$figure-caption-font-size: 90% !default;
+$figure-caption-font-size: 85%;
 $figure-caption-color:     $gray-light !default;
 
 

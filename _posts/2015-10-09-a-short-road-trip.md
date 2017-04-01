@@ -116,12 +116,9 @@ And forbidding in [Alabaster](http://www.ioscomuseum.org/history-of-alabaster.ht
 
 So we continued home. After lunch in Oscoda, a stretch at the Bay City Antique Center, and a freeway drive back in the rain (where I commemorated our return to T-Mo land)
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-10-09-barbara-tozier-tmo-land.jpg">
-  <figcaption>
-    <span class="image-m-caption">Back in T-Mo Land</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-10-09-barbara-tozier-tmo-land.jpg">
+  <figcaption class="image-m-cap figure-caption">Back in T-Mo Land</figcaption>
 </figure>
 
 And we're home again, ready to do the next thing.

@@ -7,13 +7,13 @@ sitemap: false
 
 .navbar-brand {
     font-family: $headings-font-family;
-    font-size: $font-size-lg*1.4;
+    font-size: $font-size-lg*1.25;
     line-height: $navbar-brand-height*.6;
     margin: .75rem;
 }
 
 .nav-link, .nav-item {
-    font-size: $font-size-lg;
+
 }
 
 .album {
@@ -42,8 +42,8 @@ sitemap: false
 
 footer p {
     color: $gray-light;
-    // font-size: 1.25rem;
 }
+
 footer svg {
     width:1.75rem;
 }
@@ -84,7 +84,7 @@ footer svg path {
 }
 
 .acn {
-    @extend .card;
+    @extend .card-block;
     padding: 1em;
     background-color: lighten($brand-primary,65%);
 }
@@ -110,10 +110,56 @@ p.aside::before {
 .footnotes p {
     padding:0;
 }
+
+.byline {
+    font-size: $font-size-sm;
+}
 a:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
 }
+
+/* my image css */
+
+// screenshots
+.image-ss {
+  margin:1em auto;
+  text-align:center;
+}
+
+// medium images
+.image-m-fig, .image-m-img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-m-img {
+     max-width: 100%;
+}
+.image-m-cap {
+    text-align:center;
+    font-style: italic;
+}
+
+//
+// // small images
+// figure.image-s {
+//   display: table;
+//   margin:1em auto;
+// }
+//
+// figure.image-s img {
+//   padding: 3px;
+// }
+//
+// .image-s-caption {
+//   display: block;
+//   color: lighten($text-color, 20);
+// }
+
+
+
 // pre {
 //   line-height: 1.5;
 //   overflow-x: auto;
@@ -136,43 +182,3 @@ a:hover {
 // }
 //
 //
-// /* my image css */
-//
-// // screenshots
-// figure.image-ss {
-//   display: table;
-//   margin:1em auto;
-//   // text-align: center;
-// }
-//
-// // medium images
-// figure.image-m {
-//   display: table;
-//   margin:3em auto 1em auto;
-//   // text-align: center;
-// }
-//
-// .image-m-caption, .image-m-credit {
-//   display: inline-block;
-//   width:49%;
-//   color: lighten($text-color, 20);
-// }
-//
-// .image-m-credit{
-//   text-align: right;
-// }
-//
-// // small images
-// figure.image-s {
-//   display: table;
-//   margin:1em auto;
-// }
-//
-// figure.image-s img {
-//   padding: 3px;
-// }
-//
-// .image-s-caption {
-//   display: block;
-//   color: lighten($text-color, 20);
-// }

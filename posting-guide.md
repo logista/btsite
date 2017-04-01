@@ -136,19 +136,14 @@ To put two small images in the same figure, type `sfm2` and then `tab`
 
 #### medium-sized images
 
-The `<figure>` element is used with `.image-m` to style medium-sized "digital works" images. It will put the image in its own block in the center of the text. Added to that are two HTML span classes that can be used that will "attach" some explanatory text to the image. They need to go within `<figcaption>` markup.
-    - `<span class="image-m-caption">title/caption of image</span>`
-    - `<span class="image-m-credit">Barbara Tozier</span>`
+The `<figure>` element is used with `.image-m-x` to style medium-sized "digital works" images. It will put the image in its own block in the center of the text. The `<figcaption>` markup is for the name (or other comment) on the image. If you want to use markdown, you need to enclose the text in a `<span markdown='1'>_styled_ text</span>`.
 
 To (I hope) make it easier, type `mfm` and then `tab` to get:
 
 ~~~ html
-<figure class="image-m">
-  <img src="/images/posts/m/~tab to here~.jpg">
-  <figcaption>
-    <span class="image-m-caption">~tab 2 goes here~</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/~tab to here~.jpg">
+  <figcaption class="image-m-cap figure-caption">~tab 2 goes here~</figcaption>
 </figure>
 
 ~final tab goes here~
@@ -161,7 +156,7 @@ To (I hope) make it easier, type `mfm` and then `tab` to get:
 
 ### asides
 
-Asides, while they are now an HTML element, are called using `{: .aside}` markup. Longer asides require div markup that starts something like `<div class="aside" markdown="1">`. They can appear anywhere within an article. They weren't styled by the original designer, and I may end up changing it later.
+Asides, while they are now an HTML5 element, are called using `{: .aside}` markup. Longer asides require div markup that starts something like `<div class="aside" markdown="1">`. They can appear anywhere within an article. They weren't styled by the original designer, and I may end up changing it later.
 
 You know, now that I know how to make snippets, I've done it with `asdiv`:
 

@@ -7,12 +7,9 @@ tags: [abstract,photograph,color,digital]
 ogimage: "/images/posts/m/2016-04-03-barbara-tozier-semi-conscious.jpg"
 ---
 
-<figure class="image-m">
-  <img src="/images/posts/m/2016-04-03-barbara-tozier-semi-conscious.jpg">
-  <figcaption>
-    <span class="image-m-caption">Semi-consious</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2016-04-03-barbara-tozier-semi-conscious.jpg">
+  <figcaption class="image-m-cap figure-caption">Semi-consious</figcaption>
 </figure>
 
 I've reached the point in the semester that I'm putting the finishing touches on the prints and figuring out the displays and doing that last bit of homework. I have some posts coming later that go into more detail about what I've been up to for the past few weeks, but I wanted to share this image.
