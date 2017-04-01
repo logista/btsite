@@ -1,6 +1,7 @@
 # Site wide configuration
 
-title:    Barbara Tozier <br><small class='text-muted'>Photographer</small>
+title:    Barbara Tozier
+subtitle: Photographer
 locale:   en_US
 url:      http://barbaratozier.com
 

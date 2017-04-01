@@ -158,27 +158,13 @@ a:hover {
 //   color: lighten($text-color, 20);
 // }
 
+div.text-highlight pre{
+    margin-bottom: 1.5em;
+    	position: relative;
+    	padding: 1em;
+      white-space:pre-wrap;
+}
 
-
-// pre {
-//   line-height: 1.5;
-//   overflow-x: auto;
-//   background-color: darken($bodycolor,5);
-//   padding: .5em;
-//   }
-//
-// div.text-highlight pre{
-//     background-color: darken($bodycolor,5);
-//     font-family: $code-font;
-//     color: darken($textcolor,5);
-//     margin-bottom: 1.5em;
-//     	position: relative;
-//     	padding: 1em;
-//       white-space:pre-wrap;
-// }
-//
-// .code-snippet {
-//   text-align:center;
-// }
-//
-//
+.code-snippet {
+  text-align:center;
+}
