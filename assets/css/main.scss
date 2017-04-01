@@ -11,11 +11,9 @@ sitemap: false
     line-height: $navbar-brand-height*.6;
     margin: .75rem;
 }
-
 .nav-link, .nav-item {
 
 }
-
 .album {
   padding-bottom: 1rem;
 }
@@ -24,76 +22,61 @@ sitemap: false
   margin:.25rem;
   margin-bottom: 2rem;
 }
-
 .album .card-block {
     padding:.5rem;
 }
-
 .album .card-img-top {
   width:100%;
   margin-bottom: .75rem;
 }
-
 .album .card-footer{
     text-align: right;
     border:0;
     background-color: inherit;
 }
-
 footer p {
     color: $gray-light;
+    font-size: $font-size-sm;
 }
-
 footer svg {
     width:1.75rem;
 }
 footer svg path {
     fill: $gray-light;
 }
-
 .soc:hover svg path {
     fill: $white;
 }
-
 .soc-email:hover svg {
     background: $email-color;
 }
-
 .soc-feed:hover svg {
     background: $rss-color;
 }
-
 .soc-github:hover svg {
     background: $github-color;
 }
-
 .soc-instagram:hover svg {
     background: $instagram-color;
 }
-
 .soc-tumblr:hover svg {
     background: $tumblr-color;
 }
-
 .soc-twitter:hover svg {
     background: $twitter-color;
 }
-
 #markdown-toc li {
     list-style-type:none;
 }
-
 .acn {
     @extend .card-block;
     padding: 1em;
     background-color: lighten($brand-primary,65%);
 }
-
 .aside {
     @extend .card-block;
     background-color: lighten($brand-primary,70%);
 }
-
 p.aside::before {
     content: "aside  ";
     font-style: italic;
@@ -106,34 +89,31 @@ p.aside::before {
     border-top: 1px lighten($brand-primary,65%) solid;
     padding-top: 1rem;
 }
-
 .footnotes p {
     padding:0;
 }
-
 .byline {
     font-size: $font-size-sm;
 }
-a:hover {
+a:hover, a.navbar-brand:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
 }
-
-/* my image css */
-
 // screenshots
 .image-ss {
   margin:1em auto;
   text-align:center;
 }
-
+.image-pull-right {
+    float:right;
+    margin-left:1rem;
+}
 // medium images
 .image-m-fig, .image-m-img {
     display:block;
     margin-left: auto;
     margin-right: auto;
 }
-
 .image-m-img {
      max-width: 100%;
 }
@@ -142,7 +122,6 @@ a:hover {
     font-style: italic;
 }
 
-//
 // // small images
 // figure.image-s {
 //   display: table;
@@ -157,14 +136,12 @@ a:hover {
 //   display: block;
 //   color: lighten($text-color, 20);
 // }
-
 div.text-highlight pre{
     margin-bottom: 1.5em;
     	position: relative;
     	padding: 1em;
       white-space:pre-wrap;
 }
-
 .code-snippet {
   text-align:center;
 }
