@@ -101,4 +101,8 @@ srcset="
 src="2014-btozier-flowers-1200_e9p0vm_c_scale,w_680.jpg"
 alt="">
 
-LATER IN THE DAY. My wonderful husband wrote a small ruby plugin for me to auto resize images, and it's integrated into my jekyll! :)
+LATER IN THE DAY. My wonderful husband wrote a small ruby plugin for me to auto resize images, and it's integrated into my jekyll! :) it's at github: `imageener` I can set the source folder, and as many different (fixed) widths as I want to upload. It will create the versions and put them in size-related folders in my `images/posts` folder. **I ONLY HAVE TO EXPORT ONE IMAGE FROM LIGHTROOM!!**
+
+Now to get the post images regenerated, and the posts fixed, and the html `_include` written, and then go *back* to the main layout and fix it so it looks decent on the phone.
+
+And then it's the portfolio/galleries. I should expect to do something similar with those images? Ah, but not today.
