@@ -65,3 +65,40 @@ But I just as frequently put a series of "medium" images after each other. So I 
 So, back to breakpoints, leaving post design philosophy for another time. By the way, the site looks TERRIBLE on my phone, so any changes I make need to be able to be easily redone, which is why I want to use Jekyll/Liquid partials to generate the `srcset` code.
 
 I guess that's my goal for the next period.
+
+===
+2017-04-02
+
+Looking through my existing image files, and I realize that I have a few that *weren't* generated from Lightroom (3 medium ones, to be exact 2015-09-01-simply-qee1f.jpg, 2015-12-22-iago-from-wikipedia.jpg, 2015-12-22-umma-cameron-musart_1975_1.63.jpg; and 2 screen captures) There are some knife pictures that may or may not be in my "Master LR" catalog, but that shouldn't be too hard...
+
+I've put copies of them all in a "save" folder just in case...
+
+So I can more-or-less clobber them and start over. Since I need to visit each post to update the image code, I might as well rename to something shorter. ;) I want to have my name in it, though, and at *least* the year. The title of the image gives it some uniqueness, but the filenames are getting too long.
+
+Now that *that's* decided, now onto actual picture sizes.
+
+I'm still thinking maximum width of 1200px for lightbox use. Offering 900px for large/wide screens? Then what about the smaller screens?
+
+Let's look at the Bootstrap 4 breakpoints:
+
+size    grid-bp     container-max    10/12g    10/12c
+xs          0
+sm        576           540            480      450
+md        768           720            640      600
+lg        992           960            827      800
+xl       1200          1140           1000      950
+
+So, because I don't expect to have a post layout larger than 10 columns wide (I like whitespace on the sides), I can see the maximum size for the page is 950px. This would handle xl and lg; 600 would handle sm and md, and 300 for everything else. And 1200 for display. 4 images. I can do that.
+
+Using http://www.responsivebreakpoints.com
+
+<img
+sizes="(max-width: 960px) 100vw, 960px"
+srcset="
+2014-btozier-flowers-1200_e9p0vm_c_scale,w_300.jpg 300w,
+2014-btozier-flowers-1200_e9p0vm_c_scale,w_680.jpg 680w,
+2014-btozier-flowers-1200_e9p0vm_c_scale,w_960.jpg 960w"
+src="2014-btozier-flowers-1200_e9p0vm_c_scale,w_680.jpg"
+alt="">
+
+LATER IN THE DAY. My wonderful husband wrote a small ruby plugin for me to auto resize images, and it's integrated into my jekyll! :)
