@@ -1,4 +1,21 @@
-<figure class="figure">
+
+
+<!-- { % include _figures.html base_image_filename="2015-10-13-barbara-tozier-bored-ash.jpg"
+title="Bored Ash" alt="paths of emerald ash borers in a diseased/dying tree"
+caption="Bored Ash" % } -->
+
+
+<figure>
+<img class="img-fluid post-image"
+src="/{{ site.picserizer.target }}/{{ site.picserizer.default_dir }}/{{ include.base_image_filename }}"
+sizes="(min-width: 800px) 50vw, 100vw"
+srcset=""
+
+>
+<figcaption class="figcaption post-caption">{{ include.caption }}</figcaption>
+</figure>
+
+<!-- <figure class="figure">
 <img class="img-fluid" srcset="
 /images/posts/s/2016-05-12-barbara-tozier-pinhole_pond.jpg   300w,
 /images/posts/s/2016-05-13-barbara-tozier-pinhole_umbrella.jpg 600w,
@@ -7,7 +24,7 @@ sizes="(min-width: 300px) 50vw, 100vw"
 src="/images/posts/s/2016-05-12-barbara-tozier-pinhole_apple_tree.jpg"
 alt="Example">
 <figcaption class="figure-caption text-center">some text here</figcaption>
-</figure>
+</figure> -->
 
 
 <!--
