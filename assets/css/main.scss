@@ -94,10 +94,18 @@ p.aside::before {
 }
 .byline {
     font-size: $font-size-sm;
+    text-align: center;
+    padding: inherit 1em;
+    margin: .5em;
 }
-a:hover, a.navbar-brand:hover {
+#main a:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
+}
+ul.navbar-nav > li a:hover {
+    color: $body-bg;
+    background-color: lighten($link-hover-color,40%);
+
 }
 a.card-link {
 position: absolute;
@@ -118,15 +126,15 @@ a.card-link:hover {
     margin-left:1rem;
 }
 // medium images
-.image-m-fig, .image-m-img {
+.post-figure, .post-image, .image-m-fig, .image-m-img {
     display:block;
     margin-left: auto;
     margin-right: auto;
 }
-.image-m-img {
+.post-image, .image-m-img {
      max-width: 100%;
 }
-.image-m-cap {
+.post-caption, .image-m-cap {
     text-align:center;
     font-style: italic;
 }

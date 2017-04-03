@@ -10,23 +10,35 @@ I got smart(?) and made a sample post for testing the way `srcset` works.
 
 Some text goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+### FLowers
 
-#### Flowers
+#### Hardcoded
 
-<img style="max-width:100%"
-sizes="(max-width: 960px) 100vw, 960px"
+<figure class="figure post-figure">
+<img class="img-fluid post-image"
+sizes="(min-width: 800px) 50vw, 100vw"
 srcset="
 /images/srcset/2014-btozier-flowers-1200_e9p0vm_c_scale,w_300.jpg 300w,
 /images/srcset/2014-btozier-flowers-1200_e9p0vm_c_scale,w_680.jpg 680w,
 /images/srcset/2014-btozier-flowers-1200_e9p0vm_c_scale,w_960.jpg 960w"
 src="/images/srcset/2014-btozier-flowers-1200_e9p0vm_c_scale,w_680.jpg"
 alt="">
+<figcaption class="figcaption post-caption">FLowers are prETTY</figcaption>
+</figure>
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+#### included liquid tags
+
+{% include _figures.html base_image_filename="2015-10-13-barbara-tozier-bored-ash.jpg"
+title="Bored Ash" alt="paths of emerald ash borers in a diseased/dying tree"
+caption="Bored Ash" %}
 
 #### clock
 
-<img style="max-width:100%"
-sizes="(max-width: 960px) 100vw, 960px"
+<figure class="figure post-figure">
+<img class="img-fluid post-image"
+sizes="(min-width: 800px) 50vw, 100vw"
 srcset="
 /images/srcset/2014-btozier-clock-1200_hnoque_c_scale,w_300.jpg 300w,
 /images/srcset/2014-btozier-clock-1200_hnoque_c_scale,w_579.jpg 579w,
@@ -34,3 +46,5 @@ srcset="
 /images/srcset/2014-btozier-clock-1200_hnoque_c_scale,w_960.jpg 960w"
 src="/images/srcset/2014-btozier-clock-1200_hnoque_c_scale,w_579.jpg"
 alt="">
+<figcaption class="figcaption post-caption">TICK TOCK</figcaption>
+</figure>

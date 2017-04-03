@@ -5,7 +5,6 @@ subtitle: Photographer
 locale:   en_US
 url:      http://barbaratozier.com
 
-
 # Jekyll configuration
 
 permalink:   /:title/
@@ -42,9 +41,10 @@ og-image-default: /images/website/tozier-default-thumb.jpg
 
 # picture pile maker
 picserizer:
-  sizes: [300,600,900]
+  sizes: [400,600,800,960]
   source: _source_images
   target: images/posts
+  default_dir: 400
 
 include: [".htaccess", "_pages"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt", "posting-guide.md"]
