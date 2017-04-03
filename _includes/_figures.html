@@ -1,45 +1,16 @@
+{% assign td = site.picserizer.target %}
+{% assign dd = site.picserizer.default_dir %}
+{% assign bf = include.base_image_filename %}
 
 
-<!-- { % include _figures.html base_image_filename="2015-10-13-barbara-tozier-bored-ash.jpg"
-title="Bored Ash" alt="paths of emerald ash borers in a diseased/dying tree"
-caption="Bored Ash" % } -->
-
-
-<figure>
+<figure class="figure post-figure">
 <img class="img-fluid post-image"
-src="/{{ site.picserizer.target }}/{{ site.picserizer.default_dir }}/{{ include.base_image_filename }}"
+src="/{{ td }}/{{ dd }}/{{ bf }}"
 sizes="(min-width: 800px) 50vw, 100vw"
-srcset=""
-
->
+srcset="{% for size in site.picserizer.sizes %}{% if forloop.last %}
+/{{ td }}/{{ size }}/{{ bf }}  {{ size }}w{% else %}
+/{{ td }}/{{ size }}/{{ bf }}  {{ size }}w, {% endif %}{% endfor %}"
+alt="{{ include.alt }}"
+title="{{ include.title }}">
 <figcaption class="figcaption post-caption">{{ include.caption }}</figcaption>
 </figure>
-
-<!-- <figure class="figure">
-<img class="img-fluid" srcset="
-/images/posts/s/2016-05-12-barbara-tozier-pinhole_pond.jpg   300w,
-/images/posts/s/2016-05-13-barbara-tozier-pinhole_umbrella.jpg 600w,
-/images/posts/l/2016-05-12-barbara-tozier-pinhole_apple_tree.jpg           1170w"
-sizes="(min-width: 300px) 50vw, 100vw"
-src="/images/posts/s/2016-05-12-barbara-tozier-pinhole_apple_tree.jpg"
-alt="Example">
-<figcaption class="figure-caption text-center">some text here</figcaption>
-</figure> -->
-
-
-<!--
-example
-
-<figure>
-   <a href="{{ include.url }}">
-   <img src="{{ include.file }}" style="max-width: {{ include.max-width }};"
-      alt="{{ include.alt }}"/>
-   <figcaption>{{ include.caption }}</figcaption>
-</figure>
-
-in the post
-
-{  % include image.html url="http://jekyllrb.com"
-max-width="200px" file="logo.png" alt="Jekyll logo"
-caption="This is the Jekyll logo." %  }
--->
