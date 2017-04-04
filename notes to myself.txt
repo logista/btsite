@@ -112,3 +112,18 @@ And then it's the portfolio/galleries. I should expect to do something similar w
 MORE WITH `srcset` goldarnit. I have something that works (on my machine at least) more-or-less ok. I haven't regenerated the images yet. I'll do that after I get the lightbox in order.
 
 To get it to work, I basically picked image-widths to go with the breakpoints in Bootstrap 4, and hardcoded the sizes in the `_figures.html` include. Then I messed about with the `main.scsss` to make a wider screen *not* show a stretched image. It's very... unsatisfying, but better than what I'd had, I think.
+
+## Workplan:
+
+A. post-image branch
+	1. install/configure lightbox (Magnific?, something else?)
+	2. regenerate large images
+	3. edit posts to new image style
+B. gallery branch
+	1. new structure/layout
+	2. everything else that needs to be done
+C. pages branch
+	1. new structure/layout
+	2. everything else that needs to be done
+D. tweaks branch
+	1. everything else that needs to be done
