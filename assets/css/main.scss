@@ -125,14 +125,16 @@ a.card-link:hover {
     float:right;
     margin-left:1rem;
 }
-// medium images
+// images in posts
 .post-figure, .post-image, .image-m-fig, .image-m-img {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
 }
 .post-image, .image-m-img {
-     max-width: 100%;
+    max-width:100%;
+    @include media-breakpoint-up(md) { max-width:67%; }
 }
 .post-caption, .image-m-cap {
     text-align:center;
@@ -145,7 +147,7 @@ a.card-link:hover {
 //   margin:1em auto;
 // }
 //
-// figure.image-s img {
+// figure.image-s img {``
 //   padding: 3px;
 // }
 //

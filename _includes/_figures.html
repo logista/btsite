@@ -3,14 +3,14 @@
 {% assign bf = include.base_image_filename %}
 
 
-<figure class="figure post-figure">
-<img class="img-fluid post-image"
+<figure class="post-figure">
+<img class="post-image"
 src="/{{ td }}/{{ dd }}/{{ bf }}"
-sizes="(min-width: 800px) 50vw, 100vw"
+sizes="(min-width:992px) 960px, (min-width:768px) 800px, (min-width:576px) 600px, 400px"
 srcset="{% for size in site.picserizer.sizes %}{% if forloop.last %}
 /{{ td }}/{{ size }}/{{ bf }}  {{ size }}w{% else %}
 /{{ td }}/{{ size }}/{{ bf }}  {{ size }}w, {% endif %}{% endfor %}"
 alt="{{ include.alt }}"
 title="{{ include.title }}">
-<figcaption class="figcaption post-caption">{{ include.caption }}</figcaption>
+<figcaption class="post-caption">{{ include.caption }}</figcaption>
 </figure>
