@@ -115,15 +115,18 @@ To get it to work, I basically picked image-widths to go with the breakpoints in
 
 ## Workplan:
 
-A. post-image branch
+Working from `restructure` branch
+
+A. `post-image` branch
 	1. install/configure lightbox (Magnific?, something else?)
 	2. regenerate large images
 	3. edit posts to new image style
-B. gallery branch
+B. `gallery` branch
+	1. new structure/layout
+	2. regenerate images(?)
+	3. everything else that needs to be done
+C. `pages` branch
 	1. new structure/layout
 	2. everything else that needs to be done
-C. pages branch
-	1. new structure/layout
-	2. everything else that needs to be done
-D. tweaks branch
+D. `tweaks` branch
 	1. everything else that needs to be done
