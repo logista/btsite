@@ -7,20 +7,15 @@ date: 2015-12-22
 ogimage: "/images/posts/m/2015-12-22-umma-cameron-musart_1975_1.63.jpg"
 ---
 
-{% include _toc.html %}
-
 Roughly 1700 words, a superficial biography of an early Artistic Photographer. As a class we saw fifteen works (originals and not behind glass!) and then had to write a paper. We had been given some leading questions about controversy and were asked to include a reaction to the artist and the work. I meant to post this just after I wrote it, but you know...  
 {: .acn}
 
-You can see the photograph in context [at UMMA](http://www.umma.umich.edu/view/exhibitions/2015-early-british-photographs.php) until May 8, 2016.
-{: .aside}
+{% include _toc.html %}
 
-
-<figure class="image-m">
-  <img src="/images/posts/m/2015-12-22-umma-cameron-musart_1975_1.63.jpg">
-  <figcaption>
-    <span class="image-m-caption" markdown="1">_The Kiss of Peace_</span>
-    <span class="image-m-credit">Julia Margaret Cameron, <br> image from UMMA</span>
+<figure class="image-m-fig figure">
+  <img  class="image-m-img figure-img" src="/images/posts/m/2015-12-22-umma-cameron-musart_1975_1.63.jpg">
+  <figcaption class="image-m-cap figure-caption">
+    <span markdown="1">_The Kiss of Peace_ by Julia Margaret Cameron, <br> image from UMMA</span>
   </figcaption>
 </figure>
 

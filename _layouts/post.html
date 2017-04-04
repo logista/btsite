@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div id="main" role="main" class="container">
+    <article class="row justify-content-center">
+        <div class="col-10 col-sm-12">
+            <h1 class="pb-3">{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</h1>
+            {{ content }}
+        </div>
+    </article>
+    <div class="post-footer row justify-content-center">
+        <div class="col-7">
+            <div class="card">
+                <p class="byline"><strong>{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
+            </div>
+            <div class="row justify-content-between p-2 pb-3" role="navigation" aria-label="Navigating between posts">
+                {% if page.previous %}
+                    <a href="{{ page.previous.url }}" class="col-md-3 btn btn-outline-primary btn-sm" title="{{ page.previous.title }}">Previous article</a>
+                {% endif %}
+                {% if page.next %}
+                    <a href="{{ page.next.url }}" class="col-md-3 btn btn-outline-primary btn-sm" title="{{ page.next.title }}">Next article</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

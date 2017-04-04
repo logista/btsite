@@ -15,12 +15,9 @@ Two were of my lab partner on the evening we got our cameras, in which I got som
 
 The other two, made later after reading about using a string to help your subject stay in the right position for the focus, were of my ever-patient husband. Here's my favorite (as rendered by the scanning software, and then converted to jpg by Lightroom):
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-09-14-barbara-tozier-bill-lf.jpg">
-  <figcaption>
-    <span class="image-m-caption">Bill</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-09-14-barbara-tozier-bill-lf.jpg">
+  <figcaption class="image-m-cap figure-caption">Bill</figcaption>
 </figure>
 
 It's not easy to see in this small image, but his eyes are in super-sharp focus, which is what I wanted. I'm looking forward to seeing how it looks printed.

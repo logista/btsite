@@ -7,43 +7,36 @@ sitemap: false
 
 .navbar-brand {
     font-family: $headings-font-family;
-    font-size: $font-size-lg*1.4;
+    font-size: $font-size-lg*1.25;
     line-height: $navbar-brand-height*.6;
     margin: .75rem;
 }
-
 .nav-link, .nav-item {
-    font-size: $font-size-lg;
-}
 
+}
 .album {
-  // padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.card {
+.album .card {
   width: 22rem;
   margin:.25rem;
   margin-bottom: 2rem;
 }
-
-.card-block {
+.album .card-block {
     padding:.5rem;
 }
-
-.card-img-top {
+.album .card-img-top {
   width:100%;
   margin-bottom: .75rem;
 }
-
-.card-footer{
+.album .card-footer{
     text-align: right;
     border:0;
     background-color: inherit;
 }
-
 footer p {
     color: $gray-light;
-    // font-size: 1.25rem;
+    font-size: $font-size-sm;
 }
 footer svg {
     width:1.75rem;
@@ -51,135 +44,110 @@ footer svg {
 footer svg path {
     fill: $gray-light;
 }
-
 .soc:hover svg path {
     fill: $white;
 }
-
 .soc-email:hover svg {
     background: $email-color;
 }
-
 .soc-feed:hover svg {
     background: $rss-color;
 }
-
 .soc-github:hover svg {
     background: $github-color;
 }
-
 .soc-instagram:hover svg {
     background: $instagram-color;
 }
-
 .soc-tumblr:hover svg {
     background: $tumblr-color;
 }
-
 .soc-twitter:hover svg {
     background: $twitter-color;
 }
+#markdown-toc li {
+    list-style-type:none;
+}
+.acn {
+    @extend .card-block;
+    padding: 1em;
+    background-color: lighten($brand-primary,65%);
+}
+.aside {
+    @extend .card-block;
+    background-color: lighten($brand-primary,70%);
+}
+p.aside::before {
+    content: "aside  ";
+    font-style: italic;
+}
+.footnotes::before {
+    content: "Footnotes";
+    font-style: italic;
+}
+.footnotes {
+    border-top: 1px lighten($brand-primary,65%) solid;
+    padding-top: 1rem;
+}
+.footnotes p {
+    padding:0;
+}
+.byline {
+    font-size: $font-size-sm;
+    text-align: center;
+    padding: inherit 1em;
+    margin: .5em;
+}
+#main a:hover {
+    color: $body-bg;
+    background-color: lighten($link-hover-color,40%);
+}
+ul.navbar-nav > li a:hover {
+    color: $body-bg;
+    background-color: lighten($link-hover-color,40%);
 
-// .acn {
-//   background-color: lighten($border-color,70);
-//   padding: 1em;
-//   border: 1px $border-color solid;
-// }
-//
-// div.acn {
-//   padding-bottom: 0;
-//   margin-bottom: 1em;
-// }
-//
-// .gallerypage img.thumbnail {
-//   max-height: 300px;
-//   max-width: 300px;
-//   width: auto;
-//   height: auto;
-//   margin:5px;
-// }
-//
-//
-// nav.pagination {
-//   text-align:center;
-// }
-//
-//
-//
-// pre {
-//   line-height: 1.5;
-//   overflow-x: auto;
-//   background-color: darken($bodycolor,5);
-//   padding: .5em;
-//   }
-//
-// div.text-highlight pre{
-//     background-color: darken($bodycolor,5);
-//     font-family: $code-font;
-//     color: darken($textcolor,5);
-//     margin-bottom: 1.5em;
-//     	position: relative;
-//     	padding: 1em;
-//       white-space:pre-wrap;
-// }
-//
-// .code-snippet {
-//   text-align:center;
-// }
-//
-// /* asides */
-//
-// .aside {
-//   background-color: lighten($text-color,70);
-//   color: lighten($textcolor,20);
-//   padding: .5em;
-//   // width:40%;
-//   // margin-left:1em;
-//   // float:right;
-// }
-//
-// .aside::before {
-//   content: "Aside  ";
-//   font-style:italic;
-// }
-//
-// div.aside, div.aside p {
-//   padding-bottom: 0px;
-// }
-//
-// /* my image css */
-//
-// // screenshots
-// figure.image-ss {
-//   display: table;
-//   margin:1em auto;
-//   // text-align: center;
-// }
-//
-// // medium images
-// figure.image-m {
-//   display: table;
-//   margin:3em auto 1em auto;
-//   // text-align: center;
-// }
-//
-// .image-m-caption, .image-m-credit {
-//   display: inline-block;
-//   width:49%;
-//   color: lighten($text-color, 20);
-// }
-//
-// .image-m-credit{
-//   text-align: right;
-// }
-//
+}
+a.card-link {
+position: absolute;
+top: 0; left: 0;
+height: 100%; width: 100%;
+}
+a.card-link:hover {
+    background-color: rgba(lighten($brand-primary,50%),.5);
+}
+
+// screenshots
+.image-ss {
+  margin:1em auto;
+  text-align:center;
+}
+.image-pull-right {
+    float:right;
+    margin-left:1rem;
+}
+// images in posts
+.post-figure, .post-image, .image-m-fig, .image-m-img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.post-image, .image-m-img {
+    max-width:100%;
+    @include media-breakpoint-up(md) { max-width:67%; }
+}
+.post-caption, .image-m-cap {
+    text-align:center;
+    font-style: italic;
+}
+
 // // small images
 // figure.image-s {
 //   display: table;
 //   margin:1em auto;
 // }
 //
-// figure.image-s img {
+// figure.image-s img {``
 //   padding: 3px;
 // }
 //
@@ -187,67 +155,12 @@ footer svg path {
 //   display: block;
 //   color: lighten($text-color, 20);
 // }
-//
-//
-//
-//
-// // Author module (lifted/adapted from page.scss)
-// // .article-author-bottom {
-// // 	margin-bottom: 1em;
-// // 	@media #{$small} {
-// // 		display: none;
-// // 	}
-// // 	.bio-photo {
-// //     max-width: 150px;
-// // 		margin: 0 25px 10px 0;
-// // 	}
-// //
-// // 	.soc {
-// //     display:inline-block;
-// //   }
-// //
-// // 	h3 {
-// //     display:inline-block;
-// //     font-size: 125%;
-// //     margin-top: 0;}
-// //
-// // 	p.slogan {
-// //     display:block;
-// //     font-size: 80%;
-// //   }
-// //
-// //   p.connect {
-// //     display:block;
-// //     font-size:80%;
-// //     font-style: italic;
-// //   }
-// //
-// //   p.rights {
-// //     text-align: right;
-// //     font-size: 60%;
-// //     margin-bottom:0;
-// //   }
-// //
-// //   @media #{$large} {
-// // 		h3,
-// // 		p {
-// //       max-width: inherit;
-// // 		}
-// //     .bio-photo{ max-width:150px;}
-// // 	}
-// // }
-//
-// footer {
-//   border-top: 1px solid lighten($border-color,70);
-//   border-bottom: 1px solid lighten($border-color,70);
-//   padding:10px;
-// }
-//
-// // Center the menu/navigation button when small screen
-// .navicon-lines-button {
-//   display:block;
-//   margin: 0 auto;
-// }
-// .nav .navtoogle {
-//   background-color: lighten($primary, 15);
-// }
+div.text-highlight pre{
+    margin-bottom: 1.5em;
+    	position: relative;
+    	padding: 1em;
+      white-space:pre-wrap;
+}
+.code-snippet {
+  text-align:center;
+}

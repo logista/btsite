@@ -19,12 +19,9 @@ One method is to write directly onto the film before it's loaded into the camera
 
 Here's a small version of the contact sheet (inverted, thanks to the scanner software):
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-09-11-barbara-tozier-in-camera-35.jpg">
-  <figcaption>
-    <span class="image-m-caption">In Camera, handwriting, 35mm</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-09-11-barbara-tozier-in-camera-35.jpg">
+  <figcaption class="image-m-cap figure-caption">In Camera, handwriting, 35mm</figcaption>
 </figure>
 
 The small detail figure below will open up to a larger version of the detail image:
@@ -44,12 +41,9 @@ I have a couple of other ideas for improving this method. I really like not know
 
 The other image I'm sharing is one that involved photographing text onto 120 film, developing it, and then sandwiching it with an unexposed roll and photographing through it (as a mask). In my Holga named Stubbie.
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-09-11-barbara-tozier-no-filter.jpg">
-  <figcaption>
-    <span class="image-m-caption">#nofilter</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-09-11-barbara-tozier-no-filter.jpg">
+  <figcaption class="image-m-cap figure-caption">#nofilter</figcaption>
 </figure>
 
 This one has several problems, least of all the mask wasn't correctly made. But again, there's *something* there which makes me think that this method could also be tweaked. The main difficulty with this one is knowing where the text would fall on the image. I knew what the text would be for each image, but I didn't know where it would end up in relation to the subject. I did the mask in a Hasselblad which has a different film orientation than Stubbie. Also, the positioning of each frame in Stubbie is not exactly a sure thing, given that it is not automatic in any way. Though I seem to have gotten the text mostly where I wanted it, there is a lot of room for improvement.

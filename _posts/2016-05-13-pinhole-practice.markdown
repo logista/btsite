@@ -17,7 +17,9 @@ As I understand it, one of the "problems" with digital camera pinholes is physic
 
 Here are a couple examples from this week:
 
-<figure class="image-s">
+{% include _figures.html %}
+
+<!-- <figure class="image-s">
   <a href="/images/posts/l/2016-05-12-barbara-tozier-pinhole_apple_tree.jpg" title="Pinhole Apple Tree">
     <img src="/images/posts/s/2016-05-12-barbara-tozier-pinhole_apple_tree.jpg">
   </a>
@@ -25,7 +27,7 @@ Here are a couple examples from this week:
     <img src="/images/posts/s/2016-05-12-barbara-tozier-pinhole_pond.jpg">
   </a>
     <span class="image-s-caption">Click image to see larger</span>
-</figure>
+</figure> -->
 
 _Pinhole Apple Tree_ was edited for color and contrast, etc., _Pinhole Pond_ is more-or-less as it came out of camera (except for the spot-removal[^spot]).
 

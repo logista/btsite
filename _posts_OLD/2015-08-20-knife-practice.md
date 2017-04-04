@@ -43,44 +43,29 @@ There are more technical bits I learned, here are a few of them:
 
 Here are some of my favorites...
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-20-tozier-wraith.jpg">
-  <figcaption>
-    <span class="image-m-caption">Wraith</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-08-20-tozier-wraith.jpg">
+  <figcaption class="image-m-cap figure-caption">Wraith</figcaption>
 </figure>
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-20-tozier-dagger.jpg">
-  <figcaption>
-    <span class="image-m-caption">Dagger</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-08-20-tozier-dagger.jpg">
+  <figcaption class="image-m-cap figure-caption">Dagger</figcaption>
 </figure>
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-20-tozier-crawford.jpg">
-  <figcaption>
-    <span class="image-m-caption">Crawford</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-08-20-tozier-crawford.jpg">
+  <figcaption class="image-m-cap figure-caption">Crawford</figcaption>
 </figure>
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-20-tozier-eagle-1.jpg">
-  <figcaption>
-    <span class="image-m-caption">Eagle</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-08-20-tozier-eagle-1.jpg">
+  <figcaption class="image-m-cap figure-caption">Eagle</figcaption>
 </figure>
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-20-tozier-eagle-2.jpg">
-  <figcaption>
-    <span class="image-m-caption">Eagle (detail)</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-08-20-tozier-eagle-2.jpg">
+  <figcaption class="image-m-cap figure-caption">Eagle (detail)</figcaption>
 </figure>
 
 

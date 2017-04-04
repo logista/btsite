@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title:    Barbara Tozier <br><small class='text-muted'>Photographer</small>
+title:    Barbara Tozier
+subtitle: Photographer
 locale:   en_US
 url:      http://barbaratozier.com
-
 
 # Jekyll configuration
 
@@ -38,6 +38,13 @@ owner:
   instagram: logista
 
 og-image-default: /images/website/tozier-default-thumb.jpg
+
+# picture pile maker
+picserizer:
+  sizes: [400,600,800,960]
+  source: _source_images
+  target: images/posts
+  default_src: 400 #this is the size that will go in the `src` section for browsers that don't do `srcset`
 
 include: [".htaccess", "_pages"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt", "posting-guide.md"]
