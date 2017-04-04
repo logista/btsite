@@ -94,11 +94,28 @@ p.aside::before {
 }
 .byline {
     font-size: $font-size-sm;
+    text-align: center;
+    padding: inherit 1em;
+    margin: .5em;
 }
-a:hover, a.navbar-brand:hover {
+#main a:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
 }
+ul.navbar-nav > li a:hover {
+    color: $body-bg;
+    background-color: lighten($link-hover-color,40%);
+
+}
+a.card-link {
+position: absolute;
+top: 0; left: 0;
+height: 100%; width: 100%;
+}
+a.card-link:hover {
+    background-color: rgba(lighten($brand-primary,50%),.5);
+}
+
 // screenshots
 .image-ss {
   margin:1em auto;
@@ -108,16 +125,18 @@ a:hover, a.navbar-brand:hover {
     float:right;
     margin-left:1rem;
 }
-// medium images
-.image-m-fig, .image-m-img {
+// images in posts
+.post-figure, .post-image, .image-m-fig, .image-m-img {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
 }
-.image-m-img {
-     max-width: 100%;
+.post-image, .image-m-img {
+    max-width:100%;
+    @include media-breakpoint-up(md) { max-width:67%; }
 }
-.image-m-cap {
+.post-caption, .image-m-cap {
     text-align:center;
     font-style: italic;
 }
@@ -128,7 +147,7 @@ a:hover, a.navbar-brand:hover {
 //   margin:1em auto;
 // }
 //
-// figure.image-s img {
+// figure.image-s img {``
 //   padding: 3px;
 // }
 //

@@ -45,3 +45,70 @@ Noticing that many times the original designer chose "white" instead of "bodycol
 Similar for "black" and "textcolor" or maybe it should be my emphasis color of "tozier-color" with some variations? (eh, no. Variations on Text Color)
 
 Have since changed many instances of "bodycolor" back to "white" but then redefined "white" to "bodycolor". Ignoring the code syntax coloration for the moment.
+
+===
+2017-04-01
+Working out Bootstrap 4 grid breakpoints for the image `srcset` subproject...
+
+If the post is in a `.container` and the browser window is wider than 1200px, then the maximum width of the `.container` is 1140px. No matter how big the screen, the widest the `.container` will be is 1140 pixels wide. This means I can limit my widest images to 1200 pixels wide. (I don't make images for desktop backgrounds.) This is a comfortable size for me, though it may mean my portrait oriented pictures are more than 1800 pixels tall. That is less comfortable...
+
+**First Rule of Thumb:** No images larger than 1200px wide.
+
+Right now, the post images are in a 9-column wide container (out of 12). So instead of 1140px maximum, it's really 1140*9/12, or 855 pixels will be the widest the image can get (in actual terms). So a 900px wide image would be enough in a page. A 1200px image would be more "future-proof" and would possibly look better in a slideshow/lightbox if I put one back in. But if I don't do that, then smaller is better.
+
+**Second Rule of Thumb:** No images larger than 900px wide.
+
+How do I want them to appear on the page? If I only do it "1-up" then they'd be centered, I guess. I haven't been doing much wrap-around with text stuff (none, really), but I often will put two "small" pictures next to each other.
+
+But I just as frequently put a series of "medium" images after each other. So I don't think I need to get into `small` `medium` `large` for the purposes of *posting*, just for serving. I could be "mean" and just have the one large image for everything, but that feels wrong. I'm trying to do things ok, and learn stuff.
+
+So, back to breakpoints, leaving post design philosophy for another time. By the way, the site looks TERRIBLE on my phone, so any changes I make need to be able to be easily redone, which is why I want to use Jekyll/Liquid partials to generate the `srcset` code.
+
+I guess that's my goal for the next period.
+
+===
+2017-04-02
+
+Looking through my existing image files, and I realize that I have a few that *weren't* generated from Lightroom (3 medium ones, to be exact 2015-09-01-simply-qee1f.jpg, 2015-12-22-iago-from-wikipedia.jpg, 2015-12-22-umma-cameron-musart_1975_1.63.jpg; and 2 screen captures) There are some knife pictures that may or may not be in my "Master LR" catalog, but that shouldn't be too hard...
+
+I've put copies of them all in a "save" folder just in case...
+
+So I can more-or-less clobber them and start over. Since I need to visit each post to update the image code, I might as well rename to something shorter. ;) I want to have my name in it, though, and at *least* the year. The title of the image gives it some uniqueness, but the filenames are getting too long.
+
+Now that *that's* decided, now onto actual picture sizes.
+
+I'm still thinking maximum width of 1200px for lightbox use. Offering 900px for large/wide screens? Then what about the smaller screens?
+
+Let's look at the Bootstrap 4 breakpoints:
+
+size    grid-bp     container-max    10/12g    10/12c
+xs          0
+sm        576           540            480      450
+md        768           720            640      600
+lg        992           960            827      800
+xl       1200          1140           1000      950
+
+So, because I don't expect to have a post layout larger than 10 columns wide (I like whitespace on the sides), I can see the maximum size for the page is 950px. This would handle xl and lg; 600 would handle sm and md, and 300 for everything else. And 1200 for display. 4 images. I can do that.
+
+Using http://www.responsivebreakpoints.com
+
+<img
+sizes="(max-width: 960px) 100vw, 960px"
+srcset="
+2014-btozier-flowers-1200_e9p0vm_c_scale,w_300.jpg 300w,
+2014-btozier-flowers-1200_e9p0vm_c_scale,w_680.jpg 680w,
+2014-btozier-flowers-1200_e9p0vm_c_scale,w_960.jpg 960w"
+src="2014-btozier-flowers-1200_e9p0vm_c_scale,w_680.jpg"
+alt="">
+
+LATER IN THE DAY. My wonderful husband wrote a small ruby plugin for me to auto resize images, and it's integrated into my jekyll! :) it's at github: `imageener` I can set the source folder, and as many different (fixed) widths as I want to upload. It will create the versions and put them in size-related folders in my `images/posts` folder. **I ONLY HAVE TO EXPORT ONE IMAGE FROM LIGHTROOM!!**
+
+Now to get the post images regenerated, and the posts fixed, and the html `_include` written, and then go *back* to the main layout and fix it so it looks decent on the phone.
+
+And then it's the portfolio/galleries. I should expect to do something similar with those images? Ah, but not today.
+
+===
+2017-04-03
+MORE WITH `srcset` goldarnit. I have something that works (on my machine at least) more-or-less ok. I haven't regenerated the images yet. I'll do that after I get the lightbox in order.
+
+To get it to work, I basically picked image-widths to go with the breakpoints in Bootstrap 4, and hardcoded the sizes in the `_figures.html` include. Then I messed about with the `main.scsss` to make a wider screen *not* show a stretched image. It's very... unsatisfying, but better than what I'd had, I think.

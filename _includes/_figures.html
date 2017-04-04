@@ -1,0 +1,16 @@
+{% assign td = site.picserizer.target %}
+{% assign dd = site.picserizer.default_src %}
+{% assign bf = include.base_image_filename %}
+
+
+<figure class="post-figure">
+<img class="post-image"
+src="/{{ td }}/{{ dd }}/{{ bf }}"
+sizes="(min-width:992px) 960px, (min-width:768px) 800px, (min-width:576px) 600px, 400px"
+srcset="{% for size in site.picserizer.sizes %}{% if forloop.last %}
+/{{ td }}/{{ size }}/{{ bf }}  {{ size }}w{% else %}
+/{{ td }}/{{ size }}/{{ bf }}  {{ size }}w, {% endif %}{% endfor %}"
+alt="{{ include.alt }}"
+title="{{ include.title }}">
+<figcaption class="post-caption">{{ include.caption }}</figcaption>
+</figure>

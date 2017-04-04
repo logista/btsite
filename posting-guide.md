@@ -35,6 +35,13 @@ modified: 2015-08-04
 
 ### Image posts
 
+2017-04-01: I am completely redoing this, because I finally *read* the [Jekyll docs on includes](https://jekyllrb.com/docs/includes/). I can make a `_figures.html` template that I fill with information in my markdown-based post document, and *future* me will be happier when I go to update the site again.
+
+There are a couple of issues remaining (besides the actual design and implementation): what to do about the RSS feed images -- how do I make sure I don't send "too big" files? And do I want a Jekyll plugin to convert a single image to the other sizes, or continue with sizing from Lightroom?
+
+
+
+
 ~~~ yaml
 ---
 layout: post
