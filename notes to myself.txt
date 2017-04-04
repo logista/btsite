@@ -106,3 +106,9 @@ LATER IN THE DAY. My wonderful husband wrote a small ruby plugin for me to auto 
 Now to get the post images regenerated, and the posts fixed, and the html `_include` written, and then go *back* to the main layout and fix it so it looks decent on the phone.
 
 And then it's the portfolio/galleries. I should expect to do something similar with those images? Ah, but not today.
+
+===
+2017-04-03
+MORE WITH `srcset` goldarnit. I have something that works (on my machine at least) more-or-less ok. I haven't regenerated the images yet. I'll do that after I get the lightbox in order.
+
+To get it to work, I basically picked image-widths to go with the breakpoints in Bootstrap 4, and hardcoded the sizes in the `_figures.html` include. Then I messed about with the `main.scsss` to make a wider screen *not* show a stretched image. It's very... unsatisfying, but better than what I'd had, I think.
