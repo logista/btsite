@@ -119,6 +119,8 @@ Working from `restructure` branch
 
 A. `post-image` branch
 	1. install/configure lightbox (Magnific?, something else?)
+		a. `lightbox` branch
+		b. `magnific` branch
 	2. regenerate large images
 	3. edit posts to new image style
 B. `gallery` branch
@@ -130,3 +132,15 @@ C. `pages` branch
 	2. everything else that needs to be done
 D. `tweaks` branch
 	1. everything else that needs to be done
+
+===
+2017-04-05
+Yesterday (not logged) I tried to put in a bootstrap modal lightbox (`ekko-lightbox`). It didn't work, and I couldn't figure out why, so I stripped it out.
+
+Today I copied a demo modal from the bootstrap website. It didn't work. It didn't work, and it didn't work, and it didn't work, and then it worked. The only thing I did differently was punch the button a bunch. Cacheing? Problem with the CDN? I dunno. So, moving on, I guess.
+
+<later>
+
+I reinstalled `ekko-lightbox` and got it to work more-or-less. I think I prefer the `Magnific Popup` because I *won't* have to try to figure out how to style the modal pane (do I work with the lightbox's css? with bootstrap's? who is in control?)
+
+I did test to see if I could separate images (using the "data-remote") construction. It seems to work ok.
