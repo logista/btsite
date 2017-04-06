@@ -134,7 +134,7 @@ a.card-link:hover {
 }
 .post-image, .image-m-img {
     max-width:100%;
-    @include media-breakpoint-up(md) { max-width:67%; }
+    @include media-breakpoint-up(md) { max-width:66.667%; }
 }
 .post-caption, .image-m-cap {
     text-align:center;
@@ -155,6 +155,7 @@ a.card-link:hover {
 //   display: block;
 //   color: lighten($text-color, 20);
 // }
+
 div.text-highlight pre{
     margin-bottom: 1.5em;
     	position: relative;
@@ -163,4 +164,8 @@ div.text-highlight pre{
 }
 .code-snippet {
   text-align:center;
+}
+
+code.highlighter-rouge {
+    font-size: .85em;
 }
