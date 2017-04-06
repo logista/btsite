@@ -130,3 +130,9 @@ C. `pages` branch
 	2. everything else that needs to be done
 D. `tweaks` branch
 	1. everything else that needs to be done
+
+===
+2017-04-05
+Yesterday (not logged) I tried to put in a bootstrap modal lightbox (`ekko-lightbox`). It didn't work, and I couldn't figure out why, so I stripped it out.
+
+Today I copied a demo modal from the bootstrap website. It didn't work. It didn't work, and it didn't work, and it didn't work, and then it worked. The only thing I did differently was punch the button a bunch. Cacheing? Problem with the CDN? I dunno. So, moving on, I guess.
