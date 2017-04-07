@@ -151,3 +151,9 @@ I did test to see if I could separate images (using the "data-remote") construct
 Apparently `magnific-popup` doesn't handle `srcset`. So trying a 3rd option: `lightGallery`
 
 ANNNNDDDD... newp.
+
+It doesn't seem to want to use `.class` as an identifier. I went back to `ekko-lightbox` --- it works as far as I can tell, just needs a lot of styling.
+
+What I want is full-screen images on a nearly-black background, not enlarged. With navigation, titles and captions.
+
+Making that happen is for another day. I'll keep the other branches until I pull the `lightbox` branch into `post-images`. You know, just in case.
