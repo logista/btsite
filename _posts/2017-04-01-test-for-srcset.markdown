@@ -9,15 +9,6 @@ ogimage:
 
 testing `ekko-lightbox`
 
-<img src="/images/posts/600/2015-10-13-barbara-tozier-bored-ash.jpg"
-data-toggle="lightbox"
-data-gallery="post-gallery"
-data-remote="/images/posts/l/2015-10-13-barbara-tozier-bored-ash.jpg"
-data-footer="paths of emerald ash borers in a diseased/dying tree"
-data-title="Bored Ash">
-
-
-
 
 I got smart(?) and made a sample post for testing the way `srcset` works. Now I'm going to add a bunch of text to see where the edges of the layout are.
 
