@@ -149,3 +149,5 @@ I did test to see if I could separate images (using the "data-remote") construct
 ===
 2017-04-06
 Apparently `magnific-popup` doesn't handle `srcset`. So trying a 3rd option: `lightGallery`
+
+ANNNNDDDD... newp.
