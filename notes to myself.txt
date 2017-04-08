@@ -123,6 +123,8 @@ A. `post-image` branch
 		b. `magnific` branch
 		c. `lightgallery` branch
 	2. regenerate large images
+		a. naming scheme
+		b. location
 	3. edit posts to new image style
 B. `gallery` branch
 	1. new structure/layout
@@ -157,3 +159,11 @@ It doesn't seem to want to use `.class` as an identifier. I went back to `ekko-l
 What I want is full-screen images on a nearly-black background, not enlarged. With navigation, titles and captions.
 
 Making that happen is for another day. I'll keep the other branches until I pull the `lightbox` branch into `post-images`. You know, just in case.
+
+===
+2017-04-07
+Styling the `ekko-lightbox`. It's... ok I guess? but I wish the `nav-overlay` was more accessible (in terms of figuring out how to style it). I know I can change the text used, but I can't quite figure out how to get it in line with the caption on the figure.
+
+The basic style is done, so now I just need to update all the posts. I've decided that I will not resize images from elsewhere (like the UMMA images of Julia Cameron's work), but put them in an adhoc folder. Same for screen captures, since I don't really do them that much.
+
+Before I can update the posts, I need to regenerate the large images. So next task is to decide on a naming scheme.
