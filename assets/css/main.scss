@@ -169,3 +169,31 @@ div.text-highlight pre{
 code.highlighter-rouge {
     font-size: .85em;
 }
+
+
+
+// testing some modal styling
+.ekko-lightbox .modal-content {
+    background-color: rgba($modal-content-bg,0);
+    color:invert($body-color);
+
+        button.close {
+            color:inherit;
+        }
+}
+
+.ekko-lightbox .modal-body {
+    background-color: $body-bg;
+}
+
+.ekko-lightbox-nav-overlay {
+    @extend .modal-footer;
+    display: flex;
+    justify-content: left;
+
+    a {
+        padding:18px 0px 0px;
+        color:inherit;
+    }
+
+}
