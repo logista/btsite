@@ -167,3 +167,16 @@ Styling the `ekko-lightbox`. It's... ok I guess? but I wish the `nav-overlay` wa
 The basic style is done, so now I just need to update all the posts. I've decided that I will not resize images from elsewhere (like the UMMA images of Julia Cameron's work), but put them in an adhoc folder. Same for screen captures, since I don't really do them that much.
 
 Before I can update the posts, I need to regenerate the large images. So next task is to decide on a naming scheme.
+
+===
+2017-04-08
+Ok. Lightroom is only helpful up to a point. In this case, it *really really really* wants to put images in folders that **it** makes. And it won't let me say what characters I want it to strip out of filenames (_eg_ `()?!'&#`). But it easily will generate a hundred images in a few minutes, so that's nice. And it will remember what it published, so I don't have to.
+
+I've tweaked the naming scheme to try to make it a smidge smaller, so I'm taking out some dashes and so forth.
+
+Old style: `2015-08-03-barbara-tozier-square-orange-texture.jpg`
+New style: `20150802-btozier-square-orange-texture.jpg`
+
+(I don't know why the date changed. It's supposed to be the exif capture date.) I considered just having the year, but it's been helpful for me to see the whole date when I'm working with the files. So, I've saved 9 characters and will break any links that exist outside of my site. I'm actually kinda okay with that.
+
+I put the images in a folder, then run an Automator Folder Action to "sanitize" the names. It is... not pretty, but it seems to work.
