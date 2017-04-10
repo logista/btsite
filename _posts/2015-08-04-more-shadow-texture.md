@@ -4,7 +4,7 @@ title: "More Shadow Texture"
 excerpt: "I'm still trying to figure out a workflow for writing-related ad hoc images."
 tags: [photograph, texture, abstract, shadow]
 date: 2015-08-04
-ogimage: '/images/posts/l/2015-08-04-barbara-tozier-evening-shadow.jpg'
+ogimage: '20150804-btozier-evening-shadow.jpg'
 ---
 
 I'm still trying to figure out a workflow for writing-related ad hoc images. (Or, _ad hoc_ if you listen to some people in the house.)
@@ -15,6 +15,12 @@ I also realized after the [Textures](/textures-for-fun/) post, I need to make ce
 
 All that to share this image:
 
-[![Evening Shadow](/images/posts/s/2015-08-04-barbara-tozier-evening-shadow.jpg)](/images/posts/l/2015-08-04-barbara-tozier-evening-shadow.jpg "Evening Shadow")
+{% include _figures.html
+  base_image_filename="20150804-btozier-evening-shadow.jpg"
+  title="Evening Shadow"
+  alt="beige and dark blue-to-black abstract triangles"
+  caption="Evening in the studio"
+%}
+
 
 Enjoy it, and expect to see more oddly-sized images in the future.

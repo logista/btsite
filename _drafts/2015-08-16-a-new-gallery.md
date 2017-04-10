@@ -5,7 +5,10 @@ excerpt: "A small survey of Alternative Processes"
 tags: [alternative processes, photography, chaos]
 date: '2015-08-16 16:00'
 ogimage: "/gallery-altpro/th/01-barbara-tozier-cma-september-19-2013.jpg"
+published: false
 ---
+
+<!-- This needs to be addressed once I handle the gallery stuff 2017-04-09 -->
 
 I've posted a [new gallery](/gallery-altpro/) on alternative processes. This was a from class I took in the first part of the year, which was a survey of as many "alternative processes" as we could dream up. Pinhole images, anthotypes, silkscreen printing, transfers of every kind, toning... No, really, it was fantastic. I found many ways to create images, and I was surprised in the end with what most resonated with me.
 

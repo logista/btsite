@@ -5,7 +5,10 @@ excerpt: "A long discourse on how I present images, with digressions."
 tags: [lightroom, website, self-referential, photographs, jekyll]
 date: 2015-08-13
 ogimage: "/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg"
+published: false
 ---
+
+<!-- This is really outdated and I don't want to deal with it today 2017-04-09 -->
 
 Seventeen hundred words on how I'm using Lightroom to generate images for the posts on this website.
 {: .acn}
