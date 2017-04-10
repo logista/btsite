@@ -15,7 +15,7 @@ title="{{ include.title }}"
 data-toggle="lightbox"
 data-gallery="post-gallery"
 data-remote="/{{ td }}/960/{{ bf }}"
-data-footer="{{ include.caption }}"
-data-title="{{ include.title }}">
-<figcaption class="post-caption">{{ include.caption }}</figcaption>
+data-footer="{{ include.caption  | markdownify }}"
+data-title="{{ include.title  | markdownify }}">
+<figcaption class="post-caption">{{ include.caption  | markdownify }}</figcaption>
 </figure>

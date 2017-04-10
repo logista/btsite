@@ -90,7 +90,7 @@ The images in the galleries are 300px thumbnails, linking to a larger (1500px) c
 
 ## Special CSS classes
 
-### images
+### images (As of 2017-04-09 this has been completely reworked)
 
 #### screen captures
 

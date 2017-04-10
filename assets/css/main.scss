@@ -117,16 +117,16 @@ a.card-link:hover {
 }
 
 // screenshots
-.image-ss {
-  margin:1em auto;
-  text-align:center;
-}
-.image-pull-right {
-    float:right;
-    margin-left:1rem;
-}
+// .image-ss {
+//   margin:1em auto;
+//   text-align:center;
+// }
+// .image-pull-right {
+//     float:right;
+//     margin-left:1rem;
+// }
 // images in posts
-.post-figure, .post-image, .image-m-fig, .image-m-img {
+.post-figure, .post-image {
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -139,6 +139,20 @@ a.card-link:hover {
 .post-caption, .image-m-cap {
     text-align:center;
     font-style: italic;
+}
+
+.image-ss {
+    display:block;
+    float: right;
+    padding:.5em;
+    border: $card-border-color 1px solid;
+}
+
+.image-adhoc img {
+    display:block;
+    margin:auto;
+    padding:.5em;
+    border: $card-border-color 1px solid;
 }
 
 // // small images
@@ -164,12 +178,15 @@ div.text-highlight pre{
 }
 .code-snippet {
   text-align:center;
+  font-size: $font-size-sm;
 }
 
 code.highlighter-rouge {
-    font-size: .85em;
+    font-size: $font-size-sm*1.1;
 }
-
+.highlight {
+    font-size: $font-size-sm;
+}
 
 
 // testing some modal styling
@@ -196,4 +213,7 @@ code.highlighter-rouge {
         color:inherit;
     }
 
+}
+.vid {
+    text-align: center;
 }
