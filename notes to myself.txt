@@ -130,11 +130,13 @@ B. `gallery` branch
 	1. new structure/layout
 	2. regenerate images(?)
 	3. everything else that needs to be done
+		a. revisit posts that point to galleries (alt-pro, in-camera, ??)
 C. `pages` branch
 	1. new structure/layout
 	2. everything else that needs to be done
 D. `tweaks` branch
 	1. everything else that needs to be done
+		a. blockquote styling
 
 ===
 2017-04-05
@@ -180,3 +182,18 @@ New style: `20150802-btozier-square-orange-texture.jpg`
 (I don't know why the date changed. It's supposed to be the exif capture date.) I considered just having the year, but it's been helpful for me to see the whole date when I'm working with the files. So, I've saved 9 characters and will break any links that exist outside of my site. I'm actually kinda okay with that.
 
 I put the images in a folder, then run an Automator Folder Action to "sanitize" the names. It is... not pretty, but it seems to work.
+
+
+===
+2017-04-09
+This morning I did a better Automator Folder Action (including a `bash` script!). Still not 100% (I might end up with `--` in some filenames) but much more satisfactory.
+
+Now, to edit all the posts. Still working in the `lightbox` branch, just in case...
+
+<later>
+
+I've been going through each post and moving images over into the proper place as I do it. I've found several images that were *not* managed by lightroom (mainly iphone ones) that I have since gone back and installed in my Master catalog.
+
+There are 2 posts that are related to figuring out how to design the post/image structure for the old version of the site. I've moved them to `_drafts` and marked them to not publish (in the YAML). I think there is one "good" image that is not used anywhere else, so I may give it a post just because.
+
+Then there is the one post that is related to the alt-pro gallery. I need to revisit this once I figure out the gallery structure.
