@@ -105,7 +105,6 @@ p.aside::before {
 ul.navbar-nav > li a:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
-
 }
 a.card-link {
 position: absolute;
@@ -116,15 +115,6 @@ a.card-link:hover {
     background-color: rgba(lighten($brand-primary,50%),.5);
 }
 
-// screenshots
-// .image-ss {
-//   margin:1em auto;
-//   text-align:center;
-// }
-// .image-pull-right {
-//     float:right;
-//     margin-left:1rem;
-// }
 // images in posts
 .post-figure, .post-image {
     display:block;
@@ -132,22 +122,14 @@ a.card-link:hover {
     margin-right: auto;
     max-width: 100%;
 }
-.post-image, .image-m-img {
+.post-image {
     max-width:100%;
-    @include media-breakpoint-up(md) { max-width:66.667%; }
+    @include media-breakpoint-up(md) { max-width:50%; }
 }
-.post-caption, .image-m-cap {
+.post-caption {
     text-align:center;
     font-style: italic;
 }
-
-.image-ss {
-    display:block;
-    float: right;
-    padding:.5em;
-    border: $card-border-color 1px solid;
-}
-
 .image-adhoc img {
     display:block;
     margin:auto;
@@ -155,22 +137,12 @@ a.card-link:hover {
     max-width: 100%;
     border: $card-border-color 1px solid;
 }
+.video {
+    text-align: center;
+}
 
-// // small images
-// figure.image-s {
-//   display: table;
-//   margin:1em auto;
-// }
-//
-// figure.image-s img {``
-//   padding: 3px;
-// }
-//
-// .image-s-caption {
-//   display: block;
-//   color: lighten($text-color, 20);
-// }
 
+// code text
 div.text-highlight pre{
     margin-bottom: 1.5em;
     	position: relative;
@@ -190,7 +162,7 @@ code.highlighter-rouge {
 }
 
 
-// testing some modal styling
+//  modal styling
 .ekko-lightbox .modal-content {
     background-color: rgba($modal-content-bg,0);
     color:invert($body-color);
@@ -214,7 +186,4 @@ code.highlighter-rouge {
         color:inherit;
     }
 
-}
-.video {
-    text-align: center;
 }
