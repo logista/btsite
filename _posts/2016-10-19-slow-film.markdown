@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Slow Film"
+date: "2016-10-19 20:37:45 -0400"
+excerpt: "Field testing the Kodak RPC film"
+tags: [photograph,black and white, film,rapid process copy,flowers]
+ogimage: "20160822-btozier-drip.jpg"
+---
+
+I've been working with [Kodak Rapid Process Copy film](/kodak-rapid-process-copy-film/) recently, and I'm still trying to figure out how to use it. I took the remainder of the first test roll to [Matthaei Botanical Gardens](http://lsa.umich.edu/mbg/) in late summer. I wanted colors and bright skies, and boy, did I get them.
+
+I made 8 or 9 setups and made 2 exposures at each stop. The basic exposure was 8 seconds at _f_/8, and then I did the second one at 16 seconds. More-or-less. I wanted to have overexposure to make sure I *could* overexpose the film, and while I don't show that here, I was able to overexpose a bit.
+
+To give you an idea of what the day was like, here's a phone photo I made as a reference:
+
+{% include _figures.html
+  base_image_filename="20160819-btozier-gate-ref.jpg"
+  title="Gate (reference)"
+  alt="Color image of a garden. Clear blue sky, dark green trees, orange, red, yellow, white and purple flowers massed in the foreground. There are some fenceposts in the background and a fieldstone gatepost."
+  caption="September is beautiful"
+%}
+
+Here is the RPC version after scanning and a bit of editing (you can see my terrible processing)[^process]
+{% include _figures.html
+  base_image_filename="20161019-btozier-gate.jpg"
+  title="Gate"
+  alt="Similar scene as above, but the red flowers are indistinguishable from the green leaves, the sky is gray, and the purple flowers look white."
+  caption="Feels like a 1940s photograph"
+%}
+
+[^process]: I need to decide how much I really care about seeing this stuff on my film and scans. Mostly I don't worry about it, but I don't want specks and blebs and scratches to *detract* from the scene if they are not *enhancing* it.
+
+The thing that interests me, especially seeing these two together, is how the film version reminds me of a mid-century photograph of a garden. I understand that it's an artifact of the orthochromatism, but seeing it so directly *with images that I know I made* makes me feel like I have some sort of historical superpowers.
+
+This next image is of a frilly dark red cockscomb in front of some foliage. Cockscomb is sort of stiff, which is why the 8 second exposure didn't really matter --- no motion is evident.
+
+{% include _figures.html
+  base_image_filename="20161019-btozier-cockscomb.jpg"
+  title="Cockscomb"
+  alt="Dark, very detailed frilly flowers in lower half; lighter mottled out of focus background."
+  caption="Fuzzy"
+%}
+
+This last image of water dripping along some stacked stones is probably my favorite one of the set.
+
+{% include _figures.html
+  base_image_filename="20160822-btozier-drip.jpg"
+  title="Drip"
+  alt="Stacked rocks in a beehive shape with water coming down and landing in a pool. The water is smoothed out, not droplets. Tall plants in the background are blurry and soft."
+  caption="Smooth"
+%}
+
+I spent some time in Photoshop with the phone version of this image, and while I could get the tones mostly right, the background flowers and the water drips were too sharp. I like how a bright sunny day (you can tell by the sharp shadows) yields soft water and foliage.
+
+It's been a few weeks since I made these images, and looking at them again just reminds me that I want to do something special with this film. I had been considering a project that presents the film itself (because it's totally weird but maybe it's only weird to people who are used to seeing negatives?), but I really like the pieces I get from scanning and editing. So back to the notebooks I go...

@@ -4,22 +4,28 @@ title: "Funday... Tuesday?"
 excerpt: "I've been doing my assignments and projects, but sometimes I just want to play."
 tags: [photograph, digital,color]
 date: 2016-01-20
-ogimage: "/images/posts/m/2016-01-19-barbara-tozier-aaaagh.jpg"
+ogimage: "20160119-btozier-aaaargh.jpg"
 ---
 
 I've been doing my assignments and projects, but sometimes I just want to play.
 
-<figure class="image-m-fig figure">
-  <img class="image-m-img figure-img" src="/images/posts/m/2016-01-18-barbara-tozier-magenta-mist.jpg">
-  <figcaption class="image-m-cap figure-caption">Magenta Mist</figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160118-btozier-magenta-mist.jpg"
+  title="Magenta Mist"
+  alt="Hazy magenta color overlays a grid-like series of lines"
+  caption="Haze and dots and lines"
+%}
 
-<figure class="image-m-fig figure">
-  <img class="image-m-img figure-img" src="/images/posts/m/2016-01-19-barbara-tozier-tunnel.jpg">
-  <figcaption class="image-m-cap figure-caption">Tunnel</figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160119-btozier-tunnel.jpg"
+  title="Tunnel"
+  alt="Top third has an elongated checkerboard pattern with casts a shadow on the beige lower third. The middle third is black."
+  caption="Glass checkerboards are fun!"
+%}
 
-<figure class="image-m-fig figure">
-  <img class="image-m-img figure-img" src="/images/posts/m/2016-01-19-barbara-tozier-aaaagh.jpg">
-  <figcaption class="image-m-cap figure-caption">AAAAGH!</figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160119-btozier-aaaargh.jpg"
+  title="AAAARGH!"
+  alt="Same as the previous, but with a smooth black plastic man-shaped figure standing on its hands."
+  caption="Falling off the edge of the world!"
+%}

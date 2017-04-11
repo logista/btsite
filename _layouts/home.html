@@ -11,7 +11,7 @@ layout: default
                 <a class="card-link" href="{{ post.url }}" title="Go to {{ post.title }}"></a>
                 <div class="card-block">
                     {% if post.ogimage %}
-                    <img class="card-img-top" src="{{ site.url }}{{ post.ogimage }}" alt="post image">
+                    <img class="card-img-top" src="{{ site.og-image-dir }}{{ post.ogimage }}" alt="post image">
                     {% endif %}
                     <h3 class="card-title">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
                     <p class="card-text">{{ post.excerpt | markdownify  | remove: '<p>' | remove: '</p>'}}</p>

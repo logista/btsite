@@ -9,7 +9,7 @@ colors?? From Office and Studio
 	#6E3531
 	#562521
 	#25100C
-  #AD9888
+	#AD9888
 	#681819
 	#822128
 	#711411
@@ -118,20 +118,28 @@ To get it to work, I basically picked image-widths to go with the breakpoints in
 Working from `restructure` branch
 
 A. `post-image` branch
-	1. install/configure lightbox (Magnific?, something else?)
-		a. `lightbox` branch
-		b. `magnific` branch
+	1. install/configure a lightbox
+		a. `lightbox` branch (`ekko-lightbox`)
+		b. `magnific` branch (`magnific-popup`)
+		c. `lightgallery` branch (`lightgallery`)
 	2. regenerate large images
+		a. naming scheme
+		b. location
 	3. edit posts to new image style
-B. `gallery` branch
+	4. tweaks for posts
+		a. blockquote styling
+		b. previous/next buttons
+B. `pages` branch
+	1. new structure/layout
+	2. everything else that needs to be done
+C. `gallery` branch
 	1. new structure/layout
 	2. regenerate images(?)
 	3. everything else that needs to be done
-C. `pages` branch
-	1. new structure/layout
-	2. everything else that needs to be done
+		a. revisit posts that point to galleries (alt-pro, in-camera, ??)
 D. `tweaks` branch
 	1. everything else that needs to be done
+		b. revise `posting-guide.md` for new styles and classes
 
 ===
 2017-04-05
@@ -144,3 +152,67 @@ Today I copied a demo modal from the bootstrap website. It didn't work. It didn'
 I reinstalled `ekko-lightbox` and got it to work more-or-less. I think I prefer the `Magnific Popup` because I *won't* have to try to figure out how to style the modal pane (do I work with the lightbox's css? with bootstrap's? who is in control?)
 
 I did test to see if I could separate images (using the "data-remote") construction. It seems to work ok.
+
+===
+2017-04-06
+Apparently `magnific-popup` doesn't handle `srcset`. So trying a 3rd option: `lightGallery`
+
+ANNNNDDDD... newp.
+
+It doesn't seem to want to use `.class` as an identifier. I went back to `ekko-lightbox` --- it works as far as I can tell, just needs a lot of styling.
+
+What I want is full-screen images on a nearly-black background, not enlarged. With navigation, titles and captions.
+
+Making that happen is for another day. I'll keep the other branches until I pull the `lightbox` branch into `post-images`. You know, just in case.
+
+===
+2017-04-07
+Styling the `ekko-lightbox`. It's... ok I guess? but I wish the `nav-overlay` was more accessible (in terms of figuring out how to style it). I know I can change the text used, but I can't quite figure out how to get it in line with the caption on the figure.
+
+The basic style is done, so now I just need to update all the posts. I've decided that I will not resize images from elsewhere (like the UMMA images of Julia Cameron's work), but put them in an adhoc folder. Same for screen captures, since I don't really do them that much.
+
+Before I can update the posts, I need to regenerate the large images. So next task is to decide on a naming scheme.
+
+===
+2017-04-08
+Ok. Lightroom is only helpful up to a point. In this case, it *really really really* wants to put images in folders that **it** makes. And it won't let me say what characters I want it to strip out of filenames (_eg_ `()?!'&#`). But it easily will generate a hundred images in a few minutes, so that's nice. And it will remember what it published, so I don't have to.
+
+I've tweaked the naming scheme to try to make it a smidge smaller, so I'm taking out some dashes and so forth.
+
+Old style: `2015-08-03-barbara-tozier-square-orange-texture.jpg`
+New style: `20150802-btozier-square-orange-texture.jpg`
+
+(I don't know why the date changed. It's supposed to be the exif capture date.) I considered just having the year, but it's been helpful for me to see the whole date when I'm working with the files. So, I've saved 9 characters and will break any links that exist outside of my site. I'm actually kinda okay with that.
+
+I put the images in a folder, then run an Automator Folder Action to "sanitize" the names. It is... not pretty, but it seems to work.
+
+
+===
+2017-04-09
+This morning I did a better Automator Folder Action (including a `bash` script!). Still not 100% (I might end up with `--` in some filenames) but much more satisfactory.
+
+Now, to edit all the posts. Still working in the `lightbox` branch, just in case...
+
+<later>
+
+I've been going through each post and moving images over into the proper place as I do it. I've found several images that were *not* managed by lightroom (mainly iphone ones) that I have since gone back and installed in my Master catalog.
+
+There are 2 posts that are related to figuring out how to design the post/image structure for the old version of the site. I've moved them to `_drafts` and marked them to not publish (in the YAML). I think there is one "good" image that is not used anywhere else, so I may give it a post just because.
+
+Then there is the one post that is related to the alt-pro gallery. I need to revisit this once I figure out the gallery structure.
+
+===
+2017-04-10
+Finished recoding the posts images, with the exception of the gallery-related posts and the really out-of-date design posts. There are a few orphaned images, too. All of these have been moved to a folder called `_orphans`; the folder is excluded from Jekyll's runtime.
+
+Made some new code for video embeds (I can't check locally because the server doesn't seem to want to serve it?). So after one more check I think `lightbox` is about ready to merge into `post-image`!
+
+===
+2017-04-11
+Merged `lightbox` branch into `post-images` and deleted the other 2. I've decided to delay the `gallery` branch updates until after the `pages` branch because I want to step away from images for a couple of days.
+
+The thing I just realized, though: I've made some changes to the site-wide view in addition to the posts. I think I will do the post text updats (like `blockquotes` styling, and then merge it into the `restructure` branch before I move back out into a `pages` branch. THEN `gallery`.)
+
+<later>
+
+Have done the blockquote styling, and updated the previous/next to read older/newer. Now to integrate into the `restructure` branch!
