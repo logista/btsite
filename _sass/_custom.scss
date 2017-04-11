@@ -203,7 +203,7 @@ $small-font-size: 80% !default;
 $text-muted: $gray-light !default;
 
 $blockquote-small-color:  $gray-light !default;
-$blockquote-font-size:    ($font-size-base * 1.25) !default;
+$blockquote-font-size:    ($font-size-base*.9);
 $blockquote-border-color: $gray-lighter !default;
 $blockquote-border-width: .25rem !default;
 

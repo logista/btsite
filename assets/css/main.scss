@@ -98,6 +98,12 @@ p.aside::before {
     padding: inherit 1em;
     margin: .5em;
 }
+blockquote {
+    @extend .blockquote;
+}
+.source {
+    @extend .blockquote-footer;
+}
 #main a:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);

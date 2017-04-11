@@ -126,17 +126,19 @@ A. `post-image` branch
 		a. naming scheme
 		b. location
 	3. edit posts to new image style
-B. `gallery` branch
+	4. tweaks for posts
+		a. blockquote styling
+		b. previous/next buttons
+B. `pages` branch
+	1. new structure/layout
+	2. everything else that needs to be done
+C. `gallery` branch
 	1. new structure/layout
 	2. regenerate images(?)
 	3. everything else that needs to be done
 		a. revisit posts that point to galleries (alt-pro, in-camera, ??)
-C. `pages` branch
-	1. new structure/layout
-	2. everything else that needs to be done
 D. `tweaks` branch
 	1. everything else that needs to be done
-		a. blockquote styling
 		b. revise `posting-guide.md` for new styles and classes
 
 ===
@@ -204,3 +206,13 @@ Then there is the one post that is related to the alt-pro gallery. I need to rev
 Finished recoding the posts images, with the exception of the gallery-related posts and the really out-of-date design posts. There are a few orphaned images, too. All of these have been moved to a folder called `_orphans`; the folder is excluded from Jekyll's runtime.
 
 Made some new code for video embeds (I can't check locally because the server doesn't seem to want to serve it?). So after one more check I think `lightbox` is about ready to merge into `post-image`!
+
+===
+2017-04-11
+Merged `lightbox` branch into `post-images` and deleted the other 2. I've decided to delay the `gallery` branch updates until after the `pages` branch because I want to step away from images for a couple of days.
+
+The thing I just realized, though: I've made some changes to the site-wide view in addition to the posts. I think I will do the post text updats (like `blockquotes` styling, and then merge it into the `restructure` branch before I move back out into a `pages` branch. THEN `gallery`.)
+
+<later>
+
+Have done the blockquote styling, and updated the previous/next to read older/newer. Now to integrate into the `restructure` branch!
