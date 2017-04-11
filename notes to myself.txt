@@ -216,3 +216,7 @@ The thing I just realized, though: I've made some changes to the site-wide view 
 <later>
 
 Have done the blockquote styling, and updated the previous/next to read older/newer. Now to integrate into the `restructure` branch!
+
+<later>
+
+pull request successful! Heady times.
