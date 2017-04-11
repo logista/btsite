@@ -9,7 +9,7 @@ colors?? From Office and Studio
 	#6E3531
 	#562521
 	#25100C
-  #AD9888
+	#AD9888
 	#681819
 	#822128
 	#711411
@@ -118,10 +118,10 @@ To get it to work, I basically picked image-widths to go with the breakpoints in
 Working from `restructure` branch
 
 A. `post-image` branch
-	1. install/configure lightbox (Magnific?, something else?)
-		a. `lightbox` branch
-		b. `magnific` branch
-		c. `lightgallery` branch
+	1. install/configure a lightbox
+		a. `lightbox` branch (`ekko-lightbox`)
+		b. `magnific` branch (`magnific-popup`)
+		c. `lightgallery` branch (`lightgallery`)
 	2. regenerate large images
 		a. naming scheme
 		b. location
@@ -137,6 +137,7 @@ C. `pages` branch
 D. `tweaks` branch
 	1. everything else that needs to be done
 		a. blockquote styling
+		b. revise `posting-guide.md` for new styles and classes
 
 ===
 2017-04-05
@@ -197,3 +198,9 @@ I've been going through each post and moving images over into the proper place a
 There are 2 posts that are related to figuring out how to design the post/image structure for the old version of the site. I've moved them to `_drafts` and marked them to not publish (in the YAML). I think there is one "good" image that is not used anywhere else, so I may give it a post just because.
 
 Then there is the one post that is related to the alt-pro gallery. I need to revisit this once I figure out the gallery structure.
+
+===
+2017-04-10
+Finished recoding the posts images, with the exception of the gallery-related posts and the really out-of-date design posts. There are a few orphaned images, too. All of these have been moved to a folder called `_orphans`; the folder is excluded from Jekyll's runtime.
+
+Made some new code for video embeds (I can't check locally because the server doesn't seem to want to serve it?). So after one more check I think `lightbox` is about ready to merge into `post-image`!
