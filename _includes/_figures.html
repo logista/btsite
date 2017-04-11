@@ -11,6 +11,11 @@ srcset="{% for size in site.picserizer.sizes %}{% if forloop.last %}
 /{{ td }}/{{ size }}/{{ bf }}  {{ size }}w{% else %}
 /{{ td }}/{{ size }}/{{ bf }}  {{ size }}w, {% endif %}{% endfor %}"
 alt="{{ include.alt }}"
-title="{{ include.title }}">
-<figcaption class="post-caption">{{ include.caption }}</figcaption>
+title="{{ include.title }}"
+data-toggle="lightbox"
+data-gallery="post-gallery"
+data-remote="/{{ td }}/960/{{ bf }}"
+data-footer="{{ include.caption  | markdownify }}"
+data-title="{{ include.title  | markdownify }}">
+<figcaption class="post-caption">{{ include.title  | markdownify }}</figcaption>
 </figure>

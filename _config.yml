@@ -37,6 +37,9 @@ owner:
   tumblr: logista
   instagram: logista
 
+# og-images
+# Supposedly used by social sites, but I don't know for sure. Also used by the home page to populate the post cards.
+og-image-dir: /images/posts/400/ # choose one that is made by the picserizer
 og-image-default: /images/website/tozier-default-thumb.jpg
 
 # picture pile maker
@@ -47,4 +50,4 @@ picserizer:
   default_src: 400 #this is the size that will go in the `src` section for browsers that don't do `srcset`
 
 include: [".htaccess", "_pages"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt", "posting-guide.md"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt", "posting-guide.md", "_orphans"]

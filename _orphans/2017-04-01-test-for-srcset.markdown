@@ -1,0 +1,34 @@
+---
+layout: post
+title: "test for `srcset`"
+date: "2017-04-01 15:31:25 -0400"
+excerpt: "testy testy"
+tags: []
+ogimage:
+---
+
+testing `ekko-lightbox`
+
+
+I got smart(?) and made a sample post for testing the way `srcset` works. Now I'm going to add a bunch of text to see where the edges of the layout are.
+
+{% include _figures.html base_image_filename="2015-10-13-barbara-tozier-bored-ash.jpg"
+title="Bored Ash" alt="paths of emerald ash borers in a diseased/dying tree"
+caption="Bored Ash" %}
+
+Let's put some text in between. Look at these lovely dahlias; we found them in a park near the Dow House and Studio.
+
+{% include _figures.html
+base_image_filename="2015-10-01-barbara-tozier-dahlia-hill.jpg"
+title="Dahlia Hill"
+alt="dahlia flowers against a white background"
+caption="A day with the Dahlias" %}
+
+{% include _figures.html
+    base_image_filename="2016-09-18-barbara-tozier-crowd.jpg"
+    title="Crowd"
+    alt="black and white photo of a crowd at a skatepark"
+    caption="The crowd at the skatepark"
+%}
+
+And some closing text, because why the hell not!?

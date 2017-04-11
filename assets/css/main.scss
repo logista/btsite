@@ -105,7 +105,6 @@ p.aside::before {
 ul.navbar-nav > li a:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
-
 }
 a.card-link {
 position: absolute;
@@ -116,46 +115,34 @@ a.card-link:hover {
     background-color: rgba(lighten($brand-primary,50%),.5);
 }
 
-// screenshots
-.image-ss {
-  margin:1em auto;
-  text-align:center;
-}
-.image-pull-right {
-    float:right;
-    margin-left:1rem;
-}
 // images in posts
-.post-figure, .post-image, .image-m-fig, .image-m-img {
+.post-figure, .post-image {
     display:block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
 }
-.post-image, .image-m-img {
+.post-image {
     max-width:100%;
-    @include media-breakpoint-up(md) { max-width:66.667%; }
+    @include media-breakpoint-up(md) { max-width:50%; }
 }
-.post-caption, .image-m-cap {
+.post-caption {
     text-align:center;
     font-style: italic;
 }
+.image-adhoc img {
+    display:block;
+    margin:auto;
+    padding:.5em;
+    max-width: 100%;
+    border: $card-border-color 1px solid;
+}
+.video {
+    text-align: center;
+}
 
-// // small images
-// figure.image-s {
-//   display: table;
-//   margin:1em auto;
-// }
-//
-// figure.image-s img {``
-//   padding: 3px;
-// }
-//
-// .image-s-caption {
-//   display: block;
-//   color: lighten($text-color, 20);
-// }
 
+// code text
 div.text-highlight pre{
     margin-bottom: 1.5em;
     	position: relative;
@@ -164,8 +151,39 @@ div.text-highlight pre{
 }
 .code-snippet {
   text-align:center;
+  font-size: $font-size-sm;
 }
 
 code.highlighter-rouge {
-    font-size: .85em;
+    font-size: $font-size-sm*1.1;
+}
+.highlight {
+    font-size: $font-size-sm;
+}
+
+
+//  modal styling
+.ekko-lightbox .modal-content {
+    background-color: rgba($modal-content-bg,0);
+    color:invert($body-color);
+
+        button.close {
+            color:inherit;
+        }
+}
+
+.ekko-lightbox .modal-body {
+    background-color: $body-bg;
+}
+
+.ekko-lightbox-nav-overlay {
+    @extend .modal-footer;
+    display: flex;
+    justify-content: left;
+
+    a {
+        padding:18px 0px 0px;
+        color:inherit;
+    }
+
 }
