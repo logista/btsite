@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Hatchback 11"
+date: "2017-03-27 11:24:51 -0400"
+excerpt: "I have work in Hamtramck!"
+tags: [photography,idlograph,show,analog]
+ogimage: "20170313-btozier-bowl.jpg"
+---
+
+I'm pleased to share that I will be participating in [Hatchback 11](http://www.hatchart.org/hatchartnews/2017/3/21/hatchback-11-april-1-april-28-2017), an annual all-media show at [Hatch Art Center](http://www.hatchart.org) in Hamtramck. This year's edition was juried by Treena Flannery Ericson, Gallery Director of [The Scarab Club](http://scarabclub.org).
+
+The show opens on Saturday, April 1 (6-10 pm). I'm sad that I can't make the opening, but I will be participating in an Artists Talk on Saturday April 8 at 2 pm.
+
+My piece, _Bowl_, will be showing along with the work of 53 Southeast Michigan artists; I am honored to be among them.
+
+{% include _figures.html
+  base_image_filename="20170313-btozier-bowl.jpg"
+  title="Bowl"
+  alt="An oblong rounded bowl with its axis lower-left to upper-right. Blobby stripes follow its axis. Overall color gray and dark pinkish-beige. There are spots of copper color"
+  caption="A convoluted process, but worth it"
+%}
+
+
+_Bowl_ is a unique silver-gelatin 10\" × 8\" photographic print. I made it by enlarging a 4\" × 5\" negative onto 8\" × 10\" paper and exposing it normally. Then I painted the developer onto the paper; once it "looked ready" I rinsed the print and then took it out into daylight. This process, which I've called _[idlograph](/idlographs/)_ introduces color into a nominally black-and-white image. Once the color "looked ready", I fixed the image and finished as normal.
+
+And then I looked more at the print, and decided it needed something more. What can you do with a so-called finished print? You can bleach it and redevelop it! Most commonly identified with sepia toning, there are other chemistries that one can use on a print. In this case, I used a copper sulfate bleach, and then used lith chemistry to redevelop the silver. This added coppery highlights to the image, which I liked with the warm brown of the paper.
+
+*Now* it's finished and you can see it in person in Hamtramck.

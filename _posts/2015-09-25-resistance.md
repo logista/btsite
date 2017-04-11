@@ -4,7 +4,6 @@ title: "Resistance"
 excerpt: "Self-pity and a link to Queen, so that's nice."
 tags: [Projects, In Camera, class]
 date: 2015-09-25
-youtubeId: HgzGwKwLmgM
 ---
 
 I've reached a point in my project where my successes are so minor so as to be virtually non-existent. I keep refining my ideas, but nothing seems to be *enough*. The masks aren't dark enough. The text isn't witty enough. The images aren't even *planned* yet, so I suppose you could say they aren't interesting enough.
@@ -19,4 +18,4 @@ However, I have all the film I need right now, some good masks, some intriguing 
 
 Maybe I'll go listen to "[The Most Feel-Good Song](http://www.jolij.com/?p=362)"
 
-{% include _video-embed.html id=page.youtubeId %}
+{% include _yt-embed.html id='HgzGwKwLmgM' caption="Sing, Freddie!"%}
