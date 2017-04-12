@@ -40,7 +40,7 @@ owner:
 # og-images
 # Supposedly used by social sites, but I don't know for sure. Also used by the home page to populate the post cards.
 og-image-dir: /images/posts/400/ # choose one that is made by the picserizer
-og-image-default: /images/website/tozier-default-thumb.jpg
+og-image-default: /images/website/tozier-default-og.jpg
 
 # picture pile maker
 picserizer:

@@ -44,6 +44,11 @@ footer svg {
 footer svg path {
     fill: $gray-light;
 }
+footer {
+    border-top: $gray-lighter 1px solid;
+    padding-top:1em;
+}
+
 .soc:hover svg path {
     fill: $white;
 }
@@ -108,7 +113,7 @@ blockquote {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
 }
-ul.navbar-nav > li a:hover {
+a.nav-link:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
 }
@@ -118,7 +123,7 @@ top: 0; left: 0;
 height: 100%; width: 100%;
 }
 a.card-link:hover {
-    background-color: rgba(lighten($brand-primary,50%),.5);
+    background-color: rgba(lighten($brand-primary,20%),.2);
 }
 
 // images in posts
@@ -126,6 +131,7 @@ a.card-link:hover {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1.5em;
     max-width: 100%;
 }
 .post-image {
@@ -135,6 +141,7 @@ a.card-link:hover {
 .post-caption {
     text-align:center;
     font-style: italic;
+    margin-bottom:1em;
 }
 .image-adhoc img {
     display:block;
@@ -192,4 +199,26 @@ code.highlighter-rouge {
         color:inherit;
     }
 
+}
+
+// misc
+
+.avatar { // this is an image used on the About page
+    max-width:25%;
+    float:left;
+    padding-right:1.5em;
+}
+.archive-post-list {
+    ul {
+        @extend .list-unstyled;
+         margin-left: 0;
+        padding-right:1.5em;
+    }
+    li {
+        font-size: $font-size-base*.8;
+    }
+    span {
+    }
+    a {
+    }
 }
