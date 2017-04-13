@@ -131,15 +131,17 @@ A. `post-image` branch
 		b. previous/next buttons
 B. `pages` branch
 	1. new structure/layout
-		a. Writing index
+		a. Writing index (aka Post Index)
 		b. About Me
 		c. Buy
+		d. Portfolio (aka Project Galleries)
 	2. everything else that needs to be done
 C. `gallery` branch
 	1. new structure/layout
 	2. regenerate images(?)
 	3. everything else that needs to be done
 		a. revisit posts that point to galleries (alt-pro, in-camera, ??)
+		b. integrate `portfolio gallery` page better
 D. `tweaks` branch
 	1. everything else that needs to be done
 		a. update Square Marketplace stuff
@@ -232,3 +234,9 @@ editing Pages (and accompanying nav links). Finding new stuff that's wrong all t
 Did the "About" page, and made a pass at the `post-index`. Changed the headers a bit so they're slightly more descriptive. "Buy" page needs a complete makeover w.r.t. Square Marketplace.
 
 Still to do: gallery pages.
+
+===
+2017-04-12
+Split gallery pages from the gallery index. Probably should have been that way originally, but anyway...
+
+I wanted to edit the `buy` page to show stuff directly from Square Marketplace, but they changed their API to not allow embedded content :/ So now I'm not entirely sure what to do. The link is still on the page, so I suppose that is enough for now.

@@ -1,13 +1,15 @@
-<figure style="text-align:center;">
+<figure class="">
 
 {% for gallery in site.data.gallerylist %}
 {% for image in gallery[1].images %}
 {% if gallery[0] == page.gallery %}
-<a href="{{ image.filename }}" title="{{ image.title}}"><img src="th/{{ image.filename }}"  class="thumbnail"></a>
+<div class="card">
+<a href="{{ image.filename }}" title="{{ image.title }}" class="card-block">
+    <img src="th/{{ image.filename }}"  class="">
+</a>
+</div>
 {% endif %}
 {% endfor %}
 {% endfor %}
 
 </figure>
-
-<!-- TODO: replace this file. It's only here to get jekyll to compile -->

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="container">
+<div id="main" role="main" class="row justify-content-center">
+{% for gallery in site.data.gallerylist %}
+{% for image in gallery[1].images %}
+{% if image.feature %}
+<div class="col-lg-4">
+    <div class="card pb-5" style="border:none;">
+        <img class="" style="max-width:300px;margin:auto;" src="/{{gallery[0]}}/th/{{image.filename}}">
+        <a href="{{ gallery[0] }}" title="Go to {{ gallery[1].title}} gallery">
+            <div class="card-block">
+                <h4 class="card-title" style="text-align:center;">{{ gallery[1].title}}</h4>
+            </div>
+        </a>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</div>
+</div>
