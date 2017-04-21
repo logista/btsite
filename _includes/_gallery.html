@@ -4,8 +4,8 @@
 {% for image in gallery[1].images %}
 {% if gallery[0] == page.gallery %}
 <div class="card">
-<a href="{{ image.filename }}" title="{{ image.title }}" class="card-block">
-    <img src="th/{{ image.filename }}"  class="">
+<a href="{{page.gallery}}/{{ image.filename }}" title="{{ image.title }}" class="card-block">
+    <img src="{{page.gallery}}/th/{{ image.filename }}"  class="">
 </a>
 </div>
 {% endif %}

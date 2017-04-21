@@ -5,6 +5,7 @@ title: "In Camera"
 excerpt: "A portfolio project"
 tags: [photograph, film, fine art, commentary, teasing]
 date: 2015-12-11
+modified: 2017-04-21
 folder: gallery-in-camera
 title: "In Camera"
 images:
@@ -34,6 +35,7 @@ images:
 
 ---
 
+### The New Gallery
 
 <div markdown="1">
 I have seen (and used) filters and processing on digital images to make them look more like film. With this project I poke a little fun at that habit, and at the same time I tease "film 4evah!" people by adding a digital-style effect to the image.
