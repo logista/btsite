@@ -21,5 +21,5 @@
 {% if page.image.feature %}
 <meta property="og:image" content="{{ site.url }}/images/website/{{ page.image.feature }}">
 {% else %}
-<meta property="og:image" content="{% if page.ogimage %}{{ site.url }}}{{ site.og-image-dir }}{{ page.ogimage }}{% else %}{{ site.url }}{{ site.og-image-default }}{% endif %}">
+<meta property="og:image" content="{% if page.ogimage %}{{ site.url }}{{ site.og-image-dir }}{{ page.ogimage }}{% else %}{{ site.url }}{{ site.og-image-default }}{% endif %}">
 {% endif %}

@@ -3,16 +3,21 @@ layout: default
 ---
 {% assign sorted=(site.documents | sort: 'sort_date') | reverse %}
 
-<div class="album container">
+<div class="album container" id="home">
 
     <div class="row justify-content-center">
         {% for post in sorted limit:9 %}
         <div class="col-xs-1">
             <div class="card">
-                <a class="card-link" href="{{ post.url }}" title="Go to {{ post.title }}"></a>
+                <a class="" href="{{ post.url }}" title="Go to {{ post.title }}">
                 <div class="card-block">
                     {% if post.ogimage %}
-                    <img class="card-img-top" src="{{ site.og-image-dir }}{{ post.ogimage }}" alt="post image">
+                        {% if post.folder_path %}
+                            {% capture img_path %}{{post.folder_path}}{% endcapture %}
+                        {% else %}
+                            {% capture img_path %}{{ site.og-image-dir }}{% endcapture %}
+                        {% endif %}
+                            <img class="card-img-top" src="{{ img_path }}{{ post.ogimage }}" alt="post image">
                     {% endif %}
                     <h3 class="card-title">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
                     <p class="card-text">{{ post.excerpt | markdownify  | remove: '<p>' | remove: '</p>'}}</p>
@@ -25,6 +30,7 @@ layout: default
                       </small>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
         {% endfor %}

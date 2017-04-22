@@ -1,15 +1,13 @@
-<figure class="">
-
-{% for gallery in site.data.gallerylist %}
-{% for image in gallery[1].images %}
-{% if gallery[0] == page.gallery %}
-<div class="card">
-<a href="{{page.gallery}}/{{ image.filename }}" title="{{ image.title }}" class="card-block">
-    <img src="{{page.gallery}}/th/{{ image.filename }}"  class="">
-</a>
+{% for image in page.images %}
+<div class="col-xs-1">
+    <div class="card gallery-card">
+        <a href="{{page.folder_path}}/{{ image.filename }}" title="{{ image.title }}">
+            <div class="card-block">
+                <img class="card-img-top" src="{{page.folder_path}}/th/{{image.filename}}" alt="{{ image.alt }}">
+                <p class="card-title">{{ image.title | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+                <p class="card-text">{{ image.description | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+            </div>
+        </a>
+    </div>
 </div>
-{% endif %}
 {% endfor %}
-{% endfor %}
-
-</figure>

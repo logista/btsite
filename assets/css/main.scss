@@ -29,10 +29,30 @@ sitemap: false
   width:100%;
   margin-bottom: .75rem;
 }
+.album img.card-img-top {
+    max-width: 100%;
+}
 .album .card-footer{
     text-align: right;
     border:0;
     background-color: inherit;
+}
+.gallery-card {
+    border: 0;
+
+    .card-title {
+        font-style: italic;
+        font-size: $font-size-sm*1.2;
+        text-align: center;
+    }
+    .card-text {
+        font-size: $font-size-sm;
+        color: lighten($brand-primary,40%);
+    }
+}
+.gallery .acn {
+    padding:1em;
+    margin:2em;
 }
 footer p {
     color: $gray-light;
@@ -109,7 +129,7 @@ blockquote {
 .source {
     @extend .blockquote-footer;
 }
-#main a:hover {
+#main a:hover, .album a:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
 }
@@ -117,14 +137,14 @@ a.nav-link:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
 }
-a.card-link {
-position: absolute;
-top: 0; left: 0;
-height: 100%; width: 100%;
-}
-a.card-link:hover {
-    background-color: rgba(lighten($brand-primary,20%),.2);
-}
+// a.card-link {
+// position: absolute;
+// top: 0; left: 0;
+// height: 100%; width: 100%;
+// }
+// a.card-link:hover {
+//     background-color: rgba(lighten($brand-primary,20%),.2);
+// }
 
 // images in posts
 .post-figure, .post-image {
