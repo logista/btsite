@@ -18,10 +18,10 @@ layout: default
                             {% capture img_path %}{{ site.og-image-dir }}{% endcapture %}
                         {% endif %}
                             <img class="card-img-top" src="{{ img_path }}{{ post.ogimage }}">
+                            <h3 class="card-title d-flex justify-content-center">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
                         {% else %}
-                            <div class="fake-card-img">&nbsp;</div>
+                            <h3 class="card-title fake-card-img align-items-center d-flex justify-content-center">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
                     {% endif %}
-                    <h3 class="card-title">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
                     <p class="card-text">{{ post.excerpt | markdownify  | remove: '<p>' | remove: '</p>'}}</p>
                     <div class="card-footer">
                       <small class="text-muted align-bottom">
