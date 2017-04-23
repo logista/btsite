@@ -1,57 +1,55 @@
 ---
 layout: gallery
 title: "In Camera"
-excerpt: "Real film 'filters' with macro text in a handmade box."
+excerpt: "Real film prints with 'filters' and macro text in a handmade box."
 tags: [photograph, film, fine art, commentary, teasing]
 date: 2015-12-11
-modified: 2017-04-21
-folder_path: '/images/galleries/in-camera'
-ogimage: "/th/20151211-btozier-film.jpg"
+use_gallery_img: true
+ogimage: "20151209-btozier-film.jpg"
 images:
-- filename: "20151211-btozier-in-camera-cover.jpg"
+- filename: "20151209-btozier-in-camera-cover.jpg"
   title: 'Stubbie & HB would like a few words...'
   alt: A partially open black box with an image of a Hasselblad camera and a Holga camera on the front. The image is heavily distressed.
   description: |
     Custom made clamshell box, about 6⅞\" × 6⅞\" × 1⅛\" holding 10 prints.  
     Cover image: digital image / inkjet print
-- filename: "20151211-btozier-film.jpg"
+- filename: "20151209-btozier-film.jpg"
   title: "This is What Film Looks Like"
   alt: A frame of film, looking up at a ceiling fan and some draped window shades. The title is overlaid in white macro text.
   description: Silver gelatin print, about 6¼\" square, mounted on conservation board.
-  feature: true
-- filename: "20151211-btozier-fail.jpg"
+- filename: "20151209-btozier-fail.jpg"
   title: "Fail."
   alt: A frame of film, looking at a woman working on a photograph at her computer. She looks surprised. The title is overlaid in white macro text.
   description: Silver gelatin print, about 6¼\" square, mounted on conservation board.
-- filename: "20151211-btozier-no-filter.jpg"
+- filename: "20151209-btozier-no-filter.jpg"
   title: "#nofilter"
   alt: A frame of film, looking at a small shed in a treed yard. There are no leaves. The title is overlaid in white macro text.
   description: Silver gelatin print, about 6¼\" square, mounted on conservation board.
-- filename: "20151211-btozier-sepia.jpg"
+- filename: "20151209-btozier-sepia.jpg"
   title: "This is Nostalgic It's Sepia"
   alt: A frame of film, looking at a still life of pumpkin, apples, pears and corn. The title is overlaid in white macro text.
   description: Sepia toned silver gelatin print, about 6¼\" square, mounted on conservation board.
-- filename: "20151211-btozier-grains.jpg"
+- filename: "20151209-btozier-grains.jpg"
   title: "GRAAAAINS!"
   alt: A frame of film, looking at two hands framed by a window that looks out at a tree and sky. The title is overlaid in white macro text.
   description: Silver gelatin print, about 6¼\" square, mounted on conservation board.
-- filename: "20151211-btozier-abstract.jpg"
+- filename: "20151209-btozier-abstract.jpg"
   title: "It's Abstract Deal With It"
   alt: A frame of film, looking at increasing circles of white dots on a black ground. The title is overlaid in white macro text.
   description: Silver gelatin print, about 6¼\" square, mounted on conservation board.
-- filename: "20151211-btozier-lith.jpg"
+- filename: "20151209-btozier-lith.jpg"
   title: "#lith a little"
   alt: A frame of film, looking at a fern leaf with spores along each branch. The title is overlaid in white macro text.
   description: Silver gelatin print, processed with lith chemistry. About 6¼\" square, mounted on conservation board.
-- filename: "20151211-btozier-blurry.jpg"
+- filename: "20151209-btozier-blurry.jpg"
   title: "This Must Be Art It's Blurry"
   alt: A frame of film, looking a double exposure of a park bench surrounded by autumn leaves. The title is overlaid in white macro text.
   description: Sepia toned silver gelatin print, about 6¼\" square, mounted on conservation board.
-- filename: "20151211-btozier-in-camera.jpg"
+- filename: "20151209-btozier-in-camera.jpg"
   title: "In Camera Bitches"
   alt: A frame of film, looking at three shot glasses with angled liquid in them. The title is overlaid in white macro text.
   description: Selenium toned silver gelatin print, about 6¼\" square, mounted on conservation board.
-- filename: "20151211-btozier-gpoy.jpg"
+- filename: "20151209-btozier-gpoy.jpg"
   title: "#gpoy (Gratuitous Picture of Yourself)"
   alt: A frame of film, looking at a shadow of a person with short hair and glasses. The title is overlaid in white macro text.
   description: Brown toned silver gelatin print, about 6¼\" square, mounted on conservation board.
@@ -70,7 +68,6 @@ The ten images inside the portfolio were created with two cameras, four kinds of
 Chemical and digital photography (and all mixtures of the two) are each "real" photography. They are part of a spectrum, not a dichotomy — there is room for everyone.
 </div>
 {: .acn}
-
 
 
 See [_In Camera_, Retrospective](/in-camera-retrospective/) for more information.
