@@ -17,7 +17,9 @@ layout: default
                         {% else %}
                             {% capture img_path %}{{ site.og-image-dir }}{% endcapture %}
                         {% endif %}
-                            <img class="card-img-top" src="{{ img_path }}{{ post.ogimage }}" alt="post image">
+                            <img class="card-img-top" src="{{ img_path }}{{ post.ogimage }}">
+                        {% else %}
+                            <div class="fake-card-img">&nbsp;</div>
                     {% endif %}
                     <h3 class="card-title">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
                     <p class="card-text">{{ post.excerpt | markdownify  | remove: '<p>' | remove: '</p>'}}</p>

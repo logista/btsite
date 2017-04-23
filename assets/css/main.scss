@@ -29,6 +29,10 @@ sitemap: false
   width:100%;
   margin-bottom: .75rem;
 }
+.fake-card-img {
+   background-image: linear-gradient(to bottom, rgba(lighten($brand-primary,50%),.8), rgba($brand-inverse,0.05));
+   height:125px;
+}
 .album img.card-img-top {
     max-width: 100%;
 }
@@ -137,14 +141,6 @@ a.nav-link:hover {
     color: $body-bg;
     background-color: lighten($link-hover-color,40%);
 }
-// a.card-link {
-// position: absolute;
-// top: 0; left: 0;
-// height: 100%; width: 100%;
-// }
-// a.card-link:hover {
-//     background-color: rgba(lighten($brand-primary,20%),.2);
-// }
 
 // images in posts
 .post-figure, .post-image {

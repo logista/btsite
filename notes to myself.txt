@@ -279,9 +279,20 @@ Still to do:
 5. write new file templates for `gallery.md` because I can't remember everything that's supposed to go in!
 6. decide if `srcset` is going to be a thing, or if I should just go with 2 sizes (small/large), and if so, what sizes?
 7. update `posting-guide.md`
+8. search?
 
 < later >
 
 OK! I was able to get pagination on the 2 main pages. It is UGLY because the gem `jekyll-paginate-v2` doesn't expose the "first" and "last" pages of a pagination trail to liquid, so there was lots of fudging going on.
 
-It's... it is almost done?!
+It... it's almost done?!
+
+I think I need to do some tweaks now. I also need to think about search.
+
+4 and 5 are done; 7 is more-or-less done (it will never be right, but it'll be ok). That leaves 2, 3, 6, and 8.
+
+I added a small bit to the text-only posts on the home page. I don't know if I'm going to keep it, but what the heck.
+
+For today, since I think it's just about ready to go, I'm going to forego the Square Marketplace thing, and leave the `srcset` as is. As for search, I registered with google a few weeks ago, but of course everything has moved. I'll work on that as the Next Big Thing once this gets uploaded and I get another post or two on.
+
+I keep trying to recover my account with Instagram. I never get the second email. I wouldn't mind using it, but I don't want to lose my username.

@@ -1,6 +1,12 @@
-Most "posts" are going to be text-related with or without photographs.
+There are two types of documents: posts and galleries. Posts are a Jekyll Collection by definition; Galleries are one because I said so.
 
-I am unclear on what needs quote marks (either double or single) and what doesn't. As far as I can tell, YAML doesn't care. The important part is for the Jekyll parser to understand it. I'm writing this little file to remind myself to be consistent.
+Posts are markdown files that live in `_posts` and need to have a date at the beginning of the filename.
+
+Galleries are markdown files that live in `_galleries` and should be named for the gallery.
+
+Images can appear in posts only, in galleries only, and in posts AND galleries. Therefore some things are a bit complicated and I try to use the YAML headers to indicate where Jekyll should look for pictures.
+
+I do not have a way to put video in a Gallery right now.
 
 ## YAML headers
 
@@ -35,10 +41,6 @@ modified: 2015-08-04
 
 ### Image posts
 
-**2017-04-01:** I am completely redoing this, because I finally *read* the [Jekyll docs on includes](https://jekyllrb.com/docs/includes/). I can make a `_figures.html` template that I fill with information in my markdown-based post document, and *future* me will be happier when I go to update the site again.
-
-There are a couple of issues remaining (besides the actual design and implementation): what to do about the RSS feed images -- how do I make sure I don't send "too big" files? And do I want a Jekyll plugin to convert a single image to the other sizes, or continue with sizing from Lightroom?
-
 TODO: check RSS feed images. How does it handle srcset?
 
 ~~~ yaml
@@ -49,16 +51,19 @@ excerpt: "Since I call myself a photographer, I suppose I should try to include 
 tags: [photograph, texture, orange, gray]
 date: 2015-08-03
 modified: 2015-08-04
+use-gallery-image: false
 ogimage: '20150803-btozier-square-orange-texture.jpg'
 ---
 ~~~
 
-**OGIMAGE** points to the `default-src` directory defined in `_config.yml` Make sure you have a corresponding image there, or take the line out completely.
+If `use-gallery-image` is `false`, **OGIMAGE** points to the `og-image-dir` directory defined in `_config.yml`. If `use-gallery-image` is `true` (writing a post about a gallery image, say one that is being exhibited), then **OGIMAG** points to the `gog-image-dir` defined in `_config.yml`.
 
-Nearly all images are handled the same: using the snippet `fmu` (figure mark up) you will get this:
+
+Nearly all images are handled the same: using the snippet `fmu` (figure mark up) makes this:
 
 ~~~ html
 {% include _figures.html
+  gallery=false
   base_image_filename=".jpg"
   title=""
   alt=""
@@ -66,73 +71,81 @@ Nearly all images are handled the same: using the snippet `fmu` (figure mark up)
 %}
 ~~~
 
-This calls `_figures.html` which creates the `srcset` code based on the image directories defined in `_config.yml` at the `picserizer` tag.
+Similar to the `use-gallery-image` flag in the YAML header, the `gallery=` flag lets the `include` figure out which directory to look for.
 
-Occasional images (like ones from other sources) do *not* get this treatment. Screen captures, animated gifs, etc. also go here.
+`fmu` calls `_figures.html` which creates the `srcset` code based on the image directories defined in `_config.yml` at the `picserizer` tag.
 
-They get marked up using standard `kramdown` syntax:
+Occasional images (like ones from other sources, screen captures, animated gifs, etc.) do *not* get this `_figures.html` treatment. They get marked up using standard `kramdown` syntax:
 
 ~~~ code
-![alt-text](/images/adhoc/filename.ext)
-{: .i cant remember}
+![alt-text](/images/adhoc/filename.ext 'title')
+{: .image-adhoc}
 ~~~
-
-TODO: make a snippet for this
 
 ### Videos
 
 New this year! Well, not really, but anyway. There are two types of video: self-hosted and YouTube.
 
-TODO: fill in what the includes are and how they are used
+First is self-hosted. These should be stored in the `images/videos` folder. I'm not entirely sure the size is correct, but whatever...
 
-### Pages
+I don't have a snippet for this, because I've only done it once. It's ok to copy/paste ;)
+
+~~~ code
+{% include _vid-embed.html
+src='/images/videos/topsy_turvy_excerpt.mp4'
+caption="Jim Broadbent as W.S. Gilbert in _Topsy-Turvy_" %}
+~~~
+
+There is an occasional YouTube video embed, too. Similar to the self-hosted version, I'm not sure the size is correct, but anyway... Note that the `id` is the YouTube `id` number.
+
+~~~ code
+{% include _yt-embed.html id='RTpdioaBoFo' caption="HD Video with sound: 5 minutes."%}
+~~~
+
+### Galleries
 
 ~~~ yaml
 ---
-layout: gallerypage
-gallery: gallery-stories
+layout: gallery
 title: "Stories"
 excerpt: "Words and pictures, pictures and words."
 tags: [photograph, abstract, color, digital, fine art, close up, books, stories]
-date: 2015-08-01
----
+date: 2015-07-31
+use_gallery_img: true
+ogimage: 20121105-btozier-science-fiction-shelf-poem.jpg
+images:
+  - filename: 20121105-btozier-science-fiction-shelf-poem.jpg
+    title: Science Fiction Shelf Poem
+    alt: A shelf of books, their spines making a poem (described in text). There is a small wind-up robot falling across the tops of the books
+    description: Inkjet print, approximately 36\" × 12\"
 ~~~
 
-Most Pages are galleries. However, the "no quotes" thing seems to be suitable. Follow the guidelines from above.
+The big change this year is in how Galleries/Projects/Portfolio stuff is organized. Galleries have been turned into a Jekyll Collection, so live in `_galleries` with a `gallery-name.md` page for each one. The images live in `images/galleries/[size]/filename.jpg`, similar to the post images. `srcset` is generated just like the post images (at the same time, in fact), and shouldn't need to be meddled with.
 
-`date:` isn't used in Jekyll with Pages, but I now realize it might be a good thing to have for keeping track of when things have been changed. So I'm including it.
+The gallery page exists as a file-template in Jekyll. Look under `Packages > File Templates > New File from Template > gallery.md`
 
-The images in the galleries are 300px thumbnails, linking to a larger (1500px) copy used for the slideshow. They are listed in `_data/gallerylist.yml` in the order they are to appear on the page. A single "feature" image is also noted --- this is the image used to represent the gallery on the Portfolio Index page.
+`date:` isn't used in Jekyll with Pages, but *I* use it to bring the gallery pages in the front page flow with the posts. New galleries will appear on the front page without me having to do stupid stuff. All the stupid stuff is pre-done ;)
 
+The list of images appear on the page in the order that they show up in the list, and can have their alt-text (for screen reader descriptions) and description (material format of the image) entered here.
+
+If you want to use a gallery image in a post, it's probably best to copy over the information from this list and then edit as needed when you call `_figures.html`
 
 ## Special CSS classes
 
-### images (As of 2017-04-09 this has been completely reworked)
+I have been trying to stick with the classes available in `Bootstrap 4` as much as possible, but there are some special ones (mostly leftover, but still).
 
 ### asides
 
-Asides, while they are now an HTML5 element, are called using `{: .aside}` markup. Longer asides require div markup that starts something like `<div class="aside" markdown="1">`. They can appear anywhere within an article. They weren't styled by the original designer, and I may end up changing it later.
-
-You know, now that I know how to make snippets, I've done it with `asdiv`:
-
-~~~ html
-<div class="aside" markdown="1">
-~start writing~
-</div>
-
-~tab out~
-~~~
-
-This assumes that the aside isn't written yet. A similar snippet is for the kramdown markup: `asd` makes `{: .aside}` with some extra newlines.
+Asides are called using `{: .aside}` markup. Longer asides require div markup that starts something like `<div markdown="1">`. (The `kramdown` notation goes after the closing `</div>` They can appear anywhere within an article. The styling extends Bootstrap's `.card-block`.
 
 ### attention conservation notice
 
-Goes at the top of longer articles. At the rate I'm going, it will go at the top of EVERY article ;) Called using `{: .acn}`, its snippet is `acn` (unsurprising)
+Goes at the top of longer articles. Called using `{: .acn}` The styling extends Bootstrap's `.card-block`.
 
 ### text box highlight
 
-Sometimes I want a "code style" block to have wrapping. This was the way I managed to make it happen. It comes after the final tildes of a code block as `{: .text-highlight}`. Snippet `thb`.
+Sometimes I want a "code style" block to have wrapping. This was the way I managed to make it happen. It comes after the final tildes of a code block as `{: .text-highlight}`.
 
 ### other dribs and drabs
 
-`{: .code-snippet}` is a way to on occasion center a small bit of text --- code, usually. Its snippet code is `scs`.
+`{: .code-snippet}` is a way to on occasion center a small bit of text --- code, usually.
