@@ -4,7 +4,7 @@ title: "Knife Practice"
 excerpt: "One of my mini-projects this summer was to photograph a collection of knives."
 tags: [photography, digital, learning, knife, knives]
 date: 2015-08-20
-ogimage: "/images/posts/m/2015-08-20-tozier-eagle-2.jpg"
+ogimage: "20150805-btozier-eagle-detail.jpg"
 ---
 
 One of my mini-projects this summer was to photograph a collection of knives. Most of them are folding knives, but there are a few other types, including some art knives.
@@ -17,14 +17,12 @@ For this project, I photographed each knife against the same piece of Vermont Sl
 
 Here is a sampling of what I photographed:
 
-<figure class="image-s">
-  <a href="/images/posts/l/2015-08-20-tozier-knife-typology.jpg" title="">
-    <img src="/images/posts/s/2015-08-20-tozier-knife-typology.jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
-
-
+{% include _figures.html
+  base_image_filename="20150820-btozier-knife-typology.jpg"
+  title="Knife Typology"
+  alt="composite of 16 pictures of knives on a slate background"
+  caption="Sixteen cool knives!"
+%}
 
 I learned a lot doing this project. First and foremost is that I *can* do this sort of repetitive subject. I know now that if I really truly wanted everything to be identical I would have made a set and not moved it until I was finished. However, given that the knives were of varying sizes, I don't think I could have *ever* made them identical.
 
@@ -43,45 +41,40 @@ There are more technical bits I learned, here are a few of them:
 
 Here are some of my favorites...
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-20-tozier-wraith.jpg">
-  <figcaption>
-    <span class="image-m-caption">Wraith</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20150709-btozier-wraith.jpg"
+  title="Wraith"
+  alt="Close up on the blade"
+  caption="Tsavo-Wraith ATS-34 by Randall King"
+%}
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-20-tozier-dagger.jpg">
-  <figcaption>
-    <span class="image-m-caption">Dagger</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20150802-btozier-dagger.jpg"
+  title="Dagger"
+  alt="Detail of cross-guard, very shiny and pointy"
+  caption="Cross-guard detail"
+%}
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-20-tozier-crawford.jpg">
-  <figcaption>
-    <span class="image-m-caption">Crawford</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20150727-btozier-crawford.jpg"
+  title="Crawford"
+  alt="Detail showing blade of non-folding knife extending into wooden handle"
+  caption="It wraps around your fingers"
+%}
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-20-tozier-eagle-1.jpg">
-  <figcaption>
-    <span class="image-m-caption">Eagle</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20150805-btozier-eagle.jpg"
+  title="Eagle"
+  alt="Straight knife with carved and painted eagle pommel"
+  caption="Shiny and sharp"
+%}
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-20-tozier-eagle-2.jpg">
-  <figcaption>
-    <span class="image-m-caption">Eagle (detail)</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20150805-btozier-eagle-detail.jpg"
+  title="Eagle detail"
+  alt="Detail with side view of eagle head. Its mouth is open."
+  caption="Angry looking bird"
+%}
 
 
 ---

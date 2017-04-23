@@ -4,26 +4,26 @@ title: "Idlographs"
 date: "2016-06-22 10:34:09 -0400"
 excerpt: "An independent discovery of a fun darkroom process"
 tags: [idlograph,photography,experimental,chemical]
-ogimage: "/images/posts/s/2016-05-30-barbara-tozier-paintable_bowl_arista_2_-_final.jpg"
+ogimage: "20160530-btozier-paintable-bowl-arista-2.jpg"
 ---
 
 I'd like to introduce a new process, one that I came up with on my own: the _idlograph_. I'm sure that I'm not the first to do it, but I haven't seen any examples before now, so let's just call it an *independent discovery* rather than an invention.
 
 Here are a couple examples:
 
-<figure class="image-s">
-  <a href="/images/posts/l/2016-05-30-barbara-tozier-paintable_bowl_arista_2_-_final.jpg" title="Small Bowl">
-    <img src="/images/posts/s/2016-05-30-barbara-tozier-paintable_bowl_arista_2_-_final.jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
+{% include _figures.html
+  base_image_filename="20160530-btozier-paintable-bowl-arista-2.jpg"
+  title="Small Bowl"
+  alt="An oblong rounded bowl with its axis lower-left to upper-right. Blobby stripes follow its axis. Overall color gray and beige."
+  caption="An art-glass bowl"
+%}
 
-<figure class="image-s">
-  <a href="/images/posts/l/2016-06-05-barbara-tozier-paintable_bill.jpg" title="Bill">
-    <img src="/images/posts/s/2016-06-05-barbara-tozier-paintable_bill.jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
+{% include _figures.html
+  base_image_filename="20160605-btozier-paintable-bill.jpg"
+  title="Bill"
+  alt="A gray-and-beige portrait (head only) of a bearded white man with gray hair. He has varying shades of gray around his face with darker blobs at the edges of his head."
+  caption="Exuberance!"
+%}
 
 The idea is to have an expressive image that interacts with the materials used to make it. These are just some early examples --- I'm sure each person working with the process will follow their own path.
 

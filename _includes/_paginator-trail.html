@@ -1,0 +1,27 @@
+<nav aria-label="page navigation">
+    <ul class="pagination justify-content-center">
+        {% if paginator.previous_page %}
+           {% capture first_page %}{{ paginator.previous_page_path | replace: '/',' ' | truncatewords:1,''}}{% endcapture %}
+           <li class="first page-item">
+               <a class="page-link" title="go to first page" href="{% if first_page == 'home' %}/{% else %}/{{first_page}}{%endif%}">⇤</a>
+           </li>
+          <li class="previous page-item">
+              <a class="page-link" title="go to previous page" href="{{ paginator.previous_page_path }}">⇽</a>
+          </li>
+        {% endif %}
+        {% for trail in paginator.page_trail %}
+        <li class="page-item {% if page.url == trail.path %}active{% endif %}">
+            <a class="page-link" href="{{ trail.path  | replace: '/index.html', '/'}}" title="{{trail.title}}">{{ trail.num }}</a>
+        </li>
+        {% endfor %}
+        {% if paginator.next_page %}
+            <li class="next page-item">
+                <a class="page-link"  title="go to next page" href="{{ paginator.next_page_path }}">⇾</a>
+            </li>
+            {% capture last_page %}{{ paginator.next_page_path | replace: '/',' ' | truncatewords:1,''}}/{{paginator.total_pages}}/{% endcapture %}
+            <li class="last page-item">
+                <a class="page-link" title="go to last page" href="/{{last_page}}">⇥</a>
+            </li>
+        {% endif %}
+    </ul>
+</nav>

@@ -4,17 +4,18 @@ title: "Kodak Rapid Process Copy Film"
 date: "2016-08-11 20:55:20 -0400"
 excerpt: "In which I try to figure out what to make of some weird old film..."
 tags: [experiment,kodak rpc,photography,black and white]
-ogimage: "/images/posts/s/2016-08-11-barbara-tozier-kodak_rpc_(and_friend).jpg"
+ogimage: "20160811-btozier-kodak-rpc-and-friend.jpg"
 ---
 
 A friend gave me a couple of rolls of __Kodak Rapid Process Copy Film__. This film, as near as I can tell, was last produced about 1993, so it's 23 years old at least, maybe more. Based on what I've been able to find on the ’net, it was used to copy x-rays and other negatives.
 
-<figure class="image-s">
-  <a href="/images/posts/l/2016-08-11-barbara-tozier-kodak_rpc_(and_friend).jpg" title="Kodak RPC and Friend">
-    <img src="/images/posts/s/2016-08-11-barbara-tozier-kodak_rpc_(and_friend).jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
+{% include _figures.html
+  base_image_filename="20160811-btozier-kodak-rpc-and-friend.jpg"
+  title="Kodak RPC and Friend"
+  alt="Two film canisters, with tails of purple film hanging out. Behind them is a Minolta SR-T-101 35mm camera."
+  caption="Minolta SR-T-101 and Kodak RPC film"
+%}
+
 
 I put some in my most manual 35mm camera, and learned that it's unlike any film I've used so far.
 
@@ -22,15 +23,19 @@ First of all, it's slow. S. L. O. W. Slow like in "11 stops slower than ISO100" 
 
 Here's the one from 60 seconds:
 
-<figure class="image-s">
-  <a href="/images/posts/l/2016-08-11-barbara-tozier-rpc_rainbow_(as_scanned).jpg" title="RPC Rainbow (as scanned)">
-    <img src="/images/posts/s/2016-08-11-barbara-tozier-rpc_rainbow_(as_scanned).jpg">
-  </a>
-  <a href="/images/posts/l/2016-08-10-barbara-tozier-rpc_rainbow_(edited).jpg" title="RPC Rainbow (edited)">
-    <img src="/images/posts/s/2016-08-10-barbara-tozier-rpc_rainbow_(edited).jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
+{% include _figures.html
+  base_image_filename="20160811-btozier-rpc-rainbow-as-scanned.jpg"
+  title="RPC Rainbow (as scanned)"
+  alt="A hazy bluish black-and-white image with several glass items in a row. There is a rubber ducky on each end."
+  caption="I keep rubber duckies just for this purpose"
+%}
+
+{% include _figures.html
+  base_image_filename="20160810-btozier-rpc-rainbow-edited.jpg"
+  title="RPC Rainbow (edited)"
+  alt="Same as above, but more contrast and color cast removed."
+  caption=""
+%}
 
 Now what does 60 seconds mean in this context? When I metered this scene, I set my meter to ISO100 and _f_/8. That gave me a shutter speed of 1/30s. That's a difference of about 11 stops [`(1/30)*2^11 = 68`]. In fact I probably could have made a longer exposure and it would have worked a bit better --- my test went from 10 to 60 seconds and none of the images is overexposed.[^expect] But at least I have a ballpark.
 

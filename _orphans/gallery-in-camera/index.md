@@ -1,10 +1,37 @@
 ---
-layout: gallerypage
+layout: default
 gallery: gallery-in-camera
 title: "In Camera"
 excerpt: "A portfolio project"
 tags: [photograph, film, fine art, commentary, teasing]
 date: 2015-12-11
+folder: gallery-in-camera
+title: "In Camera"
+images:
+- filename: "01-barbara-tozier-in-camera-cover.jpg"
+  title: "In Camera Box"
+- filename: "02-barbara-tozier-film.jpg"
+  title: "This is What Film Looks Like"
+  feature: true
+- filename: "03-barbara-tozier-fail.jpg"
+  title: "Fail."
+- filename: "04-barbara-tozier-no-filter.jpg"
+  title: "#nofilter"
+- filename: "05-barbara-tozier-sepia.jpg"
+  title: "This is Nostalgic / It's Sepia"
+- filename: "06-barbara-tozier-grains.jpg"
+  title: "GRAAAAINS!"
+- filename: "07-barbara-tozier-abstract.jpg"
+  title: "It's Abstract / Deal With It"
+- filename: "08-barbara-tozier-lith.jpg"
+  title: "#Lith a little"
+- filename: "09-barbara-tozier-blurry.jpg"
+  title: "This Must Be Art / It's Blurry"
+- filename: "10-barbara-tozier-in-camera.jpg"
+  title: "In Camera / Bitches"
+- filename: "11-barbara-tozier-gpoy.jpg"
+  title: "Gratuitous Picture of Yourself"
+
 ---
 
 

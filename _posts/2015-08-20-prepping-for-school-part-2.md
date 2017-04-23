@@ -6,7 +6,7 @@ tags: [school, projects, planning, fretting, anxiety]
 date: '2015-08-20 14:00'
 ---
 
-For the first time in a while, I'm taking more than one class in a term. This ought to be interesting, because I tend to obsess over my classes. This term, I'll have to split my angst. I've already mentioned [fretting over Large Format](/prepping-for-school/); this particular <del>manifestation of my anxiety</del> post concerns Projects.
+For the first time in a while, I'm taking more than one class in a term. This ought to be interesting, because I tend to obsess over my classes. This term, I'll have to split my angst. I've already mentioned [fretting over Large Format](/prepping-for-school/); this particular ~~manifestation of my anxiety~~ post concerns Projects.
 
 "[Portfolio Projects](http://www.wccnet.edu/academics/classes/information/view/class/PHO%20230/)" is its official name, and it is intended to provide "the opportunity to work on an extended photographic project of the individual's choosing." For many people in the Photo Program, it has a nebulous, *no-really-what-am-I-going-to-have-to-doooo?* quality to it. This response is partly because up to this point, all of the photo classes are technically oriented. Even though each class offers some sort of "project" as part of the coursework, the "project" still has something to do with the (technical) content of the class.
 

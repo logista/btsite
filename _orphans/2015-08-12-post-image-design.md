@@ -5,7 +5,10 @@ excerpt: "A long document working through how I want images to be presented in p
 tags: [self-referential, jekyll, images, planning]
 date: 2015-08-12
 ogimage: '/images/posts/s/2015-08-10-barbara-tozier-white-on-white.jpg'
+published: false
 ---
+
+<!-- This is really outdated and I don't want to deal with it today 2017-04-09 -->
 
 {% include _toc.html %}
 
@@ -112,7 +115,7 @@ Well, after hours of messing about (after I realized I had only styled a horizon
   <img src="/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg">
   <figcaption>
     <span class="image-m-caption">White on White</span>
-    <span class="image-m-credit">Barbara Tozier</span>
+
   </figcaption>
 </figure>
 {% endhighlight %}
@@ -123,7 +126,7 @@ And here's the final image:
   <img src="/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg">
   <figcaption>
     <span class="image-m-caption">White on White</span>
-    <span class="image-m-credit">Barbara Tozier</span>
+
   </figcaption>
 </figure>
 
@@ -131,7 +134,7 @@ And here's the final image:
     <img src="/images/posts/m/2015-02-15-barbara-tozier-frost.jpg">
     <figcaption>
       <span class="image-m-caption">Frost</span>
-      <span class="image-m-credit">Barbara Tozier</span>
+
     </figcaption>
 </figure>
 

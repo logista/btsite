@@ -5,7 +5,10 @@ excerpt: "A long discourse on how I present images, with digressions."
 tags: [lightroom, website, self-referential, photographs, jekyll]
 date: 2015-08-13
 ogimage: "/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg"
+published: false
 ---
+
+<!-- This is really outdated and I don't want to deal with it today 2017-04-09 -->
 
 Seventeen hundred words on how I'm using Lightroom to generate images for the posts on this website.
 {: .acn}
@@ -127,12 +130,9 @@ They are snugged up to each other, either side-by-side or top/bottom depending o
 
 And I have gone off and [branched](/post-image-design/) *again* to spend time thinking about how images should be presented in posts. To cut a way-too-long story short, I'm using a version of the `<figure>` element markup that was originally included with the theme.
 
-<figure class="image-m">
-  <img src="/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg">
-  <figcaption>
-    <span class="image-m-caption">White on White</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
+<figure class="image-m-fig figure">
+  <img class="image-m-img figure-img" src="/images/posts/m/2015-08-10-barbara-tozier-white-on-white.jpg">
+  <figcaption class="image-m-cap figure-caption">White on White</figcaption>
 </figure>
 
 Gah! Maybe tomorrow I'll be able to actually write something about this image.

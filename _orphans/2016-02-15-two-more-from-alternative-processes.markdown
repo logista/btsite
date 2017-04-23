@@ -5,7 +5,11 @@ excerpt: "I've finally made photos of those last two pieces..."
 tags: [alternative processes, lith printing, gum bichromate]
 date: 2016-02-15
 ogimage: "/gallery-altpro/th/10-barbara-tozier-calla.jpg"
+published: false
 ---
+
+<!-- This needs to be addressed once I handle the gallery stuff 2017-04-10 -->
+
 
 <figure class="image-s">
     <img src="/gallery-altpro/th/10-barbara-tozier-calla.jpg">

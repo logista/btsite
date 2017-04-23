@@ -4,22 +4,35 @@ title: "Textures for Fun"
 excerpt: "Since I call myself a photographer, I suppose I should try to include some images in my posts."
 tags: [photograph, texture, orange, gray]
 date: 2015-08-03
-modified: 2015-08-04
-ogimage: '/images/posts/s/2015-08-03-barbara-tozier-square-orange-texture.jpg'
+ogimage: '20150802-btozier-square-orange-texture.jpg'
 ---
 
 Since I call myself a photographer, I suppose I should try to include some images in my posts. I expect that *future* posts will have some technical and/or theoretical stuff related to photography (especially as I get into my coursework at the end of the month *eek!*) but to test that this new system works (for some undefined definition of that word...)
 
 Here's an image that I like:
 
-[![Orange Texture](/images/posts/s/2015-08-03-barbara-tozier-square-orange-texture.jpg)](/images/posts/l/2015-08-03-barbara-tozier-square-orange-texture.jpg "Orange Texture")
-{: .figure}
+{% include _figures.html
+  base_image_filename="20150802-btozier-square-orange-texture.jpg"
+  title="Orange Texture"
+  alt="square image with orange, gold, and brown mottled colors"
+  caption="Orange Texture"
+%}
 
 Here are two together:
 
-[![Orange Fabric](/images/posts/s/2015-08-03-barbara-tozier-orange-texture.jpg)](/images/posts/l/2015-08-03-barbara-tozier-orange-texture.jpg "Orange Fabric")
-[![Sun Texture](/images/posts/s/2015-08-03-barbara-tozier-sun-texture.jpg)](/images/posts/l/2015-08-03-barbara-tozier-sun-texture.jpg "Sun Texture")
-{: .figure .half}
+{% include _figures.html
+  base_image_filename="20150726-btozier-orange-texture.jpg"
+  title="Orange Fabric"
+  alt="close up of velvety orange fabric"
+  caption="Orange Fabric"
+%}
+
+{% include _figures.html
+  base_image_filename="20150803-btozier-sun-texture.jpg"
+  title="Sun Texture"
+  alt="bluish-black and white criss-cross pattern in a triangular shape"
+  caption="Sun Texture"
+%}
 
 
 Ok. Seems... ok anyway. ¯\\\_(ツ)\_/¯[^1]
@@ -27,7 +40,3 @@ Ok. Seems... ok anyway. ¯\\\_(ツ)\_/¯[^1]
 Not entirely sure of the decoration and spacing, but it'll do for now.
 
 [^1]:Wow, what I had to do to that to get kramdown to render it right. `¯\\\_(ツ)\_/¯`
-
----
-
-2015-08-04: Reduced size of on-page images rather than rely on browser sizing.

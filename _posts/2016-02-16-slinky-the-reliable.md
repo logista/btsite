@@ -4,19 +4,21 @@ title: "Slinky the Reliable"
 excerpt: "I return to a favorite subject."
 tags: [black and white,photograph,slinky,motion]
 date: "2016-02-16 17:14:22 -0500"
-ogimage: "/images/posts/s/2016-02-16-barbara-tozier-slinky-2.jpg"
+ogimage: "20160216-btozier-slinky-2.jpg"
 ---
 
-<figure class="image-s">
-  <a href="/images/posts/l/2016-02-16-barbara-tozier-slinky.jpg" title="Slinky Arch">
-    <img src="/images/posts/s/2016-02-16-barbara-tozier-slinky.jpg">
-  </a>
-  <a href="/images/posts/l/2016-02-16-barbara-tozier-slinky-2.jpg" title="Slinky Snake">
-    <img src="/images/posts/s/2016-02-16-barbara-tozier-slinky-2.jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
-
+{% include _figures.html
+  base_image_filename="20160216-btozier-slinky.jpg"
+  title="Slinky Arch"
+  alt="Gray-and-white side view of an arched slinky in front of a dark background"
+  caption="Like the rays of the sun..."
+%}
+{% include _figures.html
+  base_image_filename="20160216-btozier-slinky-2.jpg"
+  title="Slinky Snake"
+  alt="Blurry gray-and-white side view of a slinky in motion (horizontal)"
+  caption="Caught in the act..."
+%}
 
 I'm taking an introductory film photography class this term for a few reasons. One, I like the instructor; two, I want more darkroom time; three, I like seeing how "new" photographers deal with the concepts that are so familiar to me (depth of field, the exposure triangle, etc.). If I *do* go to art school, Introduction to Photography is likely a class I would teach. Getting a lot of early-level experience is really helpful to knowing where people trip up.[^ta]
 

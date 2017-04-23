@@ -1,24 +1,20 @@
+{% capture ogtitle %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+{% capture ogdesc %}{{ page.excerpt | strip_html }}{% endcapture %}
+{% capture ogimg %}{% if page.use_gallery_img %}{{ site.url }}{{ site.gog-image-dir }}{{ page.ogimage }}{% elsif page.ogimage %}{{ site.url }}{{ site.og-image-dir }}{{ page.ogimage }}{% else %}{{ site.url }}{{ site.og-image-default }}{% endif %}{% endcapture %}
+
 <!-- Twitter Cards  -->
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-{% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">{% endif %}
+<meta name="twitter:title" content="{{ ogtitle }}">
+{% if page.excerpt %}<meta name="twitter:description" content="{{ ogdesc }}">{% endif %}
 {% if site.owner.twitter %}<meta name="twitter:site" content="@{{ site.owner.twitter }}">{% endif %}
-{% if author.twitter %}<meta name="twitter:creator" content="@{{ author.twitter }}">{% endif %}
-{% if page.image.feature %}
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}/images/website/{{ page.image.feature }}">
-{% else %}
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{% if page.ogimage %}{{ site.url }}{{ page.ogimage }}{% else %}{{ site.url }}/images/website/tozier-default-thumb.jpg{% endif %}">
-{% endif %}
+<meta name="twitter:image" content="{{ ogimg }}">
+
+
 <!-- Open Graph -->
 <meta property="og:locale" content="{{ site.locale }}">
 <meta property="og:type" content="article">
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-{% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
+<meta property="og:title" content="{{ ogtitle }}">
+{% if page.excerpt %}<meta property="og:description" content="{{ ogdesc }}">{% endif %}
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
-{% if page.image.feature %}
-<meta property="og:image" content="{{ site.url }}/images/website/{{ page.image.feature }}">
-{% else %}
-<meta property="og:image" content="{% if page.ogimage %}{{ site.url }}{{ page.ogimage }}{% else %}{{ site.url }}/images/website/tozier-default-thumb.jpg{% endif %}">
-{% endif %}
+<meta property="og:image" content="{{ ogimg }}">

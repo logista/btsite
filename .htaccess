@@ -10,16 +10,6 @@ ErrorDocument 404 /404.html
 
 # BLOCK BAD BOTS IF THE UA STARTS WITH THESE
 
-Options -Indexes
-IndexIgnore *
-
-
-
-
-## ERRORDOCUMENTS
-
-ErrorDocument 404 /404.html
-
 SetEnvIfNoCase User-Agent ^$ bad_bot
 SetEnvIfNoCase User-Agent "^AESOP_com_SpiderMan" bad_bot
 SetEnvIfNoCase User-Agent "^Alexibot" bad_bot

@@ -18,4 +18,4 @@ However, I have all the film I need right now, some good masks, some intriguing 
 
 Maybe I'll go listen to "[The Most Feel-Good Song](http://www.jolij.com/?p=362)"
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/HgzGwKwLmgM" frameborder="0" allowfullscreen></iframe>
+{% include _yt-embed.html id='HgzGwKwLmgM' caption="Sing, Freddie!"%}
