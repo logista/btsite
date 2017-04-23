@@ -18,6 +18,7 @@ gems:
   - bootstrap
   - autoprefixer-rails
   - jekyll-feed
+  - jekyll-paginate-v2
 
 kramdown:
   auto_ids: true
@@ -55,6 +56,17 @@ picserizer:
 collections:
   galleries:
     output: true
+
+# pagination
+pagination:
+  enabled: true
+  per_page: 9
+  sort_field: 'sort_date'
+  sort_reverse: true
+  trail:
+    before: 1
+    after: 1
+
 
 
 include: [".htaccess", "_pages"]
