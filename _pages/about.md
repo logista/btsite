@@ -2,16 +2,13 @@
 permalink: /about/
 layout: page
 title: "About Me"
-excerpt: "About Barbara Tozier, an artist-photographer in Ann Arbor, Michigan."
+excerpt: "About Barbara Tozier, a conceptual artist whose medium is photography."
 tags: [photographer, photography, ann arbor michigan, conceptual, fine art, abstract]
-image:
-  feature: barbara-tozier-prof-blues-gray.jpg
-  title: "Professional Blues (from the <a href='/gallery-stories/'>Stories</a> gallery)"
 date: 2015-07-31
-modified: 2017-03-26
+modified: 2017-04-11
 ---
 
-<!-- {  % include _toc.html %  } <!--- (._.) ~ ︵ ┻━┻ ---> -->
+{% include _toc.html %} <!--- (._.) ~ ︵ ┻━┻ --->
 
 ### Statement
 
@@ -19,9 +16,9 @@ My work considers photography in all of its aspects, and in many of its forms, o
 
 ### Bio
 
-Born in Ohio, Barbara Tozier works in photography --- digital, analog, and hybrid --- with forays into video and multimedia. She settled in Michigan in 1997, after an engineering career that took her to Pennsylvania and the Netherlands. In 2009 she reconnected with photography (having studied with Nicholas Hlobeczy in college), and in 2012 started taking photo classes at Washtenaw Community College where she received an Associates degree in May 2016.
+![middle aged white woman wearing glasses]({{site.owner.avatar}} "Barbara Tozier"){: .avatar}Born in Ohio, Barbara Tozier works in photography --- digital, analog, and hybrid --- with forays into video and multimedia. She settled in Michigan in 1997, after an engineering career that took her to Pennsylvania and the Netherlands. In 2009 she reconnected with photography (having studied with Nicholas Hlobeczy in college), and in 2012 started taking photo classes at Washtenaw Community College where she received an Associates degree in May 2016.
 
-She has exhibited at the Ann Arbor Street Art Fair, The Original, and in group shows at 22 North Gallery (Ypsilanti), Washtenaw Community College and Kerrytown Concert House (Ann Arbor). She lives and works in Ann Arbor, Michigan.
+She has exhibited at the Ann Arbor Street Art Fair, The Original, and in group shows at Hatch Art Gallery (Hamtramck), 22 North Gallery (Ypsilanti), Washtenaw Community College and Kerrytown Concert House (Ann Arbor). She lives and works in Ann Arbor, Michigan.
 
 ### Blurb
 
@@ -58,12 +55,13 @@ Barbara Tozier is a conceptual artist whose medium is photography in all of its 
     - 2008--2015, Freelance Camera Assistant
     - 2009--2010, Freelance Production Assistant
 
+
 ### Site
 
 Unless otherwise indicated, all images and text are &copy;Barbara Tozier. All Rights Reserved. If you would like to purchase or otherwise license images, please feel free to contact me.
 
-Powered by [Jekyll](http://jekyllrb.com){: rel="nofollow"} using a modified [Minimal Mistakes](http://mademistakes.com/minimal-mistakes/){: rel="nofollow"} theme.
+Powered by [Jekyll](http://jekyllrb.com) using [Bootstrap 4α](https://v4-alpha.getbootstrap.com/).
 
-There are no cookies, no trackers, no analytics on this site, as far as I know. It uses fonts and javascripts from Google.
+There are no cookies, no trackers, nor analytics on this site as far as I know. It uses fonts from Google, javascripts from JQuery and Bootstrap, and has an occasional YouTube link.
 
-If you have any problems with the site, please contact me from the links below, or leave an issue at my [GitHub repository](https://github.com/logista/btsite2015/issues).
+If you have any problems with the site, please contact me from the links below, or leave an issue at my [GitHub repository](https://github.com/logista/btsite/issues).

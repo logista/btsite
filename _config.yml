@@ -40,14 +40,22 @@ owner:
 # og-images
 # Supposedly used by social sites, but I don't know for sure. Also used by the home page to populate the post cards.
 og-image-dir: /images/posts/400/ # choose one that is made by the picserizer
-og-image-default: /images/website/tozier-default-thumb.jpg
+gog-image-dir: /images/galleries/400/ # same as above, specific for gallery posts and cards
+og-image-default: /images/website/tozier-default-og.jpg # used for a non-image post, not used for the post cards
+
 
 # picture pile maker
 picserizer:
   sizes: [400,600,800,960]
   source: _source_images
-  target: images/posts
+  target: images
   default_src: 400 #this is the size that will go in the `src` section for browsers that don't do `srcset`
+  lb_max: 960 #this is the size that the lightbox will use for the large-size image
+
+collections:
+  galleries:
+    output: true
+
 
 include: [".htaccess", "_pages"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt", "posting-guide.md", "_orphans"]

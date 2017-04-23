@@ -4,21 +4,19 @@ title: "_In Camera_, Retrospective"
 excerpt: "I didn't talk a lot about it while I was doing it: here are ~1k words of review"
 tags: [photographs, class, projects, film]
 date: 2015-12-12
-ogimage: "/gallery-in-camera/th/01-barbara-tozier-in-camera-cover.jpg"
-published: false
+use_gallery_img: true
+ogimage: "20151209-btozier-film.jpg"
 ---
 
-<!-- This needs to be addressed once I handle the gallery stuff 2017-04-10 -->
+{% include _figures.html
+  gallery=true
+  base_image_filename="20151209-btozier-film.jpg"
+  title="This is What Film Looks Like"
+  alt="A frame of film, looking up at a ceiling fan and some draped window shades. The title is overlaid in white macro text."
+  caption="Cheeky!"
+%}
 
-<figure class="image-s">
-    <a href="/gallery-in-camera/" title="Go to Gallery"><img src="/gallery-in-camera/th/01-barbara-tozier-in-camera-cover.jpg"></a>
-    <span class="image-s-caption" markdown="1">_In Camera: Stubbie & HB would like a few words..._  
-Custom made clamshell box holding 10 silver gelatin prints each 6¼\" square, mounted on conservation board.  
-Cover image: digital image / inkjet print  
-6⅞\" × 6⅞\" × 1⅛\"</span>
-</figure>
-
-[Visit the Gallery for _In Camera_.](/gallery-in-camera/)
+[Visit the Gallery for _In Camera_.](/galleries/in-camera/)
 
 ---
 
@@ -64,4 +62,4 @@ I also feel that it's important for me to physically interact with the medium. F
 
 During the final review, I had more questions on the box than on the images. This isn't *so* surprising, given that most people either dry mounted their images or put them into a [Unibind](http://www.unibind.com/en-us/cover/photobook) book. I used the instructions from the [Library of Congress](http://catalog.hathitrust.org/Record/000148073), but be warned: you should make a prototype first to make sure you understand all of the instructions. This added a few extra days to my construction, but it was well worth it because the final box fits the image plates perfectly. The box took me about a day and a half to make, mostly waiting for the glue to dry.
 
-There is one last unanswered question for me with this project: if I apply to Grad schools, how should I present this project? I suppose that is a question for next semseter's "capstone" class: [Portfolio Seminar](http://www.wccnet.edu/academics/classes/information/view/class/PHO%20231/).
+There is one last unanswered question for me with this project: if I apply to Grad schools, how should I present this project? I suppose that is a question for next semester's "capstone" class: [Portfolio Seminar](http://www.wccnet.edu/academics/classes/information/view/class/PHO%20231/).

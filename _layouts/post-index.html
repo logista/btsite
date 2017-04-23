@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="container">
+<div id="main" role="main" class="row">
+    <div class="row">
+        <h1 class="pb-3 col-12">{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</h1>
+    </div>
+
+<section class="archive-post-list col-10 col-sm-12 d-flex align-items-start">
+   {% for post in site.posts %}
+       {% assign currentYear = post.date | date: "%Y" %}
+       {% if currentYear != myYear %}
+           {% unless forloop.first %}</ul></div>{% endunless %}
+           <div class="">
+           <h2>{{ currentYear }}</h2>
+           <ul>
+           {% assign myYear = currentYear %}
+       {% endif %}
+       <li><span class="small text-fade">{{ post.date | date: "%m-%d" }}: </span><a href="{{ post.url }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></li>
+       {% if forloop.last %}</ul></div>{% endif %}
+   {% endfor %}
+</section>
+</div>
+</div>

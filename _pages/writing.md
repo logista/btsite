@@ -1,11 +1,9 @@
 ---
 permalink: /writing/
 layout: post-index
-title: "Writing Index"
-excerpt: "A list of all of the writing on the Barbara Tozier site"
+title: "List of posts"
+excerpt: "A list of all of the posts on the Barbara Tozier site"
 tags: [photography, criticism, practice, example]
-image:
-  feature: barbara-tozier-sf-shelf-poem-gray.jpg
-  title: "A Science Fiction Shelf Poem (from the <a href='/gallery-stories/'>Stories</a> gallery)"
 date: 2015-07-31
+modified: 2017-04-11
 ---

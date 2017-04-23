@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-{% assign sorted=(site.documents | sort: 'sort_date') | reverse %}
+{% assign sorted=(site.galleries | sort: 'sort_date') | reverse %}
 
 <div class="album container" id="home">
+    <div class="row">
+        <h1 class="pb-3 col-12">{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</h1>
+    </div>
 
     <div class="row justify-content-center">
         {% for post in sorted limit:9 %}

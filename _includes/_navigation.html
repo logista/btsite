@@ -5,16 +5,15 @@
   <a class="navbar-brand p-3" href="/">{{ site.title }}<br><small class="text-muted">{{ site.subtitle }}</small></a>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="nav nav-pills mr-auto">
 		{% for link in site.data.navigation %}
 			{% if link.url == page.dir %}
-				{% assign class = "nav-item active" %}
+				{% assign class = "nav-link active" %}
 			{% else %}
 				{% assign class = "nav-link" %}
 			{% endif %}
-			<li class="{{ class }}"><a href="{{ link.url }}">{{ link.title }}</a></li>
+			<li class="nav-item"><a href="{{ link.url }}" class="{{ class }}">{{ link.title }}</a></li>
 		{% endfor %}
 	</ul>
-    <!-- TODO: search function; contact dropdown? -->
   </div>
 </nav>
