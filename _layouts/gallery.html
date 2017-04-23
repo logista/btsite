@@ -8,19 +8,5 @@ layout: default
     <div class="row justify-content-around album">
         {{ content }}
     </div>
-    <div class="post-footer row justify-content-center">
-        <div class="col-7">
-            <div class="card">
-                <p class="byline"><strong>{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
-            </div>
-            <div class="row justify-content-center p-2 pb-3" role="navigation" aria-label="Navigating between posts">
-                {% if page.previous %}
-                    <a href="{{ page.previous.url }}" class="col-md-3 btn btn-outline-primary btn-sm" title="{{ page.previous.title }}">Older</a>
-                {% endif %}
-                {% if page.next %}
-                    <a href="{{ page.next.url }}" class="col-md-3 btn btn-outline-primary btn-sm" title="{{ page.next.title }}">Newer</a>
-                {% endif %}
-            </div>
-        </div>
-    </div>
+    {% include _post-nav.html %}
 </div>

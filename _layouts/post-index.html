@@ -3,6 +3,10 @@ layout: default
 ---
 <div class="container">
 <div id="main" role="main" class="row">
+    <div class="row">
+        <h1 class="pb-3 col-12">{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</h1>
+    </div>
+
 <section class="archive-post-list col-10 col-sm-12 d-flex align-items-start">
    {% for post in site.posts %}
        {% assign currentYear = post.date | date: "%Y" %}
