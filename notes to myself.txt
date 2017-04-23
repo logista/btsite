@@ -279,3 +279,9 @@ Still to do:
 5. write new file templates for `gallery.md` because I can't remember everything that's supposed to go in!
 6. decide if `srcset` is going to be a thing, or if I should just go with 2 sizes (small/large), and if so, what sizes?
 7. update `posting-guide.md`
+
+< later >
+
+OK! I was able to get pagination on the 2 main pages. It is UGLY because the gem `jekyll-paginate-v2` doesn't expose the "first" and "last" pages of a pagination trail to liquid, so there was lots of fudging going on.
+
+It's... it is almost done?!
