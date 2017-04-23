@@ -255,4 +255,27 @@ Have finished `gallery` branch, made by restructuring the hell out of everything
 
 Nope. Going to move it into `pages-update`. Success!
 
-Now into `restructure`...
+Now into `restructure`... Success!
+
+Before I get too carried away and confused, I am **DELETING** the `pages-update` and `gallery` branches.
+
+*whew*
+
+So I think I am pretty close. Here's what I've done (with Bill's help) over the past week or so:
+
+1. restructured the galleries as a Jekyll Collection. Each gallery has its own markdown file (eg `in-camera.md`) that lists the image in the order I want them to be displayed on the page. It also includes various data about the images. I haven't figured out a way to not have to repeat the information for an image if I want to talk about it in a post, but that's not the worst thing ever.
+2. restructured the `images` folder to have a folder for `galleries`. I wanted to keep the gallery images separate from post images, but did not like having them in individual folders per gallery in my site root. In effect, they're treated like the `posts` images (`srcset` sizes auto-generated).
+3. modified Lightroom Publish folders to new structure
+4. rewrote the plugin `imageener.rb` to create images for both `galleries` and `posts`
+5. added a plugin `recentdate.rb` to help me get the `gallery` "posts" (ie new galleries) reported on the front page in the flow of the `posts`. I won't have to make a separate post for each new gallery.
+6. general cleanup and tweaks
+
+Still to do:
+
+1. attempt pagination on the `home` page and the `project-gallery` page
+2. figure out what to do with Square Marketplace
+3. figure out if Instagram is going to be a thing
+4. write new snippet templates for image insertion (added a new tag called `gallery:` for post figures)
+5. write new file templates for `gallery.md` because I can't remember everything that's supposed to go in!
+6. decide if `srcset` is going to be a thing, or if I should just go with 2 sizes (small/large), and if so, what sizes?
+7. update `posting-guide.md`
