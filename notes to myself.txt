@@ -240,3 +240,19 @@ Still to do: gallery pages.
 Split gallery pages from the gallery index. Probably should have been that way originally, but anyway...
 
 I wanted to edit the `buy` page to show stuff directly from Square Marketplace, but they changed their API to not allow embedded content :/ So now I'm not entirely sure what to do. The link is still on the page, so I suppose that is enough for now.
+
+===
+2017-04-16
+A few days off and I'm a little lost. That's why I write these notes!
+
+OK. `gallery` branch is here to make the galleries anew. I'm considering installing the `paginate-v2` gem/plugin (the one that is under active development), but that will require a separate branch because boy it looks complicated.
+
+Anyway, off to `gallery`!
+
+===
+2017-04-23
+Have finished `gallery` branch, made by restructuring the hell out of everything images. So now to move it into `restructure`. I think. I've lost track :(
+
+Nope. Going to move it into `pages-update`. Success!
+
+Now into `restructure`...
