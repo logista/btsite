@@ -4,24 +4,17 @@ title: "_In Camera_, Retrospective"
 excerpt: "I didn't talk a lot about it while I was doing it: here are ~1k words of review"
 tags: [photographs, class, projects, film]
 date: 2015-12-12
-ogimage: "/images/galleries/in-camera/th/20151211-btozier-film.jpg"
+use_gallery_img: true
+ogimage: "20151209-btozier-film.jpg"
 ---
 
-<!-- This needs to be addressed once I handle the gallery stuff 2017-04-10 -->
-
-{% include _gall-post-figures.html
-  base_image_filename="20151211-btozier-film.jpg"
+{% include _figures.html
+  gallery=true
+  base_image_filename="20151209-btozier-film.jpg"
   title="This is What Film Looks Like"
   alt="A frame of film, looking up at a ceiling fan and some draped window shades. The title is overlaid in white macro text."
+  caption="Cheeky!"
 %}
-
-<!-- <figure class="image-s">
-    <a href="/gallery-in-camera/" title="Go to Gallery"><img src="/gallery-in-camera/th/01-barbara-tozier-in-camera-cover.jpg"></a>
-    <span class="image-s-caption" markdown="1">_In Camera: Stubbie & HB would like a few words..._  
-Custom made clamshell box holding 10 silver gelatin prints each 6¼\" square, mounted on conservation board.  
-Cover image: digital image / inkjet print  
-6⅞\" × 6⅞\" × 1⅛\"</span>
-</figure> -->
 
 [Visit the Gallery for _In Camera_.](/galleries/in-camera/)
 
