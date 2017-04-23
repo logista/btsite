@@ -4,7 +4,7 @@ title: "New Year, Same Me"
 excerpt: "I don't make New Year Resolutions, but..."
 tags: [lightroom, self-centered]
 date: 2016-01-03
-ogimage: "/images/posts/m/2016-01-03-barbara-tozier-same-me.jpg"
+ogimage: "20160103-btozier-same-me.jpg"
 ---
 
 I don't put any effort into making New Year's Resolutions, mainly because I think that *any* flip of any calendar page is a good time to take stock of where I am. Sometimes, though, that "typical" New Year's type of housekeeping does happen at the turn of the year. In this case, specifically, is my computer wanting to make 2016 folders for everything!
@@ -15,13 +15,12 @@ I've also been considering what to do with my old iPhoto and Aperture catalogs. 
 
 To test my new workflow (which should reduce my ongoing backup requirements by 50%), I of course did a couple of self portraits. Here's one:
 
-<figure class="image-m">
-  <img src="/images/posts/m/2016-01-03-barbara-tozier-same-me.jpg">
-  <figcaption>
-    <span class="image-m-caption">Same Me</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160103-btozier-same-me.jpg"
+  title="Same Me"
+  alt="Head and camera fill the frame; mirror image"
+  caption="There we are!"
+%}
 
 Most of my process hasn't changed. Make a photograph, copy it to my computer twice. One goes into my "negative" file, the other goes to where Lightroom can access it. Because I can't convert to DNG on `Move` (as I have learned), I `Copy as DNG`. Edit/output as required. Then at some point I have to remember to delete the Working Copy RAW file. I suppose I could `Copy as DNG` directly from the "negative" drive, but I really like having 2 copies directly from the camera's SD card.
 

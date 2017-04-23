@@ -1,0 +1,23 @@
+{% capture td %}{{ site.picserizer.target }}/posts{% endcapture %}
+{% if include.gallery %}{% capture td %}{{ site.picserizer.target }}/galleries{% endcapture %}{% endif %}
+{% assign dd = site.picserizer.default_src %}
+{% assign bf = include.base_image_filename %}
+{% assign lbm = site.picserizer.lb_max %}
+
+
+<figure class="post-figure">
+<img class="post-image"
+src="/{{ td }}/{{ dd }}/{{ bf }}"
+sizes="(min-width:992px) 960px, (min-width:768px) 800px, (min-width:576px) 600px, 400px"
+srcset="{% for size in site.picserizer.sizes %}{% if forloop.last %}
+/{{ td }}/{{ size }}/{{ bf }}  {{ size }}w{% else %}
+/{{ td }}/{{ size }}/{{ bf }}  {{ size }}w, {% endif %}{% endfor %}"
+alt="{{ include.alt }}"
+title="{{ include.title }}"
+data-toggle="lightbox"
+data-gallery="post-gallery"
+data-remote="/{{ td }}/{{ lbm }}/{{ bf }}"
+data-footer="{{ include.caption  | markdownify | remove: '<p>' | remove: '</p>' }}"
+data-title="{{ include.title  | markdownify | remove: '<p>' | remove: '</p>' }}">
+<figcaption class="post-caption">{{ include.title  | markdownify }}</figcaption>
+</figure>

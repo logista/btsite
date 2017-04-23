@@ -4,7 +4,6 @@ title: "Inspiration: Glass"
 date: "2016-08-30 20:50:19 -0400"
 excerpt: "A visit to the Toledo Museum of Art Glass Pavillion"
 tags: [inspiration,glass,toledo,museum]
-ogimage: "/images/posts/m/2016-08-03-flora_mace_joey_kirkpatrick_lime.jpg"
 ---
 
 My [husband](http://vaguery.com) and I recently went to the [Glass Pavilion](http://www.toledomuseum.org/glass-pavilion/) at the [Toledo Museum of Art](http://www.toledomuseum.org). I love to visit museums, but I find it works out best when I don't try to see everything in one go. Lucky for me, a visit to Toledo is a nice little day trip, so I can go just about whenever I get the idea.
@@ -15,77 +14,75 @@ During our visit, I realized that the question of "is this a functional object o
 
 Ah, but that is a question for further study, and not what I wanted to share here. The particular exhibit we saw was showing glass that is held in private collections, which means pieces that aren't often seen by the public. We also spent a few moments in the Glass Study Room and saw items in the TMA permanent collection.
 
-<figure class="image-m">
-  <img src="/images/posts/m/2016-08-03-steffen_dam_picture_block.jpg">
-  <figcaption>
-    <span class="image-m-caption" markdown="1">Steffen Dam, _Picture Block_</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160803-btozier-steffen-dam-picture-block.jpg"
+  title="Steffen Dam, _Picture Block_"
+  alt="A thick glass tile with shapes that look like sea creatures."
+  caption="Sea creatures"
+%}
 
 I liked this work by Dam because of its organic feel, and for its echo of natural history books. I photographed it with the damp-stained curtain in the background because it extended the feeling of being in the water.
 
-
-<figure class="image-m">
-  <img src="/images/posts/m/2016-08-03-nicole_ayliffe_coast_at_byron_bay.jpg">
-  <figcaption>
-    <span class="image-m-caption" markdown="1">Nicole Ayliffe, _Coast at Byron Bay_</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160803-btozier-nicole-ayliffe-coast-at-byron-bay.jpg"
+  title="Nicole Ayliffe, _Coast at Byron Bay_"
+  alt="A round vase/bowl with a narrow hole. There is a seascape image on it."
+  caption="Coastline"
+%}
 
 Ayliffe's work is the most "photographic" of the pieces, what with the photograph being attached to the glass and all. I'm not a fan of *doing* image transfers, but I appreciate when others do them. This is a well-done example and makes me wonder if there are other ways to incorporate photography and glass.
 
-
-<figure class="image-m">
-  <img src="/images/posts/m/2016-08-03-flora_mace_joey_kirkpatrick_lime.jpg">
-  <figcaption>
-    <span class="image-m-caption" markdown="1">Flora Mace and Joey Kirkpatrick, _Lime_</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160803-btozier-flora-mace--joey-kirkpatrick-lime.jpg"
+  title="Flora Mace and Joey Kirkpatrick, _Lime_"
+  alt="Bright green lime. Scale is not indicated."
+  caption="Really big and so green"
+%}
 
 Wow. This piece is about the size of a football. I also love the color --- lime green is one of my favorites. I appreciate the skill involved in making this piece --- it feels like it would weigh about as much as a balloon.
 
-<figure class="image-m">
-  <img src="/images/posts/m/2016-08-03-preston_singletary_chest.jpg">
-  <figcaption>
-    <span class="image-m-caption" markdown="1">Preston Singletary, _Chest_</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160803-btozier-preston-singletary-chest.jpg"
+  title="Preston Singletary, _Chest_"
+  alt="Eyes and hands in frosted glass."
+  caption="Faces and hands"
+%}
 
 This internally-lit double-sided sculpture interprets Tlingit imagery into a different medium. A lovely way of separating "function" from "symbol".
 
-<figure class="image-m">
-  <img src="/images/posts/m/2016-08-03-tom_patti_spectral_starphire.jpg">
-  <figcaption>
-    <span class="image-m-caption" markdown="1">Tom Patti, _Spectral Starphire_</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160803-btozier-tom-patti-spectral-starphire.jpg"
+  title="Tom Patti, _Spectral Starphire_"
+  alt="Rectangular cube with layers of red and clear glass. There are concentric circles in the layers."
+  caption="Drip..."
+%}
 
 This "stacked" glass sculpture scratches my math/geometry itch.
 
-<figure class="image-m">
-  <img src="/images/posts/m/2016-08-03-christopher_ries_point_of_view.jpg">
-  <figcaption>
-    <span class="image-m-caption" markdown="1">Chrisopher Ries, _Point of View_</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160803-btozier-christopher-ries-point-of-view.jpg"
+  title="Chrisopher Ries, _Point of View_"
+  alt="Large triangular shiny piece with smaller facets inside"
+  caption="Pick the right position..."
+%}
 
 Sometimes a piece surprises you with its depth. This is a wonderful example of a "smooth" surface showing more than you would expect. Each face of the sculpture (and each orientation of the viewer with respect to the surface) exposes a different geometric arrangement.
 
-<figure class="image-m">
-  <img src="/images/posts/m/2016-08-03-william_carlson_pragnanz_series_ii.jpg">
-  <figcaption>
-    <span class="image-m-caption" markdown="1">William Carlson, _Pragnanz, Series II_</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160803-btozier-william-carlson-pragnanz-series-ii.jpg"
+  title="William Carlson, _Pragnanz, Series II_"
+  alt="Peach and green thick triangles look like they're held up by air. They are connected by an orange and brown rectangle."
+  caption="Balance"
+%}
 
 This assemblage is in the study gallery, so it's not the best way to appreciate it from all angles, but I like how it makes use of varied materials. It was completed in 1986, and I must say that it *feels* like it's from the ’80s.
 
-<figure class="image-m">
-  <img src="/images/posts/m/2016-08-03-karla_trinkley_pink_bowl.jpg">
-  <figcaption>
-    <span class="image-m-caption" markdown="1">Karla Trinkley, _Pink Bowl_</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160803-btozier-karla-trinkley-pink-bowl.jpg"
+  title="Karla Trinkley, _Pink Bowl_"
+  alt="Dusty pink and aqua/green tall bowl/vase with arrow head shapes running horizontally around the length of it."
+  caption="Rough texture is not usually associated with glass"
+%}
 
 Another one from the study gallery, this piece by Trinkley reminds me that glass is not *always* smooth.
 

@@ -2,295 +2,239 @@
 sitemap: false
 ---
 
-/*
- *
- *  Minimal Mistakes
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
-*/
+@import "custom";
+@import "bootstrap";
 
-// Partials
-@import "variables";
-@import "grid";
-@import "mixins";
-@import "normalize";
-@import "site";
-@import "typography";
-@import "pygments";
-// @import "coderay";
-@import "elements";
-@import "forms";
-@import "page";
-@import "vendor/rensburg-svg/svg-icons";
-@import "vendor/magnific-popup/magnific-popup";
+.navbar-brand {
+    font-family: $headings-font-family;
+    font-size: $font-size-lg*1.25;
+    line-height: $navbar-brand-height*.6;
+    margin: .75rem;
+}
+.nav-link, .nav-item {
 
-h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {font-size:65%;}
-h1, h2, h3, h4, h5, h6 {line-height:1.1;}
+}
+.album {
+  padding-bottom: 1rem;
+}
+.album .card {
+  width: 22rem;
+  margin:.25rem;
+  margin-bottom: 2rem;
+}
+.album .card-block {
+    padding:.5rem;
+}
+.album .card-img-top {
+  width:100%;
+  margin-bottom: .75rem;
+}
+.fake-card-img {
+   background-image: linear-gradient(to bottom, rgba(lighten($brand-primary,50%),.8), rgba($brand-inverse,0.05));
+   height:125px;
+}
+.album img.card-img-top {
+    max-width: 100%;
+}
+.album .card-footer{
+    text-align: right;
+    border:0;
+    background-color: inherit;
+}
+.gallery-card {
+    border: 0;
 
+    .card-title {
+        font-style: italic;
+        font-size: $font-size-sm*1.2;
+        text-align: center;
+    }
+    .card-text {
+        font-size: $font-size-sm;
+        color: lighten($brand-primary,40%);
+    }
+}
+.gallery .acn {
+    padding:1em;
+    margin:2em;
+}
+footer p {
+    color: $gray-light;
+    font-size: $font-size-sm;
+}
+footer svg {
+    width:1.75rem;
+}
+footer svg path {
+    fill: $gray-light;
+}
+footer {
+    border-top: $gray-lighter 1px solid;
+    padding-top:1em;
+}
+
+.soc:hover svg path {
+    fill: $white;
+}
+.soc-email:hover svg {
+    background: $email-color;
+}
+.soc-feed:hover svg {
+    background: $rss-color;
+}
+.soc-github:hover svg {
+    background: $github-color;
+}
+.soc-instagram:hover svg {
+    background: $instagram-color;
+}
+.soc-tumblr:hover svg {
+    background: $tumblr-color;
+}
+.soc-twitter:hover svg {
+    background: $twitter-color;
+}
+#markdown-toc li {
+    list-style-type:none;
+}
 .acn {
-  background-color: lighten($border-color,70);
-  padding: 1em;
-  border: 1px $border-color solid;
-  @include rounded(3px);
+    @extend .card-block;
+    padding: 1em;
+    background-color: lighten($brand-primary,65%);
+}
+.aside {
+    @extend .card-block;
+    background-color: lighten($brand-primary,70%);
+}
+p.aside::before {
+    content: "aside  ";
+    font-style: italic;
+}
+.footnotes::before {
+    content: "Footnotes";
+    font-style: italic;
+}
+.footnotes {
+    border-top: 1px lighten($brand-primary,65%) solid;
+    padding-top: 1rem;
+}
+.footnotes p {
+    padding:0;
+}
+.byline {
+    font-size: $font-size-sm;
+    text-align: center;
+    padding: inherit 1em;
+    margin: .5em;
+}
+blockquote {
+    @extend .blockquote;
+}
+.source {
+    @extend .blockquote-footer;
+}
+#main a:hover, .album a:hover {
+    color: $body-bg;
+    background-color: lighten($link-hover-color,40%);
+}
+a.nav-link:hover {
+    color: $body-bg;
+    background-color: lighten($link-hover-color,40%);
 }
 
-div.acn {
-  padding-bottom: 0;
-  margin-bottom: 1em;
+// images in posts
+.post-figure, .post-image {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    max-width: 100%;
 }
-
-.gallerypage img.thumbnail {
-  max-height: 300px;
-  max-width: 300px;
-  width: auto;
-  height: auto;
-  margin:5px;
+.post-image {
+    max-width:100%;
+    @include media-breakpoint-up(md) { max-width:50%; }
 }
-
-/* Site name */
-.site-name {
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
-	margin-bottom: 0em;
-	float: none;
-	display: block;
-	@include font-rem(24);
-  @media #{$micro} {
+.post-caption {
     text-align:center;
-  }
-	@media #{$small} {
-		@include grid(12,2);
-		@include prefix(12,0.5);
-		@include suffix(12,0.5);
-		@include font-rem(16);
-	}
-	@media #{$x-large} {
-		@include grid(12,2);
-		@include prefix(12,0);
-	}
+    font-style: italic;
+    margin-bottom:1em;
+}
+.image-adhoc img {
+    display:block;
+    margin:auto;
+    padding:.5em;
+    max-width: 100%;
+    border: $card-border-color 1px solid;
+}
+.video {
+    text-align: center;
 }
 
 
-nav.pagination {
-  text-align:center;
-}
-
-
-
-pre {
-  @include font-rem(10);
-  line-height: 1.5;
-  overflow-x: auto;
-  background-color: darken($bodycolor,5);
-	@include rounded(3px);
-  padding: .5em;
-  }
-
+// code text
 div.text-highlight pre{
-    background-color: darken($bodycolor,5);
-    font-family: $code-font;
-    @include font(10);
-    color: darken($textcolor,5);
     margin-bottom: 1.5em;
-    @include rounded(3px);
     	position: relative;
     	padding: 1em;
       white-space:pre-wrap;
 }
-
 .code-snippet {
   text-align:center;
+  font-size: $font-size-sm;
 }
 
-/* asides */
-
-.aside {
-  @include font-rem(10);
-  background-color: lighten($text-color,70);
-  color: lighten($textcolor,20);
-  @include rounded(3px);
-  padding: .5em;
-  // width:40%;
-  // margin-left:1em;
-  // float:right;
+code.highlighter-rouge {
+    font-size: $font-size-sm*1.1;
 }
-
-.aside::before {
-  content: "Aside  ";
-  font-style:italic;
-}
-
-div.aside, div.aside p {
-  padding-bottom: 0px;
-}
-
-/* my image css */
-
-// screenshots
-figure.image-ss {
-  display: table;
-  margin:1em auto;
-  // text-align: center;
-}
-
-// medium images
-figure.image-m {
-  display: table;
-  margin:3em auto 1em auto;
-  // text-align: center;
-}
-
-.image-m-caption, .image-m-credit {
-  display: inline-block;
-  width:49%;
-  @include font(10);
-  color: lighten($text-color, 20);
-}
-
-.image-m-credit{
-  text-align: right;
-}
-
-// small images
-figure.image-s {
-  display: table;
-  margin:1em auto;
-}
-
-figure.image-s img {
-  padding: 3px;
-}
-
-.image-s-caption {
-  display: block;
-  @include font(10);
-  color: lighten($text-color, 20);
-}
-
-// Main content  lifted/adapted from page.scss
-#main {
-	.post,
-	.page {
-		@include container;
-		@include grid(12,10);
-		@include prefix(12,1);
-		@include suffix(12,1);
-		margin-bottom: 2em;
-		@media #{$small} {
-			@include grid(12,6);
-			@include prefix(12,1);
-			@include suffix(12,1);
-		}
-		@media #{$x-large} {
-			@include grid(12,6);
-      @include prefix(12,1);
-      @include suffix(12,1);
-
-		}
-	}
-}
-
-// index column styling lifted/adapted from page.scss
-#index {
-	@include container;
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
-	margin-bottom: 2em;
-	@media #{$small} {
-		@include grid(12,6);
-    @include prefix(12,1);
-  	@include suffix(12,1);
-	}
-	@media #{$x-large} {
-		@include grid(12,4.5);
-    @include prefix(12,1);
-  	@include suffix(12,1);
-	}
+.highlight {
+    font-size: $font-size-sm;
 }
 
 
-// Author module (lifted/adapted from page.scss)
-.article-author-bottom {
-	margin-bottom: 1em;
-	@media #{$small} {
-		display: none;
-	}
-	.bio-photo {
-    max-width: 150px;
-		margin: 0 25px 10px 0;
-		@include rounded(3px);
-	}
+//  modal styling
+.ekko-lightbox .modal-content {
+    background-color: rgba($modal-content-bg,0);
+    color:invert($body-color);
 
-	.soc {
-    display:inline-block;
-  }
-
-	h3 {
-    display:inline-block;
-    font-size: 125%;
-    margin-top: 0;}
-
-	p.slogan {
-    display:block;
-    font-size: 80%;
-  }
-
-  p.connect {
-    display:block;
-    font-size:80%;
-    font-style: italic;
-  }
-
-  p.rights {
-    text-align: right;
-    font-size: 60%;
-    margin-bottom:0;
-  }
-
-  @media #{$large} {
-		h3,
-		p {
-      max-width: inherit;
-		}
-    .bio-photo{ max-width:150px;}
-	}
+        button.close {
+            color:inherit;
+        }
 }
 
-footer {
-  border-top: 1px solid lighten($border-color,70);
-  border-bottom: 1px solid lighten($border-color,70);
-  padding:10px;
+.ekko-lightbox .modal-body {
+    background-color: $body-bg;
 }
 
-// Center the menu/navigation button when small screen
-.navicon-lines-button {
-  display:block;
-  margin: 0 auto;
-}
-.nav .navtoogle {
-  background-color: lighten($primary, 15);
+.ekko-lightbox-nav-overlay {
+    @extend .modal-footer;
+    display: flex;
+    justify-content: left;
+
+    a {
+        padding:18px 0px 0px;
+        color:inherit;
+    }
+
 }
 
-// Footer wrapper lifted/adapted from page.scss
-.footer-wrap {
-  .related-articles,
-	footer {
-		@include grid(12,10);
-		@include prefix(12,1);
-		@include suffix(12,1);
-		@media #{$small} {
-			@include grid(12,6);
-      @include prefix(12,1);
-    	@include suffix(12,1);
-		}
-		@media #{$x-large} {
-			@include grid(12,4.5);
-      @include prefix(12,1);
-    	@include suffix(12,1);
-		}
-	}
+// misc
+
+.avatar { // this is an image used on the About page
+    max-width:25%;
+    float:left;
+    padding-right:1.5em;
+}
+.archive-post-list {
+    ul {
+        @extend .list-unstyled;
+         margin-left: 0;
+        padding-right:1.5em;
+    }
+    li {
+        font-size: $font-size-base*.8;
+    }
+    span {
+    }
+    a {
+    }
 }

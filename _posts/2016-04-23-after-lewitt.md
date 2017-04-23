@@ -4,13 +4,10 @@ title: "After LeWitt, Part 1: Diverse"
 excerpt: "A time lapse video examining one assumption underlying a Sol LeWitt piece."
 tags: [cubes, video, lewitt, grid]
 date: "2016-04-23 08:30:00 -0500"
-ogimage: "/images/posts/m/2016-04-23-barbara-tozier-cubes.png"
-youtubeId: RTpdioaBoFo
+ogimage: "20160403-btozier-cubes.jpg"
 ---
 
-{% include _video-embed.html id=page.youtubeId %}
-
-_HD Video with sound: 5 minutes._
+{% include _yt-embed.html id='RTpdioaBoFo' caption="HD Video with sound: 5 minutes."%}
 
 In 1977, Sol LeWitt conceived the piece "Five cubes placed on twenty-five squares with either corners or sides touching". His piece was instantiated by placing five indistinguishable cubes on an evenly spaced 5×5 grid. A book produced in 1978 purports to show all possible placements for five contiguous cubes with corners touching, and all possible placements for five contiguous cubes with sides touching.
 

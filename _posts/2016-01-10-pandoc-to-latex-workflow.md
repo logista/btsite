@@ -4,7 +4,6 @@ title: "Pandoc to LaTeX workflow for MLA-style"
 excerpt: "A progress report on semi-automatic creation of an academic paper from a Markdown document"
 tags: [workflow, academia, pandoc, latex, mla]
 date: 2016-01-10
-ogimage: ""
 ---
 
 One thing I learned last semester was that my MLA-style paper wasn't really in MLA-style. It was close, and I wasn't *required* to make it MLA-style, but if I go further I need to be more careful about the formatting.

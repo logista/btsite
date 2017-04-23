@@ -4,14 +4,9 @@ title: "Inspiration: _Topsy-Turvy_"
 date: "2017-03-05 11:13:19 -0500"
 excerpt: "My favorite 28 seconds in any movie, ever"
 tags: [inspiration,topsy-turvy]
-
 ---
 
-<video width="853" height="480" controls>
-  <source src="/images/videos/topsy_turvy_excerpt.mp4" type="video/mp4">
-</video>
-
-Jim Broadbent as W.S. Gilbert in _Topsy-Turvy_
+{% include _vid-embed.html src='/images/videos/topsy_turvy_excerpt.mp4' caption="Jim Broadbent as W.S. Gilbert in _Topsy-Turvy_" %}
 
 ---
 

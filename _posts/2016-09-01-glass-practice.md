@@ -4,23 +4,30 @@ title: "Glass Practice"
 date: "2016-09-01 10:05:35 -0400"
 excerpt: "A few examples of my glass photography"
 tags: [photography,digital,color,glass,product]
-ogimage: "/images/posts/s/2016-08-30-barbara-tozier-cruet.jpg"
+ogimage: "20160820-btozier-cruet.jpg"
 ---
 
 I mentioned in [Inspiration: Glass](/inspiration-glass) that I really enjoy photographing glass. Here are a few examples:
 
-<figure class="image-s">
-  <a href="/images/posts/l/2016-08-30-barbara-tozier-bottle.jpg" title="Bottle">
-    <img src="/images/posts/s/2016-08-30-barbara-tozier-bottle.jpg">
-  </a>
-  <a href="/images/posts/l/2016-08-30-barbara-tozier-vase.jpg" title="Vase">
-    <img src="/images/posts/s/2016-08-30-barbara-tozier-vase.jpg">
-  </a>
-  <a href="/images/posts/l/2016-08-30-barbara-tozier-cruet.jpg" title="Cruet">
-    <img src="/images/posts/s/2016-08-30-barbara-tozier-cruet.jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
+{% include _figures.html
+  base_image_filename="20160819-btozier-red-bottle.jpg"
+  title="Bottle"
+  alt="A red bottle that is thick in the middle and nips to a small opening and neck. The base is clear glass and the red color rounds into it. White background."
+  caption="Hefty"
+%}
+
+{% include _figures.html
+  base_image_filename="20160710-btozier-vase.jpg"
+  title="Vase"
+  alt="A slender lime green vase with clear footed base stands on a blue table with a dark background. It is flared on the top and curves in at the middle."
+  caption="Elegant curves"
+%}
+{% include _figures.html
+  base_image_filename="20160820-btozier-cruet.jpg"
+  title="Cruet"
+  alt="Aqua two-chambered vase, bulbous like a flower. Lots of glass bubbles."
+  caption="Too pretty for vinegar"
+%}
 
 These are simple settings, but it probably that it seems that way to me because I've photographed a lot of glass.[^ebay] I find that the objects are beautiful, and I try to share that.
 

@@ -1,70 +1,43 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
-{% include _head.html %}
-</head>
+---
+layout: default
+---
+{% assign sorted=(site.documents | sort: 'sort_date') | reverse %}
 
-<body class="home">
+<div class="album container" id="home">
 
-{% include _navigation.html %}
-{% if page.image.feature %}
-{% include _page-image.html %}
+    <div class="row justify-content-center">
+        {% for post in paginator.posts %}
+        <div class="col-xs-1">
+            <div class="card">
+                <a class="" href="{{ post.url }}" title="Go to {{ post.title }}">
+                <div class="card-block">
+                    {% if post.ogimage %}
+                        {% if post.use_gallery_img %}
+                            {% capture img_path %}{{site.gog-image-dir}}{% endcapture %}
+                        {% else %}
+                            {% capture img_path %}{{ site.og-image-dir }}{% endcapture %}
+                        {% endif %}
+                            <img class="card-img-top" src="{{ img_path }}{{ post.ogimage }}">
+                        {% else %}
+                            <div class="fake-card-img">&nbsp;</div>
+                    {% endif %}
+                    <h3 class="card-title">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
+                    <p class="card-text">{{ post.excerpt | markdownify  | remove: '<p>' | remove: '</p>'}}</p>
+                    <div class="card-footer">
+                      <small class="text-muted align-bottom">
+                          {% if post.modified %}Modified: {{ post.modified | date: "%B %d, %Y" }}
+                          {% else %}
+                          Posted: {{ post.date | date: "%B %d, %Y" }}
+                          {% endif %}
+                      </small>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% if paginator.page_trail %}
+{% include _paginator-trail.html %}
 {% endif %}
-
-<div id="main" role="main">
-  <div id="index">
-    <h3>Featured galleries</h3>
-
-<article>
-    <h2 style="margin-bottom:2em;">In Camera<br>
-        <a href="/gallery-in-camera/" title="Go to In Camera gallery"><img src="/gallery-in-camera/th/02-barbara-tozier-film.jpg" alt="This is What Film Looks Like" class="thumbnail">
-        </a>
-    </h2>
-</article>
-
-<article>
-    <h2 style=";margin-bottom:2em;">Elemental<br>
-        <a href="/gallery-elemental/" title="Go to Elemental gallery"><img src="/gallery-elemental/th/06-barbara-tozier-elementals.jpg" alt="Elementals" class="thumbnail">
-       </a>
-    </h2>
-</article>
-<hr>
-    <h3>Featured posts</h3>
-
-    <article>
-       <h2><a href="/after-lewitt/" title="After LeWitt, Part 1: Diverse">After LeWitt, Part 1: Diverse
-</a></h2>
-       <p>A time lapse video examining one assumption underlying a Sol LeWitt piece.</p>
-   </article>
-   <article>
-
-    <h2><a href="/big/" title="Big">Big
-</a></h2>
-    <p><em>Big</em> is text. <em>Big</em> is process. <em>Big</em> is chaos. <em>Big</em> is big.</p>
-
-
-</article>
-
-<hr>
-
-    <h3><a href="/writing/">Recent writing</a></h3>
-    {% for post in site.posts limit:7 %}
-    <article>
-      {% if post.link %}
-        <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" title="{{ post.title }}"></h2>
-      {% else %}
-        <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h2>
-        {{ post.excerpt | markdownify }}
-      {% endif %}
-    </article>
-    {% endfor %}
-  </div><!-- /#index -->
-</div><!-- /#main -->
-
-{% include _footer.html %}
-{% include _scripts.html %}
-</body>
-</html>
+</div>

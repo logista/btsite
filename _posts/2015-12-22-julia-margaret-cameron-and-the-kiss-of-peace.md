@@ -4,26 +4,15 @@ title: "Julia Margaret Cameron and _The Kiss of Peace_"
 excerpt: "A short paper I wrote for Projects class"
 tags: [Julia Margaret Cameron, The Kiss of Peace, paper]
 date: 2015-12-22
-ogimage: "/images/posts/m/2015-12-22-umma-cameron-musart_1975_1.63.jpg"
 ---
-
-{% include _toc.html %}
 
 Roughly 1700 words, a superficial biography of an early Artistic Photographer. As a class we saw fifteen works (originals and not behind glass!) and then had to write a paper. We had been given some leading questions about controversy and were asked to include a reaction to the artist and the work. I meant to post this just after I wrote it, but you know...  
 {: .acn}
 
-You can see the photograph in context [at UMMA](http://www.umma.umich.edu/view/exhibitions/2015-early-british-photographs.php) until May 8, 2016.
-{: .aside}
+{% include _toc.html %}
 
-
-<figure class="image-m">
-  <img src="/images/posts/m/2015-12-22-umma-cameron-musart_1975_1.63.jpg">
-  <figcaption>
-    <span class="image-m-caption" markdown="1">_The Kiss of Peace_</span>
-    <span class="image-m-credit">Julia Margaret Cameron, <br> image from UMMA</span>
-  </figcaption>
-</figure>
-
+![](/images/adhoc/2015-12-22-umma-cameron-musart_1975_1.63.jpg "_The Kiss of Peace_ by Julia Margaret Cameron")
+{: .image-adhoc}
 
 ## Biography
 
@@ -77,7 +66,7 @@ Perhaps *most* inspiring to me, as I am trying to finish a very hands-on project
 
 [^umma]: "The Kiss of Peace; Julia Cameron." http://quod.lib.umich.edu/m/musart/x-1975-sl-1.63/1975_1.63.jpg. University of Michigan Library Digital Collections. Accessed: November 12, 2015. The odd thing about this particular version of the work: it is flipped compared to the versions printed in the various reference books I consulted. The work is listed in _Julia Margaret Cameron: The Complete Photographs_ as number 1129.
 
-[^iago]: Most of the men were photographed because of their accomplishments. That photo [_Iago_](/images/posts/m/2015-12-22-iago-from-wikipedia.jpg "Iago, by Julia Margaret Cameron") though... that's pure sensuality.
+[^iago]: Most of the men were photographed because of their accomplishments. That photo [_Iago_](/images/adhoc/2015-12-22-iago-from-wikipedia.jpg "Iago, by Julia Margaret Cameron") though... that's pure sensuality.
 
 [^metmu]: Daniel, Malcolm. "Julia Margaret Cameron (1815–1879)". In Heilbrunn Timeline of Art History. New York: The Metropolitan Museum of Art, 2000–. http://www.metmuseum.org/toah/hd/camr/hd_camr.htm (October 2004) (accessed 2015-11-08)
 

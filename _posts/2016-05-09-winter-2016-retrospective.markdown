@@ -3,17 +3,16 @@ layout: post
 title: "Winter 2016 Retrospective"
 date: "2016-05-09 10:24:00 -0400"
 excerpt: "Very brief high level review of last term"
-tags: [retrospective, photography,]
-ogimage: "/images/posts/m/2016-04-27-barbara-tozier-ready_for_show.jpg"
+tags: [retrospective, photography]
+ogimage: "20160427-btozier-ready-for-show.jpg"
 ---
 
-<figure class="image-m">
-  <img src="/images/posts/m/2016-04-27-barbara-tozier-ready_for_show.jpg">
-  <figcaption>
-    <span class="image-m-caption">Ready for Show</span>
-    <span class="image-m-credit">Barbara Tozier</span>
-  </figcaption>
-</figure>
+{% include _figures.html
+  base_image_filename="20160427-btozier-ready-for-show.jpg"
+  title="Ready for Show"
+  alt="A trade-show like exhibit with cloth-draped tables, chairs, a video screen and some table-presented pieces. A large piece stands at the back."
+  caption="Open for business"
+%}
 
 The [Gala](/preparing-for-the-gala/) is over, I've got my grades, and soon I'll have my AS degree in Photographic Technology (as well as a Certificate in Photographic Imaging). With only a week between terms[^altpro], I haven't had time to figure out how to get everything properly put away, let alone for reflecting on what happened last term.
 

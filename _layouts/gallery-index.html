@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{% assign sorted=(site.galleries | sort: 'sort_date') | reverse %}
+
+<div class="album container" id="home">
+    <div class="row">
+        <h1 class="pb-3 col-12">{{ page.title | markdownify | remove: '<p>' | remove: '</p>'}}</h1>
+    </div>
+
+    <div class="row justify-content-center">
+        {% for post in paginator.posts %}
+        <div class="col-xs-1">
+            <div class="card">
+                <a class="" href="{{ post.url }}" title="Go to {{ post.title }}">
+                <div class="card-block">
+                    {% if post.ogimage %}
+                        {% if post.use_gallery_img %}
+                            {% capture img_path %}{{site.gog-image-dir}}{% endcapture %}
+                        {% else %}
+                            {% capture img_path %}{{ site.og-image-dir }}{% endcapture %}
+                        {% endif %}
+                            <img class="card-img-top" src="{{ img_path }}{{ post.ogimage }}" alt="post image">
+                    {% endif %}
+                    <h3 class="card-title">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</h3>
+                    <p class="card-text">{{ post.excerpt | markdownify  | remove: '<p>' | remove: '</p>'}}</p>
+                    <div class="card-footer">
+                      <small class="text-muted align-bottom">
+                          {% if post.modified %}Modified: {{ post.modified | date: "%B %d, %Y" }}
+                          {% else %}
+                          Posted: {{ post.date | date: "%B %d, %Y" }}
+                          {% endif %}
+                      </small>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% if paginator.page_trail %}
+{% include _paginator-trail.html %}
+{% endif %}
+</div>

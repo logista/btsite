@@ -1,11 +1,19 @@
-<figure style="text-align:center;">
-
-{% for gallery in site.data.gallerylist %}
-{% for image in gallery[1].images %}
-{% if gallery[0] == page.gallery %}
-<a href="{{ image.filename }}" title="{{ image.title}}"><img src="th/{{ image.filename }}"  class="thumbnail"></a>
-{% endif %}
+{% capture td %}{{ site.picserizer.target }}/galleries{% endcapture %}
+{% assign dd = site.picserizer.default_src %}
+{% assign lbm = site.picserizer.lb_max %}
+{% for image in page.images %}
+<div class="col-xs-1">
+    <div class="card gallery-card">
+            <div class="card-block">
+                <img class="card-img-top" src="/{{ td }}/{{ dd }}/{{ image.filename }}" alt="{{ image.alt }}"
+                data-toggle="lightbox"
+                data-gallery="post-gallery"
+                data-remote="/{{ td }}/{{ lbm }}/{{ image.filename }}"
+                data-footer="{{ image.caption  | markdownify | remove: '<p>' | remove: '</p>'}}"
+                data-title="{{ image.title  | markdownify | remove: '<p>' | remove: '</p>'}}">
+                <p class="card-title">{{ image.title | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+                <p class="card-text">{{ image.description | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+            </div>
+    </div>
+</div>
 {% endfor %}
-{% endfor %}
-
-</figure>

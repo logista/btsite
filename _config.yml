@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title:    Barbara Tozier Photographer
+title:    Barbara Tozier
+subtitle: Photographer
 locale:   en_US
 url:      http://barbaratozier.com
-
 
 # Jekyll configuration
 
@@ -15,7 +15,10 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
-# incremental: true
+  - bootstrap
+  - autoprefixer-rails
+  - jekyll-feed
+  - jekyll-paginate-v2
 
 kramdown:
   auto_ids: true
@@ -23,35 +26,48 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-  # parse_block_html: true
 
 # Site owner
 owner:
   name: Barbara Tozier
-  avatar: website/tozier-avatar.jpg
-  bio: "I'm a a conceptual artist whose medium is photography in all of its forms."
+  avatar: /images/website/tozier-avatar.jpg
+  bio: "I'm a conceptual artist whose medium is photography in all of its forms."
   email: info@barbaratozier.com
   twitter: logista
-  google:
-    plus:
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
   github: logista
   tumblr: logista
+  instagram: logista
+
+# og-images
+# Supposedly used by social sites, but I don't know for sure. Also used by the home page to populate the post cards.
+og-image-dir: /images/posts/400/ # choose one that is made by the picserizer
+gog-image-dir: /images/galleries/400/ # same as above, specific for gallery posts and cards
+og-image-default: /images/website/tozier-default-og.jpg # used for a non-image post, not used for the post cards
 
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt", "posting-guide.md"]
+# picture pile maker
+picserizer:
+  sizes: [400,600,800,960]
+  source: _source_images
+  target: images
+  default_src: 400 #this is the size that will go in the `src` section for browsers that don't do `srcset`
+  lb_max: 960 #this is the size that the lightbox will use for the large-size image
 
-links:
-  - title: Writing
-    url: /writing/
+collections:
+  galleries:
+    output: true
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      share: false
+# pagination
+pagination:
+  enabled: true
+  per_page: 9
+  sort_field: 'sort_date'
+  sort_reverse: true
+  trail:
+    before: 1
+    after: 1
+
+
+
+include: [".htaccess", "_pages"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "notes to myself.txt", "posting-guide.md", "_orphans"]

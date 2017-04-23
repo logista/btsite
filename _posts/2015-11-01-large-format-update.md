@@ -4,7 +4,7 @@ title: "Large Format Update"
 excerpt: "Landscape and Architecture, Oh My!"
 tags: [photography, black and white, large format]
 date: 2015-11-01
-ogimage: "/images/posts/s/2015-11-01-barbara-tozier-au-gres.jpg"
+ogimage: "20151101-btozier-au-gres.jpg"
 ---
 
 I knew it'd be difficult to keep things updated here when school really got going, but I didn't expect to fall down so far, so fast.
@@ -17,40 +17,48 @@ The only advantage I might have over some of my classmates is that I already hav
 
 For instance, on our [recent trip](/a-short-road-trip/) I made this exposure, but couldn't see what it looked like until the following class period.
 
-<figure class="image-s">
-  <a href="/images/posts/l/2015-11-01-barbara-tozier-au-gres.jpg" title="Au Gres">
-    <img src="/images/posts/s/2015-11-01-barbara-tozier-au-gres.jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
+{% include _figures.html
+  base_image_filename="20151101-btozier-au-gres.jpg"
+  title="Au Gres"
+  alt="Black and white landscape featuring grasses and dramatic clouds. A lone tree stands to the left."
+  caption="Grasses near Lake Huron"
+%}
 
 Since our instructor is a pretty modern fellow, we are not required to print everything in the darkroom --- scanning and digital editing is allowed and even encouraged. This means I can scan the negative, fix up a few processing flaws, and prepare it for inkjet printing. With the detail available between the film and the scan, I could easily print this 24\" × 30\" if I had access to a printer that size.
 
 We are also encouraged to interpret the assignments for our own personalities. Therefore, a landscape doesn't have to be the wide expanse of sky and grass as above, but could be as simple as a tree.
 
-<figure class="image-s">
-  <a href="/images/posts/l/2015-10-13-barbara-tozier-bored-ash.jpg" title="Bored Ash">
-    <img src="/images/posts/s/2015-10-13-barbara-tozier-bored-ash.jpg">
-  </a>
-  <a href="/images/posts/l/2015-10-26-barbara-tozier-sycamore.jpg" title="Sycamore">
-    <img src="/images/posts/s/2015-10-26-barbara-tozier-sycamore.jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
+{% include _figures.html
+  base_image_filename="20151013-btozier-bored-ash.jpg"
+  title="Bored Ash"
+  alt="Insect trails scar a tree trunk"
+  caption="Emerald ash borer trails"
+%}
+
+{% include _figures.html
+  base_image_filename="20151026-btozier-sycamore.jpg"
+  title="Sycamore"
+  alt="Looking up along the trunk of a heavily branched tree with white and gray bark"
+  caption="It almost glows"
+%}
 
 Unfortunately, the Ash tree isn't in focus. This was my second attempt with it --- the first time I incorrectly processed the film. So I set it aside and photographed a tree in my neighborhood.
 
 The class is a survey of the basic types of photography one does with large cameras --- portrait, landscape, architecture, and macro. I photographed two different university Art Museums for my architecture assignment, but I'm not exactly happy with either. One is really too close (I had borrowed the wrong lens for the week) and the other doesn't have the correct perspective. Next time all the stars align and I can photograph either one...
 
-<figure class="image-s">
-  <a href="/images/posts/l/2015-10-29-barbara-tozier-the-broad-east.jpg" title="The Broad (at Michigan State)">
-    <img src="/images/posts/s/2015-10-29-barbara-tozier-the-broad-east.jpg">
-  </a>
-  <a href="/images/posts/l/2015-10-26-barbara-tozier-umma.jpg" title="UMMA Addition">
-    <img src="/images/posts/s/2015-10-26-barbara-tozier-umma.jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
+{% include _figures.html
+  base_image_filename="20151029-btozier-the-broad-east.jpg"
+  title="The Broad East"
+  alt="Geometric forms in metal, with the shadow of a tree and a small bit of grass in the foreground."
+  caption="Contemporary art museum at Michigan State"
+%}
+
+{% include _figures.html
+  base_image_filename="20151026-btozier-umma.jpg"
+  title="UMMA Entrance"
+  alt="A large metal sculpture stands in front of a nearly blank wall. The wall has a grid pattern, and the shadow of a connecting older building."
+  caption="The Frankel wing at the University of Michigan Museum of Art"
+%}
 
 ... otherwise I need to find another structure to photograph.
 

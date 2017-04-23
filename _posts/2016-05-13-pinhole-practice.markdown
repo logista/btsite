@@ -4,7 +4,7 @@ title: "Pinhole Practice"
 date: "2016-05-13 12:31:41 -0400"
 excerpt: "In which I figure out yet another new technique to experiment with."
 tags: [pinhole,photography,film,digital]
-ogimage: "/images/posts/s/2016-05-13-barbara-tozier-pinhole_umbrella.jpg"
+ogimage: "20160513-btozier-pinhole-umbrella.jpg"
 ---
 
 Last year sometime I made a body cap pinhole for my Nikon DSLR. For reasons known only to the deep recesses of my brain, I didn't even *think* about putting it on a Nikon film camera until last week.
@@ -17,40 +17,48 @@ As I understand it, one of the "problems" with digital camera pinholes is physic
 
 Here are a couple examples from this week:
 
-<figure class="image-s">
-  <a href="/images/posts/l/2016-05-12-barbara-tozier-pinhole_apple_tree.jpg" title="Pinhole Apple Tree">
-    <img src="/images/posts/s/2016-05-12-barbara-tozier-pinhole_apple_tree.jpg">
-  </a>
-  <a href="/images/posts/l/2016-05-12-barbara-tozier-pinhole_pond.jpg" title="Pinhole Pond">
-    <img src="/images/posts/s/2016-05-12-barbara-tozier-pinhole_pond.jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
+{% include _figures.html
+  base_image_filename="20160512-btozier-pinhole-apple-tree.jpg"
+  title="Pinhole Apple Tree"
+  alt="Slightly fuzzy-focus apple blossoms in front of other green leaves"
+  caption="Spring in Ypsilanti"
+%}
+
+{% include _figures.html
+  base_image_filename="20160512-btozier-pinhole-pond.jpg"
+  title="Pinhole Pond"
+  alt="Fuzzy-focus oddly-colored landscape showing a pond and some teasel heads"
+  caption="This pond has a lot of pictures made of it every year."
+%}
 
 _Pinhole Apple Tree_ was edited for color and contrast, etc., _Pinhole Pond_ is more-or-less as it came out of camera (except for the spot-removal[^spot]).
 
 Film-based pinholes are, in theory, sharper, with "infinite" depth of field. In practice, sharpness is a function of the quality of the pinhole as well as the chemistry and physical properties of the film. I scanned the film frames because reasons.
 
-<figure class="image-s">
-  <a href="/images/posts/l/2016-05-13-barbara-tozier-pinhole_umbrella.jpg" title="Pinhole Umbrella">
-    <img src="/images/posts/s/2016-05-13-barbara-tozier-pinhole_umbrella.jpg">
-  </a>
-  <a href="/images/posts/l/2016-05-13-barbara-tozier-pinhole_pond__film.jpg" title="Pinhole Pond, film">
-    <img src="/images/posts/s/2016-05-13-barbara-tozier-pinhole_pond__film.jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
+{% include _figures.html
+  base_image_filename="20160513-btozier-pinhole-umbrella.jpg"
+  title="Pinhole Umbrella"
+  alt="Underside of a market umbrella, with well-defined ribs. The fabric is a pastel yellow and fills the frame."
+  caption="Geometry"
+%}
+
+{% include _figures.html
+  base_image_filename="20160513-btozier-pinhole-pond-film.jpg"
+  title="Pinhole Pond, film"
+  alt="Black and white version of the pond image above with minor differences in angle of view and sharpness"
+  caption="There's that pond again..."
+%}
 
 _Pinhole Umbrella_ is a colorized film scan; _Pinhole Pond, film_ has been corrected for exposure and contrast. Except for the lack of "natural" color and the grain, they're not *too* different from the digital images, though it seems as though they are sharper. The scans aren't as big as the digital images, so enlarging them (as they are here) enhances the grain effect.
 
 Seeing the _Pinhole Pond_ images made me wonder about how they might stack together, so I tried that.
 
-<figure class="image-s">
-  <a href="/images/posts/l/2016-05-13-barbara-tozier-pinhole_pond__blended.jpg" title="Pinhole Pond, blended">
-    <img src="/images/posts/s/2016-05-13-barbara-tozier-pinhole_pond__blended.jpg">
-  </a>
-    <span class="image-s-caption">Click image to see larger</span>
-</figure>
+{% include _figures.html
+  base_image_filename="20160513-btozier-pinhole-pond-blended.jpg"
+  title="Pinhole Pond, blended"
+  alt="The two pond images are stacked together, but their edges don't quite match up. The teasel in particular looks weirdly offset."
+  caption="Don't adjust your set."
+%}
 
 Here's where the mismatch in pixel size shows up, as well as the tripod/camera position moving, the wind, and everything else that could have changed the field of view of the two cameras. However, I'm left wondering if it is possible to layer two pinhole images, film and digital, in such a way to honor the effect of each.
 
