@@ -1,6 +1,8 @@
-{% assign td = site.picserizer.target %}
+{% capture td %}{{ site.picserizer.target }}/posts{% endcapture %}
+{% if include.gallery %}{% capture td %}{{ site.picserizer.target }}/galleries{% endcapture %}{% endif %}
 {% assign dd = site.picserizer.default_src %}
 {% assign bf = include.base_image_filename %}
+{% assign lbm = site.picserizer.lb_max %}
 
 
 <figure class="post-figure">
@@ -14,8 +16,8 @@ alt="{{ include.alt }}"
 title="{{ include.title }}"
 data-toggle="lightbox"
 data-gallery="post-gallery"
-data-remote="/{{ td }}/960/{{ bf }}"
-data-footer="{{ include.caption  | markdownify }}"
-data-title="{{ include.title  | markdownify }}">
+data-remote="/{{ td }}/{{ lbm }}/{{ bf }}"
+data-footer="{{ include.caption  | markdownify | remove: '<p>' | remove: '</p>' }}"
+data-title="{{ include.title  | markdownify | remove: '<p>' | remove: '</p>' }}">
 <figcaption class="post-caption">{{ include.title  | markdownify }}</figcaption>
 </figure>

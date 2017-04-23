@@ -1,0 +1,15 @@
+<figure class="">
+
+{% for gallery in site.data.gallerylist %}
+{% for image in gallery[1].images %}
+{% if gallery[0] == page.gallery %}
+<div class="card">
+<a href="{{page.gallery}}/{{ image.filename }}" title="{{ image.title }}" class="card-block">
+    <img src="{{page.gallery}}/th/{{ image.filename }}"  class="">
+</a>
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+</figure>

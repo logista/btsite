@@ -1,5 +1,5 @@
 ---
 permalink: /
 layout: home
-excerpt: "Portfolio and writing of Barbara Tozier."
+excerpt: "Photographic portfolio and writing of Barbara Tozier."
 ---

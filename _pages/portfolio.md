@@ -1,7 +1,7 @@
 ---
 permalink: /portfolio/
-layout: port-index
-title: "Galleries"
+layout: gallery-index
+title: "Project Galleries"
 excerpt: "Index of Project Galleries"
 tags: [photograph, photography, color, digital, fine art, abstract, alternative processes]
 date: 2015-08-01
