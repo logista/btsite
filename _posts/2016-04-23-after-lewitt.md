@@ -4,7 +4,8 @@ title: "After LeWitt, Part 1: Diverse"
 excerpt: "A time lapse video examining one assumption underlying a Sol LeWitt piece."
 tags: [cubes, video, lewitt, grid]
 date: "2016-04-23 08:30:00 -0500"
-ogimage: "20160403-btozier-cubes.jpg"
+use_gallery_img: true
+ogimage: 20160403-btozier-cubes.jpg
 ---
 
 {% include _yt-embed.html id='RTpdioaBoFo' caption="HD Video with sound: 5 minutes."%}
