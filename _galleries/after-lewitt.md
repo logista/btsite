@@ -8,7 +8,7 @@ use_gallery_img: true
 ogimage: 20160403-btozier-cubes.jpg
 ---
 
-{% include _vid-embed.html src=20170501-btozier-after-lewitt-final caption="HD Video with sound: 5 minutes." %}
+{% include _vid-embed.html src="/images/videos/20170501-btozier-after-lewitt-final.mp4" caption="HD Video with sound: 5 minutes." %}
 
 
 Read more about _After Lewitt_ in the post [here](/after-lewitt/).
