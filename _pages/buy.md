@@ -15,5 +15,3 @@ A number of Limited Edition Prints (from the [Natura][e8779c35] and [Everyday Ab
   [5d8c981b]: https://squareup.com/market/barbara-tozier "Go to Square"
 
 If you would like something that isn't available there, please feel free to contact me.
-
-<!-- TODO: get closer integration with square here; put more newer stuff up there -->
