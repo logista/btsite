@@ -8,7 +8,7 @@ use_gallery_img: false
 ogimage: "20170601-btozier-divestment-still.jpg"
 ---
 
-![animated gif of 42 screen captures of very small images](/images/adhoc/2017-06-01-btozier-lrebay.gif 'Divestment')
+![animated gif of 42 screen captures of very small images in a 24x18 grid on black background](/images/adhoc/2017-06-01-btozier-divestment.gif 'Divestment')
 {: .image-adhoc}
 
 This `gif` represents the contents of the Lightroom catalog I have for our [eBay business](http://stores.ebay.com/cornersbumpedbooksandantiques/). As I've mentioned [before](/sketches-and-doodles/), I photograph everything that isn't a book, magazine, or paper ephemera. Selling random stuff on eBay is not a way to make money quickly, in fact, it's not much of a way to make money at all. But we do it because things were given to us in hopes that we could find good homes for them.
