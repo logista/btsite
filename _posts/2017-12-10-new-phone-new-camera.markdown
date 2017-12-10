@@ -38,6 +38,9 @@ So now I don't have a _capacity_ issue, but I do have a workflow problem. The pi
 
 I've worked around that so far by ignoring the problem. But I have made some photos for a couple of ongoing projects that *should* be shared here and I can't because I'm waiting for Adobe to support HEIF in their desktop app.[^lrmob] So in the meantime I do other stuff and try to find other ways to share images I make on my phone. One day I'll figure this part out.
 
+It *also* doesn't help the workflow problem that I also got a new computer[^updates], but it makes it so much nicer to work with images now :)
+
 
 [^mob]: They support in in their Mobile app, but I don't use it.
 [^lrmob]: No really, the mobile app *really* doesn't fit my workflow.
+[^updates]: SO MANY APPS TO UPDATE
