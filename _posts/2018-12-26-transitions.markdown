@@ -15,7 +15,7 @@ I thought I would make money selling prints.
 
 I thought I would make money photographing things.
 
-These things haven't happened. I don't do self-promotion well, and my confidence in my own abilities is pretty much non-existent.
+These things haven't happened. I don't do self-promotion well, and my confidence in my own abilities is pretty much non-existent at the moment.
 
 I am eternally grateful to the people who *have* bought things from me; I sometimes wonder why they did.
 
